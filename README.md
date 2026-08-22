@@ -110,6 +110,55 @@ La preparación para IA debe entenderse como un sistema.
                         ▼
                   Resultados# AI-Enablement-Readiness-Framework
 
+```
+La utilidad de esta perspectiva es evitar una conclusión demasiado simple como:
+
+> "La organización necesita capacitación en IA."
+
+En muchos casos, la necesidad real puede ser una combinación de:
+
+- capacitación;
+- rediseño de procesos;
+- mejora de datos;
+- definición de responsabilidades;
+- nuevas políticas;
+- desarrollo de capacidades técnicas;
+- cambios en roles;
+- nuevos mecanismos de supervisión;
+- definición de métricas;
+- fortalecimiento del caso de negocio.
+
+Por eso, AI Enablement no debe reducirse a formación.
+
+La formación es una de las intervenciones posibles dentro de una estrategia más amplia de desarrollo de capacidades.
+
+# 5. Del assessment a la estrategia de aprendizaje
+
+El assessment debe servir como puente entre el diagnóstico organizacional y el diseño de aprendizaje.
+
+La lógica recomendada es:
+
+```text
+ASSESSMENT
+    ↓
+Datos de preparación
+    ↓
+Identificación de brechas
+    ↓
+Análisis de causas
+    ↓
+Necesidades de capacidades
+    ↓
+Necesidades de aprendizaje
+    ↓
+Diseño de actividades
+    ↓
+Aplicación al trabajo
+    ↓
+Medición de resultados
+    ↓
+Nuevo diagnóstico
+```
 
 Esto permite distinguir entre una brecha de conocimiento y una brecha de capacidad.
 
@@ -130,7 +179,7 @@ Puede existir una necesidad de:
 - acompañamiento;
 - rediseño del proceso.
 
-6. Del diagnóstico general a necesidades específicas
+# 6. Del diagnóstico general a necesidades específicas
 
 Los resultados del assessment deben utilizarse para formular preguntas más específicas.
 
@@ -183,7 +232,7 @@ Preguntar:
 - ¿El caso de uso tiene métricas de éxito?
 - ¿Existe una conexión clara entre IA y prioridades del negocio?
 
-7. El assessment como instrumento de Training Needs Analysis
+# 7. El assessment como instrumento de Training Needs Analysis
 
 Este framework puede utilizarse como una primera capa de Training Needs Analysis (TNA).
 
@@ -211,34 +260,36 @@ Por eso, los resultados deben combinarse con:
 
 El assessment funciona entonces como un mapa inicial de investigación.
 
-8. Del TNA al diseño de actividades de aprendizaje
+# 8. Del TNA al diseño de actividades de aprendizaje
 
 Una vez identificadas las capacidades prioritarias, el framework permite avanzar hacia el diseño de aprendizaje.
 
 Cada necesidad debería traducirse en:
 
-Elemento	Pregunta
-Capacidad	¿Qué debe ser capaz de hacer la persona?
-Contexto	¿En qué situación debe hacerlo?
-Desempeño esperado	¿Cómo sabremos que lo hace correctamente?
-Conocimiento	¿Qué necesita comprender?
-Práctica	¿Qué necesita practicar?
-Herramientas	¿Con qué herramientas trabajará?
-Evidencia	¿Qué demostrará que adquirió la capacidad?
-Transferencia	¿Cómo aplicará lo aprendido en su trabajo?
+| Elemento           | Pregunta                                   |
+| ------------------ | ------------------------------------------ |
+| Capacidad          | ¿Qué debe ser capaz de hacer la persona?   |
+| Contexto           | ¿En qué situación debe hacerlo?            |
+| Desempeño esperado | ¿Cómo sabremos que lo hace correctamente?  |
+| Conocimiento       | ¿Qué necesita comprender?                  |
+| Práctica           | ¿Qué necesita practicar?                   |
+| Herramientas       | ¿Con qué herramientas trabajará?           |
+| Evidencia          | ¿Qué demostrará que adquirió la capacidad? |
+| Transferencia      | ¿Cómo aplicará lo aprendido en su trabajo? |
+
 
 Esto ayuda a evitar programas centrados exclusivamente en contenido.
 
 El objetivo de AI Enablement debe ser desarrollar capacidad de aplicación, no solamente conocimiento sobre IA.
 
-9. De aprendizaje a estrategia de capacidades
+# 9. De aprendizaje a estrategia de capacidades
 
 El resultado final del framework no debería ser solamente un catálogo de cursos.
 
 Debe permitir construir un mapa de capacidades.
 
 Por ejemplo:
-
+```text
 CAPACIDAD
    ↓
 ROLES QUE LA NECESITAN
@@ -254,7 +305,7 @@ INTERVENCIÓN
 EVIDENCIA DE APLICACIÓN
    ↓
 RESULTADO DE NEGOCIO
-
+```
 Las intervenciones pueden incluir:
 
 - cursos;
@@ -274,7 +325,7 @@ Las intervenciones pueden incluir:
 
 Esto amplía la conversación desde training hacia capability building.
 
-10. Principio de personalización
+# 10. Principio de personalización
 
 Este framework es un punto de partida, no una solución universal.
 
@@ -299,7 +350,7 @@ estructura común + configuración específica del cliente.
 
 Esto permite utilizar una metodología consistente sin convertirla en un cuestionario rígido.
 
-11. Cómo interpretar los resultados
+# 11. Cómo interpretar los resultados
 
 El resultado general debe utilizarse como una señal de madurez, pero nunca como único criterio de decisión.
 
@@ -311,7 +362,7 @@ Las condiciones de gobernanza, riesgo, responsabilidad, supervisión y contexto 
 
 El framework utiliza la puntuación para priorizar la conversación, no para sustituir el juicio profesional.
 
-12. El resultado esperado del taller
+# 12. El resultado esperado del taller
 
 Al finalizar el proceso, el participante debería poder responder:
 
@@ -348,6 +399,74 @@ Sobre aprendizaje
 - ¿Qué debe demostrar?
 - ¿Cómo mediremos la transferencia al trabajo?
 
-13. Arquitectura del repositorio
+```text
+# 13. Arquitectura del repositorio
 
 La documentación del framework se organiza por dimensiones para que cada una pueda utilizarse de manera independiente durante el diseño del programa.
+
+
+AI-Enablement-Readiness/
+│
+├── README.md
+│
+├── 01-data-quality.md
+├── 02-skills-and-talent.md
+├── 03-governance.md
+├── 04-technology-and-infrastructure.md
+├── 05-strategy-and-business-alignment.md
+│
+├── 06-assessment-methodology.md
+├── 07-training-needs-analysis.md
+├── 08-learning-strategy.md
+├── 09-action-plan.md
+│
+└── glossary.md
+```
+
+Cada página explica:
+
+- qué significa la dimensión;
+- por qué importa para AI Enablement;
+- qué elementos deben analizarse;
+- cómo se refleja en el assessment;
+- cómo interpretar las brechas;
+- qué preguntas deben profundizarse;
+- cómo puede traducirse el diagnóstico en capacidades y aprendizaje.
+
+# 14. Navegación
+Dimensiones del framework
+
+➡️ 01 — Calidad y preparación de datos
+
+➡️ 02 — Skills y talento
+
+➡️ 03 — Gobernanza
+
+➡️ 04 — Tecnología e infraestructura
+
+➡️ 05 — Estrategia y alineación con el negocio
+
+Del diagnóstico a la acción
+
+➡️ 06 — Metodología del assessment
+
+➡️ 07 — Training Needs Analysis
+
+➡️ 08 — Estrategia de aprendizaje
+
+➡️ 09 — Plan de acción
+
+➡️ Glosario
+
+#  15. Principio rector
+> # Evaluar antes de capacitar.
+> # Entender antes de intervenir.
+> # Practicar antes de escalar.
+> # Medir antes de declarar éxito.
+
+El objetivo de este framework no es producir un número.
+
+El objetivo es convertir ese número en una conversación estructurada sobre capacidades, riesgos, prioridades, aprendizaje y resultados de negocio.
+
+Ese es el punto de partida para un programa de AI Enablement que pueda adaptarse al contexto real de cada organización.
+
