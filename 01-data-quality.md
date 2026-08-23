@@ -440,3 +440,223 @@ autorización; privacidad; confidencialidad; propiedad intelectual; restriccione
 La disponibilidad técnica de un dato no implica automáticamente autorización para utilizarlo con IA.
 
 Esta distinción debe formar parte de la cultura de AI Enablement.
+
+14. Cómo interpretar el score de Datos
+
+La aplicación utiliza una escala de 1 a 5:
+
+| Score | Nivel         | Interpretación                                                            |
+| ----: | ------------- | ------------------------------------------------------------------------- |
+| **1** | Inicial       | La capacidad prácticamente no existe o no puede demostrarse con evidencia |
+| **2** | En desarrollo | Existen capacidades parciales, pero son inconsistentes                    |
+| **3** | Definida      | La capacidad existe y está documentada, aunque presenta brechas           |
+| **4** | Gestionada    | La capacidad está implementada y se aplica consistentemente               |
+| **5** | Optimizada    | La capacidad está integrada y mejora continuamente                        |
+
+
+El score de la dimensión corresponde al promedio de los criterios de datos.
+
+Importante
+
+Un 3 no significa automáticamente "datos listos para IA".
+
+Significa que, en promedio, existe una capacidad definida.
+
+El siguiente análisis debe determinar si esa capacidad es suficiente para:
+
+el caso de uso;
+el nivel de riesgo;
+el nivel de automatización;
+los resultados esperados.
+
+# 15. Cómo convertir el resultado en una necesidad de aprendizaje
+
+El assessment debe ser el inicio de una investigación, no el final.
+
+Utilizar la siguiente secuencia:
+Score bajo
+   ↓
+Identificar criterio
+   ↓
+Identificar evidencia
+   ↓
+Determinar causa
+   ↓
+¿Es una brecha de capacidad?
+   ↓
+Sí ──────────────── No
+ ↓                    ↓
+Necesidad de       Intervención
+aprendizaje         organizacional /
+                    tecnológica
+
+Por ejemplo:
+
+Situación
+
+DATA-07 — Documentación = 2
+
+Esto no significa automáticamente:
+
+"Capacitar en documentación de datos."
+
+Primero debemos preguntar:
+
+¿La documentación existe pero no se conoce?
+¿Las personas no saben interpretarla?
+¿No existe documentación?
+¿No hay responsables?
+¿Los sistemas no generan metadatos?
+¿El proceso de documentación no está definido?
+
+Cada causa requiere una intervención diferente.
+
+16. Del diagnóstico a las capacidades
+
+Una vez identificada una brecha atribuible a personas, convertirla en una capacidad observable.
+
+En lugar de:
+
+"Los usuarios necesitan capacitación en datos."
+
+formular:
+
+"Los usuarios deben ser capaces de identificar las fuentes de datos autorizadas, evaluar su calidad básica y seleccionar la fuente adecuada para un caso de uso de IA."
+
+Esto permite diseñar actividades de aprendizaje más precisas.
+
+| Elemento           | Definición                                           |
+| ------------------ | ---------------------------------------------------- |
+| Brecha             | Uso inconsistente de fuentes de datos                |
+| Capacidad objetivo | Seleccionar fuentes autorizadas y adecuadas          |
+| Conocimiento       | Fuentes disponibles, criterios de calidad y permisos |
+| Habilidad          | Evaluar y seleccionar una fuente                     |
+| Práctica           | Resolver casos con diferentes fuentes                |
+| Evidencia          | Justificación de la selección                        |
+| Aplicación         | Uso de la fuente correcta en el trabajo              |
+
+
+17. Preguntas de profundización para el taller
+
+Los resultados del assessment pueden utilizarse para facilitar una conversación con participantes y responsables del negocio.
+
+Sobre el caso de uso
+¿Qué información necesita realmente la IA?
+¿Qué información es indispensable?
+¿Qué información sería deseable pero no crítica?
+Sobre calidad
+¿Cómo sabemos que los datos son correctos?
+¿Qué errores son frecuentes?
+¿Cómo se detectan?
+¿Quién los corrige?
+Sobre acceso
+¿Quién puede utilizar los datos?
+¿Quién debería poder utilizarlos?
+¿Qué barreras existen?
+Sobre conocimiento
+¿Las personas saben dónde encontrar los datos?
+¿Saben evaluar si una fuente es adecuada?
+¿Entienden las limitaciones de los datos?
+Sobre responsabilidad
+¿Quién es responsable de cada fuente?
+¿Quién puede aprobar su uso?
+¿Quién responde cuando existe un problema?
+Sobre IA
+¿Qué información puede introducirse en una herramienta de IA?
+¿Qué información no debe utilizarse?
+¿Cómo se verifica la información generada?
+
+8. Implicaciones para el diseño de aprendizaje
+
+Una evaluación baja en datos puede generar diferentes tipos de intervenciones.
+
+| Necesidad identificada                  | Posible intervención                 |
+| --------------------------------------- | ------------------------------------ |
+| Falta de alfabetización de datos        | Curso o taller de data literacy      |
+| Dificultad para interpretar fuentes     | Laboratorio práctico                 |
+| Desconocimiento de permisos             | Taller de uso responsable de datos   |
+| Errores frecuentes en preparación       | Práctica guiada con datasets         |
+| Falta de criterios para evaluar calidad | Ejercicios de evaluación de calidad  |
+| Falta de conocimiento sobre fuentes     | Guía de trabajo + práctica           |
+| Responsabilidades ambiguas              | Definición organizacional            |
+| Datos inexistentes                      | Proyecto de datos                    |
+| Sistemas desconectados                  | Intervención tecnológica             |
+| Falta de documentación                  | Proyecto de documentación / metadata |
+
+Esto refuerza un principio central del framework:
+
+No toda brecha identificada por el assessment es una brecha de aprendizaje.
+
+19. Indicadores que pueden complementar el assessment
+
+El score puede enriquecerse con evidencia operacional.
+
+Ejemplos:
+
+porcentaje de fuentes documentadas;
+porcentaje de datos con propietario asignado;
+tasa de errores;
+porcentaje de registros completos;
+frecuencia de actualización;
+número de fuentes integradas;
+tiempo necesario para obtener datos;
+número de incidentes relacionados con datos;
+porcentaje de datasets con clasificación de sensibilidad;
+porcentaje de usuarios que conocen las fuentes autorizadas.
+
+Estos indicadores pueden convertirse posteriormente en métricas de seguimiento.
+
+20. Del score al plan de acción
+
+Cuando la dimensión de Datos presenta una brecha significativa, el plan de acción debe identificar:
+
+| Elemento       | Pregunta                      |
+| -------------- | ----------------------------- |
+| Brecha         | ¿Qué capacidad falta?         |
+| Causa          | ¿Por qué existe la brecha?    |
+| Impacto        | ¿Qué limita o pone en riesgo? |
+| Acción         | ¿Qué debe cambiar?            |
+| Responsable    | ¿Quién debe actuar?           |
+| Prioridad      | ¿Qué tan urgente es?          |
+| Fecha objetivo | ¿Cuándo debe resolverse?      |
+| Evidencia      | ¿Cómo sabremos que mejoró?    |
+
+La aplicación puede utilizar estos elementos para convertir el resultado del assessment en un plan de acción concreto.
+
+21. Términos clave
+ | Término                    | Definición                                                                                             |
+| -------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Calidad de datos**       | Grado en que los datos cumplen las características necesarias para su uso previsto                     |
+| **Data Literacy**          | Capacidad de comprender, interpretar y utilizar datos de manera adecuada                               |
+| **Data Lineage**           | Trazabilidad del origen, transformación y recorrido de los datos                                       |
+| **Data Ownership**         | Responsabilidad formal sobre la gestión y calidad de un conjunto de datos                              |
+| **Metadatos**              | Información que describe otros datos, su significado, origen, estructura o uso                         |
+| **Fuente de datos**        | Sistema, repositorio o recurso del que se obtiene información                                          |
+| **Data Governance**        | Conjunto de responsabilidades, reglas y controles para gestionar los datos                             |
+| **Data Quality**           | Evaluación sistemática de características como precisión, completitud y consistencia                   |
+| **Accesibilidad**          | Capacidad de obtener y utilizar datos bajo las condiciones autorizadas                                 |
+| **Trazabilidad**           | Capacidad de seguir el recorrido de los datos desde su origen hasta su uso                             |
+| **Datos sensibles**        | Información que requiere controles especiales debido a su naturaleza o impacto                         |
+| **Datos estructurados**    | Información organizada en estructuras definidas, como tablas y registros                               |
+| **Datos no estructurados** | Información como documentos, texto, imágenes, audio o video que no sigue una estructura tabular rígida |
+| **Fuente autorizada**      | Fuente cuyo uso está permitido para el propósito determinado                                           |
+| **Caso de uso**            | Aplicación concreta de IA destinada a resolver un problema o generar un resultado                      |
+| **Data Readiness**         | Nivel de preparación de los datos para soportar un caso de uso específico                              |
+                   
+22. Idea clave para el workshop
+
+💡 La pregunta no es si la organización tiene datos.
+
+La pregunta es:
+
+¿Puede demostrar que los datos necesarios para este caso de uso son adecuados, accesibles, confiables, trazables y utilizables bajo las condiciones correspondientes?
+
+Y cuando exista una brecha:
+
+¿El problema se resuelve desarrollando capacidades de las personas, cambiando procesos, mejorando tecnología, fortaleciendo gobernanza o mediante una combinación de estas intervenciones?
+
+Esta distinción es fundamental para que el assessment se convierta en una herramienta de Training Needs Analysis y estrategia de capacidades, en lugar de convertirse simplemente en un cuestionario de madurez.
+
+Siguiente sección
+
+➡️ 02 — Skills y talento
