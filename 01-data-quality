@@ -5,7 +5,7 @@
 
 ---
 
-# 1. ¿Por qué importa?
+## 1. ¿Por qué importa?
 
 Los sistemas de IA dependen de los datos con los que trabajan.
 
@@ -13,16 +13,16 @@ Sin embargo, "tener datos" no significa necesariamente estar preparado para util
 
 Una organización puede almacenar grandes cantidades de información y, al mismo tiempo, enfrentar problemas de:
 
-- calidad;
-- disponibilidad;
-- consistencia;
-- actualización;
-- integración;
-- documentación;
-- acceso;
-- permisos;
-- trazabilidad;
-- propiedad de los datos.
+- Calidad;
+- Disponibilidad;
+- Consistencia;
+- Actualización;
+- Integración;
+- Documentación;
+- Acceso;
+- Permisos;
+- Trazabilidad;
+- Propiedad de los datos.
 
 Por eso, la preparación de datos debe analizarse **en relación con el caso de uso específico**.
 
@@ -59,7 +59,7 @@ Debe preguntarse:
 
 ---
 
-# 3. Qué evalúa esta dimensión
+## 3. Qué evalúa esta dimensión
 
 La aplicación de assessment analiza la preparación de datos mediante diez criterios.
 
@@ -82,22 +82,20 @@ Una organización puede, por ejemplo, tener datos abundantes pero una puntuació
 
 ---
 
-# 4. DATA-01 — Disponibilidad de datos
+## 4. DATA-01 — Disponibilidad de datos
 
 ### Qué significa
 
 Evalúa si los datos necesarios para el caso de uso existen y pueden obtenerse de manera consistente.
 
-La disponibilidad incluye más que la existencia física de información.
+La disponibilidad incluye más que la existencia física de información. También considera:
 
-También considera:
-
-- dónde están los datos;
-- quién puede acceder a ellos;
-- con qué frecuencia están disponibles;
-- en qué formato;
-- bajo qué condiciones;
-- si su acceso depende de procesos manuales.
+- Dónde están los datos;
+- Quién puede acceder a ellos;
+- Con qué frecuencia están disponibles;
+- En qué formato;
+- Bajo qué condiciones;
+- Si su acceso depende de procesos manuales.
 
 ### ¿Por qué importa?
 
@@ -109,11 +107,11 @@ Una puntuación baja en este criterio puede indicar una limitación estructural,
 
 La investigación posterior debe determinar si la brecha se debe a:
 
-- ausencia de datos;
-- acceso restringido;
-- procesos manuales;
-- falta de integración;
-- falta de conocimiento sobre dónde encontrar los datos.
+- Ausencia de datos;
+- Acceso restringido;
+- Procesos manuales;
+- Falta de integración;
+- Falta de conocimiento sobre dónde encontrar los datos.
 
 ### Implicación para AI Enablement
 
@@ -123,24 +121,22 @@ Si los datos simplemente **no existen**, la solución probablemente requiere una
 
 ---
 
-# 5. DATA-02 — Calidad de datos
+## 5. DATA-02 — Calidad de datos
 
 ### Qué significa
 
 Evalúa si los datos presentan condiciones suficientes de:
 
-- exactitud;
-- completitud;
-- consistencia;
-- validez;
-- unicidad;
-- confiabilidad.
+- Exactitud;
+- Completitud;
+- Consistencia;
+- Validez;
+- Unicidad;
+- Confiabilidad.
 
 ### ¿Por qué importa?
 
-La IA puede producir resultados convincentes a partir de información incorrecta.
-
-La sofisticación del modelo no corrige automáticamente datos deficientes.
+La IA puede producir resultados convincentes a partir de información incorrecta. La sofisticación del modelo no corrige automáticamente datos deficientes.
 
 ### Conexión con el assessment
 
@@ -148,36 +144,32 @@ Una puntuación baja debe llevar a investigar:
 
 > ¿Qué dimensiones de calidad están afectando el caso de uso?
 
-No basta con afirmar que "los datos tienen problemas".
-
-Es necesario identificar cuáles.
+No basta con afirmar que "los datos tienen problemas". Es necesario identificar cuáles.
 
 ### Implicación para aprendizaje
 
 Puede existir una necesidad de capacitación cuando las personas responsables:
 
-- no conocen los estándares de calidad;
-- no saben interpretar indicadores;
-- no aplican correctamente reglas de validación;
-- desconocen sus responsabilidades sobre la calidad.
+- No conocen los estándares de calidad;
+- No saben interpretar indicadores;
+- No aplican correctamente reglas de validación;
+- Desconocen sus responsabilidades sobre la calidad.
 
 Pero si la causa es estructural, la respuesta puede requerir cambios en:
 
-- procesos;
-- sistemas;
-- controles;
-- arquitectura de datos;
-- responsabilidades.
+- Procesos;
+- Sistemas;
+- Controles;
+- Arquitectura de datos;
+- Responsabilidades.
 
 ---
 
-# 6. DATA-03 — Relevancia
+## 6. DATA-03 — Relevancia
 
 ### Qué significa
 
-Evalúa si los datos disponibles son pertinentes para el problema que la IA debe resolver.
-
-No toda información disponible es información útil.
+Evalúa si los datos disponibles son pertinentes para el problema que la IA debe resolver. No toda información disponible es información útil.
 
 ### ¿Por qué importa?
 
