@@ -204,10 +204,10 @@ Implicación para AI Enablement
 
 Esta dimensión puede revelar una necesidad de aprendizaje relacionada con:
 
-identificación de datos relevantes;
-formulación del problema;
-comprensión del proceso;
-interpretación de indicadores.
+-identificación de datos relevantes;
+-formulación del problema;
+-comprensión del proceso;
+-interpretación de indicadores.
 
 También puede revelar que el caso de uso necesita ser redefinido.
 
@@ -232,18 +232,18 @@ La pregunta es:
 
 ¿La información sigue siendo válida cuando la IA la necesita?
 
-8. DATA-05 — Accesibilidad
+# 8. DATA-05 — Accesibilidad
 Qué significa
 
 Evalúa si los usuarios y sistemas autorizados pueden acceder a los datos necesarios.
 
 La accesibilidad debe analizarse junto con:
 
-seguridad;
-privacidad;
-permisos;
-roles;
-controles de acceso.
+-seguridad;
+-privacidad;
+-permisos;
+-roles;
+-controles de acceso.
 
 "Más accesible" no significa necesariamente "mejor".
 
@@ -255,71 +255,74 @@ Conexión con aprendizaje
 
 Una brecha puede deberse a que las personas:
 
-desconocen los canales correctos;
-no saben solicitar acceso;
-no comprenden las reglas;
-no conocen las fuentes disponibles.
+-desconocen los canales correctos;
+-no saben solicitar acceso;
+-no comprenden las reglas;
+-no conocen las fuentes disponibles.
 
 En ese caso, una intervención de aprendizaje puede complementar una solución tecnológica.
 
-9. DATA-06 — Integración
+# 9. DATA-06 — Integración
 Qué significa
 
 Evalúa la capacidad de combinar las fuentes necesarias para el caso de uso.
 
 Puede involucrar:
 
-sistemas empresariales;
-bases de datos;
-documentos;
-APIs;
-archivos;
-aplicaciones;
-repositorios.
+-sistemas empresariales;
+-bases de datos;
+-documentos;
+-APIs;
+-archivos;
+-aplicaciones;
+-repositorios.
+
 ¿Por qué importa?
 
-Los datos necesarios para un caso de uso suelen estar distribuidos entre diferentes sistemas.
+-Los datos necesarios para un caso de uso suelen estar distribuidos entre diferentes sistemas.
 
-La falta de integración puede impedir que una solución funcione de forma consistente.
+-La falta de integración puede impedir que una solución funcione de forma consistente.
 
 Implicación
 
-Una puntuación baja suele señalar una necesidad tecnológica o arquitectónica.
+-Una puntuación baja suele señalar una necesidad tecnológica o arquitectónica.
 
-No debe convertirse automáticamente en una recomendación de capacitación.
+- No debe convertirse automáticamente en una recomendación de capacitación.
 
-10. DATA-07 — Documentación
+# 10. DATA-07 — Documentación
 Qué significa
 
 Evalúa si existe información suficiente para comprender:
 
-qué representa un dato;
-de dónde proviene;
-quién lo mantiene;
-qué significa cada campo;
-cuáles son sus limitaciones;
-cómo debe utilizarse.
+-qué representa un dato;
+-de dónde proviene;
+-quién lo mantiene;
+-qué significa cada campo;
+-cuáles son sus limitaciones;
+-cómo debe utilizarse.
+
 ¿Por qué importa?
 
 La documentación permite que las personas y los sistemas utilicen los datos de manera consistente.
 
 También facilita:
 
-incorporación de nuevos usuarios;
-resolución de problemas;
-auditoría;
-mantenimiento;
-desarrollo de soluciones de IA.
-Conexión con aprendizaje
+-incorporación de nuevos usuarios;
+-resolución de problemas;
+-auditoría;
+-mantenimiento;
+-desarrollo de soluciones de IA.
+-Conexión con aprendizaje
 
 Aquí puede existir una necesidad directa de desarrollo de capacidades:
 
-alfabetización de datos;
-interpretación de datasets;
-lectura de metadatos;
-comprensión de definiciones;
-uso correcto de fuentes.
-11. DATA-08 — Trazabilidad
+-alfabetización de datos;
+-interpretación de datasets;
+-lectura de metadatos;
+-comprensión de definiciones;
+-uso correcto de fuentes.
+
+# 11. DATA-08 — Trazabilidad
 Concepto clave: Data Lineage
 
 La trazabilidad permite conocer el recorrido de un dato:
@@ -345,25 +348,25 @@ Cuando un resultado generado por IA es cuestionado, la organización necesita po
 
 La trazabilidad es especialmente importante cuando:
 
-las decisiones tienen impacto significativo;
-existen obligaciones regulatorias;
-los datos se transforman varias veces;
-intervienen múltiples sistemas.
-Conexión con el assessment
+-las decisiones tienen impacto significativo;
+-existen obligaciones regulatorias;
+-los datos se transforman varias veces;
+-intervienen múltiples sistemas.
+-Conexión con el assessment
 
 Una puntuación baja debe elevar el nivel de análisis antes de considerar determinados casos de uso como candidatos para producción.
 
-12. DATA-09 — Propiedad y responsabilidad
+# 12. DATA-09 — Propiedad y responsabilidad
 Concepto clave: Data Ownership
 
 Debe existir claridad sobre quién es responsable de:
 
-definir;
-mantener;
-validar;
-proteger;
-actualizar;
-corregir
+-definir;
+-mantener;
+-validar;
+-proteger;
+-actualizar;
+-corregir
 
 los datos utilizados.
 
@@ -377,36 +380,36 @@ Esta dimensión también tiene una dimensión organizacional.
 
 Las personas necesitan comprender:
 
-qué responsabilidades tienen;
-qué decisiones pueden tomar;
-cuándo deben escalar un problema;
-quién debe aprobar cambios.
+-qué responsabilidades tienen;
+-qué decisiones pueden tomar;
+-cuándo deben escalar un problema;
+-quién debe aprobar cambios.
 
 Por eso, una brecha puede requerir tanto:
 
 definición organizacional + capacitación.
 
-13. DATA-10 — Permisos y uso
+# 13. DATA-10 — Permisos y uso
 Concepto clave: Data Governance
 
 Evalúa si los datos pueden utilizarse legítimamente para el caso de uso propuesto.
 
 Debe considerarse:
 
-autorización;
-privacidad;
-confidencialidad;
-propiedad intelectual;
-restricciones contractuales;
-políticas internas;
-requisitos regulatorios.
-Punto crítico
+-autorización;
+-privacidad;
+-confidencialidad;
+-propiedad intelectual;
+-restricciones contractuales;
+-políticas internas;
+-requisitos regulatorios.
+-Punto crítico
 
 La disponibilidad técnica de un dato no implica automáticamente autorización para utilizarlo con IA.
 
 Esta distinción debe formar parte de la cultura de AI Enablement.
 
-14. Cómo interpretar el score de Datos
+# 14. Cómo interpretar el score de Datos
 
 La aplicación utiliza una escala de 1 a 5:
 
@@ -427,11 +430,12 @@ Significa que, en promedio, existe una capacidad definida.
 
 El siguiente análisis debe determinar si esa capacidad es suficiente para:
 
-el caso de uso;
-el nivel de riesgo;
-el nivel de automatización;
-los resultados esperados.
-15. Cómo convertir el resultado en una necesidad de aprendizaje
+-el caso de uso;
+-el nivel de riesgo;
+-el nivel de automatización;
+-los resultados esperados.
+
+# 15. Cómo convertir el resultado en una necesidad de aprendizaje
 
 El assessment debe ser el inicio de una investigación, no el final.
 
@@ -447,10 +451,10 @@ Significa que, en promedio, existe una capacidad definida.
 
 El siguiente análisis debe determinar si esa capacidad es suficiente para:
 
-el caso de uso;
-el nivel de riesgo;
-el nivel de automatización;
-los resultados esperados.
+-el caso de uso;
+-el nivel de riesgo;
+-el nivel de automatización;
+-los resultados esperados.
 
 # 15. Cómo convertir el resultado en una necesidad de aprendizaje
 
@@ -474,7 +478,6 @@ Sí ──────────────── No
 Necesidad de       Intervención
 aprendizaje         organizacional /
                     tecnológica
-
 ```
 
 Por ejemplo:
@@ -485,20 +488,20 @@ DATA-07 — Documentación = 2
 
 Esto no significa automáticamente:
 
-"Capacitar en documentación de datos."
+### "Capacitar en documentación de datos."
 
 Primero debemos preguntar:
 
-¿La documentación existe pero no se conoce?
-¿Las personas no saben interpretarla?
-¿No existe documentación?
-¿No hay responsables?
-¿Los sistemas no generan metadatos?
-¿El proceso de documentación no está definido?
+-¿La documentación existe pero no se conoce?
+-¿Las personas no saben interpretarla?
+-¿No existe documentación?
+-¿No hay responsables?
+-¿Los sistemas no generan metadatos?
+-¿El proceso de documentación no está definido?
 
 Cada causa requiere una intervención diferente.
 
-16. Del diagnóstico a las capacidades
+# 16. Del diagnóstico a las capacidades
 
 Una vez identificada una brecha atribuible a personas, convertirla en una capacidad observable.
 
@@ -512,6 +515,8 @@ formular:
 
 Esto permite diseñar actividades de aprendizaje más precisas.
 
+
+```text
 | Elemento           | Definición                                           |
 | ------------------ | ---------------------------------------------------- |
 | Brecha             | Uso inconsistente de fuentes de datos                |
@@ -521,37 +526,44 @@ Esto permite diseñar actividades de aprendizaje más precisas.
 | Práctica           | Resolver casos con diferentes fuentes                |
 | Evidencia          | Justificación de la selección                        |
 | Aplicación         | Uso de la fuente correcta en el trabajo              |
+```
 
-17. Preguntas de profundización para el taller
+# 17. Preguntas de profundización para el taller
 
 Los resultados del assessment pueden utilizarse para facilitar una conversación con participantes y responsables del negocio.
 
 Sobre el caso de uso
-¿Qué información necesita realmente la IA?
-¿Qué información es indispensable?
-¿Qué información sería deseable pero no crítica?
+-¿Qué información necesita realmente la IA?
+-¿Qué información es indispensable?
+-¿Qué información sería deseable pero no crítica?
+
 Sobre calidad
-¿Cómo sabemos que los datos son correctos?
-¿Qué errores son frecuentes?
-¿Cómo se detectan?
-¿Quién los corrige?
+-¿Cómo sabemos que los datos son correctos?
+-¿Qué errores son frecuentes?
+-¿Cómo se detectan?
+-¿Quién los corrige?
+
 Sobre acceso
-¿Quién puede utilizar los datos?
-¿Quién debería poder utilizarlos?
-¿Qué barreras existen?
+-¿Quién puede utilizar los datos?
+-¿Quién debería poder utilizarlos?
+-¿Qué barreras existen?
+
 Sobre conocimiento
-¿Las personas saben dónde encontrar los datos?
-¿Saben evaluar si una fuente es adecuada?
-¿Entienden las limitaciones de los datos?
+-¿Las personas saben dónde encontrar los datos?
+-¿Saben evaluar si una fuente es adecuada?
+-¿Entienden las limitaciones de los datos?
+
 Sobre responsabilidad
-¿Quién es responsable de cada fuente?
-¿Quién puede aprobar su uso?
-¿Quién responde cuando existe un problema?
+-¿Quién es responsable de cada fuente?
+-¿Quién puede aprobar su uso?
+-¿Quién responde cuando existe un problema?
+
 Sobre IA
-¿Qué información puede introducirse en una herramienta de IA?
-¿Qué información no debe utilizarse?
-¿Cómo se verifica la información generada?
-18. Implicaciones para el diseño de aprendizaje
+-¿Qué información puede introducirse en una herramienta de IA?
+-¿Qué información no debe utilizarse?
+-¿Cómo se verifica la información generada?
+
+# 18. Implicaciones para el diseño de aprendizaje
 
 Una evaluación baja en datos puede generar diferentes tipos de intervenciones.
 | Necesidad identificada                  | Posible intervención                 |
@@ -571,26 +583,27 @@ Una evaluación baja en datos puede generar diferentes tipos de intervenciones.
 Esto refuerza un principio central del framework:
 
 No toda brecha identificada por el assessment es una brecha de aprendizaje.
-19. Indicadores que pueden complementar el assessment
+
+# 19. Indicadores que pueden complementar el assessment
 
 El score puede enriquecerse con evidencia operacional.
 
 Ejemplos:
 
-porcentaje de fuentes documentadas;
-porcentaje de datos con propietario asignado;
-tasa de errores;
-porcentaje de registros completos;
-frecuencia de actualización;
-número de fuentes integradas;
-tiempo necesario para obtener datos;
-número de incidentes relacionados con datos;
-porcentaje de datasets con clasificación de sensibilidad;
-porcentaje de usuarios que conocen las fuentes autorizadas.
+-porcentaje de fuentes documentadas;
+-porcentaje de datos con propietario asignado;
+-tasa de errores;
+-porcentaje de registros completos;
+-frecuencia de actualización;
+-número de fuentes integradas;
+-tiempo necesario para obtener datos;
+-número de incidentes relacionados con datos;
+-porcentaje de datasets con clasificación de sensibilidad;
+-porcentaje de usuarios que conocen las fuentes autorizadas.
 
 Estos indicadores pueden convertirse posteriormente en métricas de seguimiento.
 
-20. Del score al plan de acción
+# 20. Del score al plan de acción
 
 Cuando la dimensión de Datos presenta una brecha significativa, el plan de acción debe identificar:
 
@@ -607,7 +620,7 @@ Cuando la dimensión de Datos presenta una brecha significativa, el plan de acci
 
 La aplicación puede utilizar estos elementos para convertir el resultado del assessment en un plan de acción concreto.
 
-21. Términos clave
+# 21. Términos clave
 
 | Término                    | Definición                                                                                             |
 | -------------------------- | ------------------------------------------------------------------------------------------------------ |
@@ -629,7 +642,7 @@ La aplicación puede utilizar estos elementos para convertir el resultado del as
 | **Data Readiness**         | Nivel de preparación de los datos para soportar un caso de uso específico                              |
 
 
-22. Idea clave para el workshop
+# 22. Idea clave para el workshop
 
 💡 La pregunta no es si la organización tiene datos.
 
