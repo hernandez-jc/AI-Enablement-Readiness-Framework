@@ -91,22 +91,22 @@ Evalúa si las iniciativas de IA están vinculadas con las prioridades estratég
 
 Estas prioridades pueden estar relacionadas con:
 
-crecimiento;
-eficiencia;
-experiencia del cliente;
-innovación;
-calidad;
-reducción de riesgos;
-cumplimiento;
-productividad;
-diferenciación competitiva.
-¿Por qué importa?
+- crecimiento;
+- eficiencia;
+- experiencia del cliente;
+- innovación;
+- calidad;
+- reducción de riesgos;
+- cumplimiento;
+- productividad;
+- diferenciación competitiva.
+## ¿Por qué importa?
 
 Una iniciativa puede ser técnicamente interesante y no ser estratégicamente prioritaria.
 
 La alineación permite concentrar recursos donde existe mayor potencial de impacto.
 
-Conexión con el assessment
+## Conexión con el assessment
 
 Una puntuación baja puede indicar que las iniciativas de IA se desarrollan de forma oportunista o aislada.
 
@@ -127,8 +127,7 @@ Evalúa si las iniciativas tienen objetivos de negocio concretos.
 
 Un objetivo debe responder:
 
-¿Qué resultado queremos mejorar?
-
+> **¿Qué resultado queremos mejorar? **
 Por ejemplo:
 | Objetivo                 | Resultado esperado                      |
 | ------------------------ | --------------------------------------- |
@@ -157,7 +156,7 @@ en lugar de medir resultados.
 
 
 # 6. STR-03 — Identificación de oportunidades
-Qué significa
+## Qué significa
 
 Evalúa la capacidad de identificar oportunidades donde IA podría generar valor.
 
@@ -204,7 +203,7 @@ Una matriz de priorización puede considerar:
 
 Esto permite comparar iniciativas con criterios comunes.
 
-Conexión con el assessment
+## Conexión con el assessment
 
 Una puntuación baja puede indicar que la organización necesita desarrollar un proceso estructurado de selección y priorización.
 
@@ -234,7 +233,7 @@ La IA no debe evaluarse solamente por su capacidad técnica.
 
 Debe evaluarse por:
 
-la diferencia que produce en el resultado que importa.
+> **la diferencia que produce en el resultado que importa.**
 
 Ejemplo
 
@@ -244,36 +243,37 @@ Eso no demuestra por sí mismo que haya generado valor.
 
 Es necesario preguntar:
 
-¿Qué cambió como consecuencia de esas respuestas?
+> ¿Qué cambió como consecuencia de esas respuestas?
 
 
 ---
 
 
 # 9. STR-06 — Recursos y capacidad de ejecución
-Qué significa
+## Qué significa
 
 Evalúa si existen recursos suficientes para ejecutar las iniciativas prioritarias.
 
 Esto puede incluir:
 
-presupuesto;
-personas;
-conocimientos;
-tecnología;
-datos;
-tiempo;
-soporte;
-capacidades de gestión de proyectos.
-¿Por qué importa?
+- presupuesto;
+- personas;
+- conocimientos;
+- tecnología;
+- datos;
+- tiempo;
+- soporte;
+- capacidades de gestión de proyectos.
+
+## ¿Por qué importa?
 
 Una organización puede identificar excelentes oportunidades y aun así no tener capacidad para ejecutarlas.
 
-Conexión con Skills
+## Conexión con Skills
 
 Aquí aparece una conexión importante:
 
-La estrategia define qué se quiere lograr; las capacidades determinan qué tan viable es lograrlo.
+> **La estrategia define qué se quiere lograr; las capacidades determinan qué tan viable es lograrlo.**
 
 Las brechas de Skills pueden convertirse, por tanto, en una restricción estratégica.
 
@@ -282,7 +282,7 @@ Las brechas de Skills pueden convertirse, por tanto, en una restricción estrat�
 
 
 # 10. STR-07 — Patrocinio ejecutivo
-Concepto clave: Executive Sponsorship
+## Concepto clave: Executive Sponsorship
 
 Evalúa si existe liderazgo suficiente para apoyar y orientar la transformación.
 
@@ -338,9 +338,9 @@ La adopción de IA puede involucrar:
 
 Una iniciativa puede fallar si cada área optimiza una parte diferente del problema.
 
-Conexión con el framework
+## Conexión con el framework
 
-La alineación interfuncional permite integrar:
+> **La alineación interfuncional permite integrar:**
 
 Estrategia + Datos + Skills + Tecnología + Gobernanza + Procesos
 
@@ -365,26 +365,25 @@ La escalabilidad puede requerir:
 - integración;
 - presupuesto;
 - medición.
-##¿Por qué importa?
+## ¿Por qué importa?
 
 Un piloto exitoso no demuestra automáticamente que la organización está preparada para escalar.
 
 Puede existir una brecha entre:
 
-Probar → Implementar → Escalar
+> **Probar → Implementar → Escalar**
 
-Conexión con AI Enablement
+## Conexión con AI Enablement
 
 La capacitación debe considerar no solamente a los primeros usuarios.
 
 Cuando una solución escala, también deben desarrollarse las capacidades de nuevos grupos de usuarios, supervisores y responsables.
 
-
 ---
 
 
 # 13. STR-10 — Medición de impacto
-Concepto clave: AI Value Measurement
+## Concepto clave: AI Value Measurement
 
 Evalúa si la organización puede medir los resultados de las iniciativas de IA.
 
@@ -400,7 +399,7 @@ Los indicadores deben conectarse con el objetivo del caso de uso.
 | Mejorar cumplimiento   | Tasa de cumplimiento               |
 | Mejorar experiencia    | Indicadores de satisfacción        |
 
-¿Por qué importa?
+## ¿Por qué importa?
 
 Sin medición, la organización no puede distinguir claramente entre:
 
@@ -408,7 +407,11 @@ Sin medición, la organización no puede distinguir claramente entre:
 - adopción;
 - productividad;
 - impacto.
-## 14. De actividad a impacto
+
+---
+
+
+# 14. De actividad a impacto
 
 Una distinción importante para el assessment es:
 | Nivel     | Ejemplo                                        |
@@ -436,9 +439,13 @@ El score no debe interpretarse como una evaluación absoluta de la organización
 
 Debe utilizarse para identificar:
 
-dónde existe capacidad estratégica y dónde se requiere desarrollo.
+> **dónde existe capacidad estratégica y dónde se requiere desarrollo.**
 
-## 16. Del assessment al Training Needs Analysis
+
+---
+
+
+# 16. Del assessment al Training Needs Analysis
 
 La dimensión estratégica puede revelar necesidades de aprendizaje en diferentes niveles.
 
@@ -454,7 +461,10 @@ Por lo tanto, no existe una única "capacitación estratégica en IA".
 
 Las necesidades dependen del nivel de responsabilidad.
 
-## 17. Capacidades estratégicas que pueden desarrollarse
+---
+
+
+# 17. Capacidades estratégicas que pueden desarrollarse
 
 El assessment puede utilizarse para identificar capacidades como:
 
@@ -534,49 +544,51 @@ Una estrategia de IA puede identificar una prioridad, pero la organización nece
 
 Por ejemplo:
 
-Objetivo estratégico: mejorar eficiencia operacional
-↓
-Oportunidad: automatizar tareas administrativas
-↓
-Caso de uso: automatización asistida por IA
-↓
-Datos: fuentes disponibles y confiables
-↓
-Skills: usuarios capaces de supervisar resultados
-↓
-Gobernanza: reglas de uso y controles
-↓
-Tecnología: herramienta integrada
-↓
-Resultado: reducción del tiempo de procesamiento
 
-Esta cadena permite identificar dónde una iniciativa puede quedar bloqueada.
+> ```text
+> Objetivo estratégico: mejorar eficiencia operacional
+> ↓
+> Oportunidad: automatizar tareas administrativas
+> ↓
+> Caso de uso: automatización asistida por IA
+> ↓
+> Datos: fuentes disponibles y confiables
+> ↓
+> Skills: usuarios capaces de supervisar resultados
+> ↓
+> Gobernanza: reglas de uso y controles
+> ↓
+> Tecnología: herramienta integrada
+> ↓
+> Resultado: reducción del tiempo de procesamiento
+>```
 
+> Esta cadena permite identificar dónde una iniciativa puede quedar bloqueada.
 
 ---
 
 
 # 21. Preguntas de profundización para el workshop
-Sobre estrategia
+## Sobre estrategia
 - ¿Qué prioridades organizacionales debe apoyar IA?
 - ¿Qué problemas son suficientemente importantes para justificar una iniciativa?
 - ¿Qué resultados queremos modificar?
-Sobre oportunidades
+## Sobre oportunidades
 - ¿Qué procesos presentan mayores oportunidades?
 - ¿Qué tareas consumen más tiempo?
 - ¿Dónde existen errores o cuellos de botella?
 - ¿Qué actividades podrían beneficiarse de asistencia o automatización?
-Sobre priorización
+## Sobre priorización
 - ¿Cómo decidimos qué iniciativas avanzar?
 - ¿Qué criterios utilizamos?
 - ¿Quién toma la decisión?
 - ¿Cómo comparamos valor y riesgo?
-Sobre ejecución
+## Sobre ejecución
 - ¿Tenemos los datos necesarios?
 - ¿Tenemos las capacidades necesarias?
 - ¿Tenemos tecnología suficiente?
 - ¿Tenemos patrocinio y recursos?
-Sobre impacto
+## Sobre impacto
 - ¿Cómo sabremos que una iniciativa funcionó?
 - ¿Qué indicador cambiará?
 - ¿Cuál es la línea base?
@@ -602,7 +614,6 @@ Los resultados del assessment pueden complementarse con indicadores como:
 - número de iniciativas escaladas.
 
 Estos indicadores permiten observar la evolución de la capacidad estratégica.
-
 
 ---
 
@@ -656,7 +667,7 @@ Una organización no necesita desarrollar todas las capacidades de IA al mismo n
 
 Necesita identificar:
 
-Qué problemas importan → qué oportunidades existen → qué casos de uso tienen prioridad → qué capacidades se necesitan → qué intervenciones permitirán ejecutarlos → cómo se medirá el resultado.
+> **Qué problemas importan → qué oportunidades existen → qué casos de uso tienen prioridad → qué capacidades se necesitan → qué intervenciones permitirán ejecutarlos → cómo se medirá el resultado.**
 
 Por eso, el assessment estratégico debe convertirse en un puente entre:
 
