@@ -212,7 +212,7 @@ Una puntuación baja puede indicar que la organización necesita desarrollar un 
 
 
 # 8. STR-05 — Valor esperado
-Qué significa
+## Qué significa
 
 Evalúa si puede definirse el valor que se espera obtener de una iniciativa.
 
@@ -296,6 +296,7 @@ Debe incluir:
 - eliminación de obstáculos;
 - comunicación;
 - seguimiento de resultados.
+
 ## ¿Por qué importa?
 
 Las iniciativas de IA pueden modificar procesos y responsabilidades.
@@ -334,6 +335,7 @@ La adopción de IA puede involucrar:
 - cumplimiento;
 - seguridad;
 - operaciones.
+
 ## ¿Por qué importa?
 
 Una iniciativa puede fallar si cada área optimiza una parte diferente del problema.
