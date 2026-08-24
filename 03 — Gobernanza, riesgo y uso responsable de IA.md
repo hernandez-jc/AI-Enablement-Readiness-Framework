@@ -1,41 +1,49 @@
-03 — Gobernanza, riesgo y uso responsable de IA
+# 03 — Gobernanza, riesgo y uso responsable de IA
 
-Dimensión del framework: Gobernanza y gestión del riesgo
-Pregunta central: ¿La organización cuenta con reglas, responsabilidades, controles y mecanismos de supervisión suficientes para utilizar IA de manera segura, responsable y alineada con sus objetivos?
+> **Dimensión del framework**: Gobernanza y gestión del riesgo
+> **Pregunta central:** ¿La organización cuenta con reglas, responsabilidades, controles y mecanismos de supervisión suficientes para utilizar IA de manera segura, responsable y alineada con sus objetivos?
 
-1. ¿Por qué importa?
+
+---
+
+
+# 1. ¿Por qué importa?
 
 La adopción de IA introduce nuevas preguntas sobre cómo se toman decisiones, cómo se utilizan los datos, quién es responsable de los resultados y qué controles deben aplicarse.
 
 Una organización puede tener:
 
-datos adecuados;
-herramientas disponibles;
-personas capacitadas;
+- datos adecuados;
+- herramientas disponibles;
+- personas capacitadas;
 
 y aun así no estar preparada para escalar IA si no existe un marco claro de gobernanza.
 
 La gobernanza permite establecer:
 
-qué usos están permitidos;
-qué usos requieren restricciones;
-quién puede utilizar determinadas herramientas;
-qué información puede introducirse;
-cuándo se requiere revisión humana;
-quién es responsable de los resultados;
-cómo se identifican y gestionan los riesgos;
-cómo se documentan las decisiones;
-cómo se supervisan los sistemas después de su implementación.
+- qué usos están permitidos;
+- qué usos requieren restricciones;
+- quién puede utilizar determinadas herramientas;
+- qué información puede introducirse;
+- cuándo se requiere revisión humana;
+- quién es responsable de los resultados;
+- cómo se identifican y gestionan los riesgos;
+- cómo se documentan las decisiones;
+- cómo se supervisan los sistemas después de su implementación.
 
 La pregunta no es simplemente:
 
-"¿Tenemos una política de IA?"
+> "¿Tenemos una política de IA?"
 
 La pregunta es:
 
-¿La organización puede gobernar de manera efectiva el uso de IA en función del riesgo, las responsabilidades y los objetivos de cada caso de uso?
+> **¿La organización puede gobernar de manera efectiva el uso de IA en función del riesgo, las responsabilidades y los objetivos de cada caso de uso?**
 
-2. El principio de gobernanza proporcional al riesgo
+
+---
+
+
+# 2. El principio de gobernanza proporcional al riesgo
 
 No todos los usos de IA presentan el mismo nivel de riesgo.
 
@@ -43,14 +51,14 @@ Un uso para generar ideas preliminares puede requerir controles diferentes de un
 
 Por eso, la gobernanza debe considerar:
 
-propósito;
-impacto;
-tipo de información utilizada;
-autonomía del sistema;
-población afectada;
-nivel de supervisión humana;
-consecuencias de un error;
-requisitos internos y externos.
+- propósito;
+- impacto;
+- tipo de información utilizada;
+- autonomía del sistema;
+- población afectada;
+- nivel de supervisión humana;
+- consecuencias de un error;
+- requisitos internos y externos.
 
 | Tipo de uso                              | Enfoque de gobernanza                                             |
 | ---------------------------------------- | ----------------------------------------------------------------- |
@@ -63,7 +71,7 @@ requisitos internos y externos.
 
 Por lo tanto:
 
-La gobernanza debe ser proporcional al riesgo y al impacto del caso de uso.
+> **La gobernanza debe ser proporcional al riesgo y al impacto del caso de uso.**
 
 3. Qué evalúa esta dimensión
 
@@ -84,60 +92,68 @@ La aplicación de assessment analiza la gobernanza mediante diez criterios.
 
 Estos criterios permiten evaluar si la organización tiene capacidad para pasar de un uso experimental de IA a una adopción controlada y sostenible.
 
-4. GOV-01 — Estrategia y principios
-Qué significa
+
+---
+
+
+# 4. GOV-01 — Estrategia y principios
+## Qué significa
 
 Evalúa si la organización tiene una dirección clara respecto al uso de IA.
 
 Esto puede incluir principios relacionados con:
 
-valor empresarial;
-uso responsable;
-seguridad;
-transparencia;
-supervisión humana;
-protección de información;
-gestión del riesgo;
-innovación.
-¿Por qué importa?
+- valor empresarial;
+- uso responsable;
+- seguridad;
+- transparencia;
+- supervisión humana;
+- protección de información;
+- gestión del riesgo;
+- innovación.
+## ¿Por qué importa?
 
 Sin una dirección común, diferentes equipos pueden adoptar IA de maneras inconsistentes.
 
 Una estrategia clara ayuda a responder:
 
-¿Para qué queremos utilizar IA y bajo qué principios queremos hacerlo?
+> **¿Para qué queremos utilizar IA y bajo qué principios queremos hacerlo?**
 
-Conexión con el assessment
+## Conexión con el assessment
 
 Una puntuación baja puede indicar que la organización está adoptando herramientas de manera fragmentada y reactiva.
 
 La intervención puede requerir:
 
-definición estratégica;
-alineación ejecutiva;
-identificación de prioridades;
-establecimiento de principios.
-5. GOV-02 — Políticas de uso
-Qué significa
+- definición estratégica;
+- alineación ejecutiva;
+- identificación de prioridades;
+- establecimiento de principios.
+
+---
+
+
+# 5. GOV-02 — Políticas de uso
+## Qué significa
 
 Evalúa si existen reglas claras que indiquen cómo puede utilizarse IA.
 
 Las políticas pueden abordar:
 
-herramientas autorizadas;
-información que puede introducirse;
-información restringida;
-revisión humana;
-propiedad intelectual;
-generación de contenido;
-documentación;
-aprobación de casos de uso;
-uso de herramientas externas.
-¿Por qué importa?
+- herramientas autorizadas;
+- información que puede introducirse;
+- información restringida;
+- revisión humana;
+- propiedad intelectual;
+- generación de contenido;
+- documentación;
+- aprobación de casos de uso;
+- uso de herramientas externas.
+## ¿Por qué importa?
 
 Una política que no puede ser comprendida o aplicada por los usuarios tiene poco valor operativo.
 
-Conexión con aprendizaje
+## Conexión con aprendizaje
 
 Aquí aparece una conexión directa con la dimensión de Skills.
 
@@ -145,37 +161,42 @@ No basta con publicar una política.
 
 Las personas deben poder responder:
 
-¿Qué significa esta regla en mi trabajo cotidiano?
+> **¿Qué significa esta regla en mi trabajo cotidiano?**
 
 Esto puede requerir:
 
-formación;
-escenarios prácticos;
-guías de decisión;
-ejemplos;
-simulaciones.
-6. GOV-03 — Roles y responsabilidades
-Concepto clave: Accountability
+- formación;
+- escenarios prácticos;
+- guías de decisión;
+- ejemplos;
+- simulaciones.
+
+
+---
+
+
+# 6. GOV-03 — Roles y responsabilidades
+## Concepto clave: Accountability
 
 Evalúa si está claramente definido quién es responsable de:
 
-aprobar;
-desarrollar;
-utilizar;
-supervisar;
-evaluar;
-mantener;
-retirar
+- aprobar;
+- desarrollar;
+- utilizar;
+- supervisar;
+- evaluar;
+- mantener;
+- retirar
 
 una solución de IA.
 
-¿Por qué importa?
+## ¿Por qué importa?
 
 La falta de claridad puede producir una situación en la que:
 
-"Todos participan, pero nadie es responsable."
+> "Todos participan, pero nadie es responsable."
 
-Conexión con el assessment
+## Conexión con el assessment
 
 Una puntuación baja puede requerir una definición explícita de responsabilidades.
 
@@ -188,209 +209,241 @@ Una matriz puede ayudar:
 | Evaluar riesgo          | C       | C     | C          | C     | R/A                   |
 | Aprobar uso             | C       | R     | C          | C     | A                     |
 | Supervisar resultados   | R       | A     | C          | C     | C                     |
-R = Responsable de ejecutar
+**R = Responsable de ejecutar
 A = Responsable final
-C = Consultado
+C = Consultado**
 
 La estructura exacta debe adaptarse a cada organización.
 
-7. GOV-04 — Evaluación de riesgos
-Qué significa
+
+---
+
+
+# 7. GOV-04 — Evaluación de riesgos
+## Qué significa
 
 Evalúa si la organización identifica y analiza los riesgos asociados con un caso de uso antes de implementarlo.
 
 Los riesgos pueden relacionarse con:
 
-datos;
-privacidad;
-seguridad;
-exactitud;
-sesgo;
-transparencia;
-dependencia tecnológica;
-impacto operativo;
-reputación;
-cumplimiento.
-¿Por qué importa?
+- datos;
+- privacidad;
+- seguridad;
+- exactitud;
+- sesgo;
+- transparencia;
+- dependencia tecnológica;
+- impacto operativo;
+- reputación;
+- cumplimiento.
+## ¿Por qué importa?
 
 El riesgo no debe evaluarse únicamente después de que una solución esté implementada.
 
 Debe formar parte de la decisión inicial:
 
-¿Este caso de uso es apropiado para utilizar IA y bajo qué condiciones?
+> **¿Este caso de uso es apropiado para utilizar IA y bajo qué condiciones?**
 
-Conexión con aprendizaje
+## Conexión con aprendizaje
 
 Las personas que identifican o proponen casos de uso necesitan saber reconocer señales de riesgo y saber cuándo escalar una situación.
 
-8. GOV-05 — Supervisión humana
+
+---
+
+
+# 8. GOV-05 — Supervisión humana
 Concepto clave: Human Oversight
 
 Evalúa si existe un nivel apropiado de supervisión humana.
 
 La supervisión puede incluir:
 
-revisión;
-validación;
-aprobación;
-intervención;
-corrección;
-posibilidad de detener el proceso.
-¿Por qué importa?
+- revisión;
+- validación;
+- aprobación;
+- intervención;
+- corrección;
+- posibilidad de detener el proceso.
+## ¿Por qué importa?
 
 El nivel de supervisión debe corresponder al impacto del sistema.
 
 Un proceso de generación de ideas puede requerir una revisión diferente de un sistema que influye en una decisión importante.
 
-Conexión con el assessment
+## Conexión con el assessment
 
 Una puntuación baja puede revelar que la organización no ha definido claramente:
 
-cuándo una persona debe revisar;
-qué debe revisar;
-qué criterios debe utilizar;
-qué debe hacer si detecta un problema.
+- cuándo una persona debe revisar;
+- qué debe revisar;
+- qué criterios debe utilizar;
+- qué debe hacer si detecta un problema.
 
 Esto puede convertirse directamente en una necesidad de aprendizaje.
 
-9. GOV-06 — Privacidad y seguridad
-Qué significa
+
+---
+
+
+# 9. GOV-06 — Privacidad y seguridad
+## Qué significa
 
 Evalúa si existen mecanismos para proteger:
 
-información personal;
-información confidencial;
-información estratégica;
-credenciales;
-propiedad intelectual;
-sistemas;
-datos sensibles.
-¿Por qué importa?
+- información personal;
+- información confidencial;
+- información estratégica;
+- credenciales;
+- propiedad intelectual;
+- sistemas;
+- datos sensibles.
+## ¿Por qué importa?
 
 El uso de IA puede crear nuevos puntos de exposición si las personas introducen información en herramientas sin comprender:
 
-dónde se procesa;
-quién puede acceder;
-cómo se almacena;
-qué controles existen;
-qué restricciones aplican.
-Conexión con AI Enablement
+- dónde se procesa;
+- quién puede acceder;
+- cómo se almacena;
+- qué controles existen;
+- qué restricciones aplican.
+## Conexión con AI Enablement
 
 Esta dimensión debe conectarse directamente con:
 
-Datos + Skills + Gobernanza.
+**Datos + Skills + Gobernanza.**
 
 Una política puede existir, pero si los usuarios no saben aplicarla, la capacidad real sigue siendo baja.
 
-10. GOV-07 — Transparencia y trazabilidad
-Qué significa
+
+---
+
+
+# 10. GOV-07 — Transparencia y trazabilidad
+## Qué significa
 
 Evalúa si la organización puede documentar y explicar aspectos relevantes del uso de IA.
 
 Puede incluir:
 
-propósito del sistema;
-herramienta utilizada;
-datos utilizados;
-responsables;
-controles aplicados;
-decisiones relevantes;
-cambios realizados;
-resultados de evaluaciones.
-¿Por qué importa?
+- propósito del sistema;
+- herramienta utilizada;
+- datos utilizados;
+- responsables;
+- controles aplicados;
+- decisiones relevantes;
+- cambios realizados;
+- resultados de evaluaciones.
+## ¿Por qué importa?
 
 La trazabilidad permite investigar problemas y comprender cómo se utilizó un sistema.
 
 También facilita:
 
-supervisión;
-auditoría;
-mejora continua;
-gestión de incidentes.
-Conexión con aprendizaje
+- supervisión;
+- auditoría;
+- mejora continua;
+- gestión de incidentes.
+## Conexión con aprendizaje
 
 Los usuarios pueden necesitar aprender:
 
-qué debe documentarse;
-cuándo debe documentarse;
-cómo registrar decisiones;
-qué información debe conservarse.
-11. GOV-08 — Gestión de proveedores y herramientas
-Qué significa
+- qué debe documentarse;
+- cuándo debe documentarse;
+- cómo registrar decisiones;
+- qué información debe conservarse.
+
+---
+
+
+# 11. GOV-08 — Gestión de proveedores y herramientas
+## Qué significa
 
 Evalúa cómo se seleccionan y autorizan herramientas y proveedores externos.
 
 Antes de utilizar una solución, puede ser necesario evaluar:
 
-seguridad;
-privacidad;
-condiciones de uso;
-manejo de datos;
-capacidades técnicas;
-dependencia del proveedor;
-controles disponibles;
-compatibilidad con políticas internas.
-¿Por qué importa?
+- seguridad;
+- privacidad;
+- condiciones de uso;
+- manejo de datos;
+- capacidades técnicas;
+- dependencia del proveedor;
+- controles disponibles;
+- compatibilidad con políticas internas.
+## ¿Por qué importa?
 
 La facilidad de acceso a una herramienta no significa que sea apropiada para todos los usos.
 
-Conexión con Skills
+## Conexión con Skills
 
 Los usuarios necesitan saber:
 
-qué herramientas están autorizadas y para qué pueden utilizarse.
+> **qué herramientas están autorizadas y para qué pueden utilizarse.**
 
 Los responsables de decisión necesitan además poder evaluar las implicaciones de incorporar nuevas herramientas.
 
-12. GOV-09 — Monitoreo y control
-Qué significa
+
+---
+
+
+# 12. GOV-09 — Monitoreo y control
+## Qué significa
 
 Evalúa si la organización supervisa los sistemas después de su implementación.
 
 El monitoreo puede considerar:
 
-calidad de resultados;
-errores;
-incidentes;
-cambios de comportamiento;
-desempeño;
-uso real;
-cumplimiento de políticas;
-retroalimentación de usuarios.
-¿Por qué importa?
+- calidad de resultados;
+- errores;
+- incidentes;
+- cambios de comportamiento;
+- desempeño;
+- uso real;
+- cumplimiento de políticas;
+- retroalimentación de usuarios.
+## ¿Por qué importa?
 
 Un sistema que funciona correctamente durante una prueba puede requerir ajustes después de entrar en operación.
 
 La gobernanza debe continuar después del lanzamiento.
 
-Conexión con el assessment
+## Conexión con el assessment
 
 Una puntuación baja puede indicar que la organización tiene capacidad para implementar soluciones, pero no para gestionarlas de manera continua.
 
-13. GOV-10 — Gestión del ciclo de vida
-Concepto clave: AI Lifecycle Management
+
+---
+
+
+# 13. GOV-10 — Gestión del ciclo de vida
+## Concepto clave: AI Lifecycle Management
 
 Una solución de IA debe gestionarse durante todo su ciclo de vida:
 
-Idea → Evaluación → Desarrollo / Selección → Prueba → Implementación → Monitoreo → Revisión → Actualización o retiro
+> **Idea → Evaluación → Desarrollo / Selección → Prueba → Implementación → Monitoreo → Revisión → Actualización o retiro**
 
-¿Por qué importa?
+## ¿Por qué importa?
 
 Las necesidades del negocio cambian.
 
 También pueden cambiar:
 
-datos;
-herramientas;
-procesos;
-riesgos;
-requisitos;
-desempeño;
-usuarios.
+- datos;
+- herramientas;
+- procesos;
+- riesgos;
+- requisitos;
+- desempeño;
+- usuarios.
 
 Por eso, una solución no debe considerarse "terminada" simplemente porque fue implementada.
 
-14. Cómo interpretar el score de Gobernanza
+
+---
+
+
+# 14. Cómo interpretar el score de Gobernanza
 
 La aplicación utiliza una escala de 1 a 5.
 
@@ -404,12 +457,16 @@ La aplicación utiliza una escala de 1 a 5.
 
 El score de Gobernanza debe interpretarse en conjunto con:
 
-tipo de caso de uso;
-nivel de riesgo;
-nivel de autonomía;
-sensibilidad de los datos;
-impacto potencial.
-15. La diferencia entre política y capacidad
+- tipo de caso de uso;
+- nivel de riesgo;
+- nivel de autonomía;
+- sensibilidad de los datos;
+- impacto potencial.
+
+---
+
+
+# 15. La diferencia entre política y capacidad
 
 Un error frecuente es considerar que una política documentada demuestra que la organización está preparada.
 
@@ -426,9 +483,13 @@ No necesariamente.
 
 Por eso:
 
-La existencia de una política no demuestra por sí sola que exista una capacidad efectiva de gobernanza.
+> **La existencia de una política no demuestra por sí sola que exista una capacidad efectiva de gobernanza.**
 
-16. Del assessment al Training Needs Analysis
+
+---
+
+
+# 16. Del assessment al Training Needs Analysis
 
 Una puntuación baja en Gobernanza puede revelar una necesidad de aprendizaje, pero también puede indicar una brecha estructural.
 
@@ -444,7 +505,11 @@ La investigación debe determinar la causa.
 | No se monitorean resultados                              | Operación            | Sistema de monitoreo  |
 Esta distinción evita convertir problemas organizacionales en cursos innecesarios.
 
-17. Matriz de riesgo y aprendizaje
+
+---
+
+
+# 17. Matriz de riesgo y aprendizaje
 
 Los resultados de Gobernanza pueden utilizarse para definir diferentes niveles de aprendizaje.
 | Nivel de riesgo | Necesidad de aprendizaje                                            |
@@ -456,15 +521,19 @@ Los resultados de Gobernanza pueden utilizarse para definir diferentes niveles d
 
 El contenido debe ajustarse al rol y al nivel de exposición.
 
-18. Del diagnóstico a las capacidades
+
+---
+
+
+# 18. Del diagnóstico a las capacidades
 
 En lugar de:
 
-"Los empleados necesitan capacitación sobre ética de IA."
+> "Los empleados necesitan capacitación sobre ética de IA."
 
 Es preferible definir una capacidad observable:
 
-"Los usuarios pueden identificar situaciones en las que el uso de IA requiere revisión, restricciones o escalamiento y aplicar el procedimiento correspondiente."
+> **"Los usuarios pueden identificar situaciones en las que el uso de IA requiere revisión, restricciones o escalamiento y aplicar el procedimiento correspondiente."**
 
 Esto permite construir actividades de aprendizaje que puedan evaluarse.
 
@@ -478,7 +547,11 @@ Esto permite construir actividades de aprendizaje que puedan evaluarse.
 | Evidencia          | Clasificación correcta y justificada                |
 | Aplicación         | Uso seguro de herramientas autorizadas              |
 
-19. Actividades de aprendizaje recomendadas
+
+---
+
+
+# 19. Actividades de aprendizaje recomendadas
 
 Dependiendo de la brecha identificada, pueden utilizarse:
 
@@ -496,54 +569,67 @@ Necesidad	Actividad
 | Aplicar gobernanza           | Proyecto de caso de uso     |
 La selección de la actividad debe responder a la capacidad que se quiere desarrollar.
 
-20. Preguntas de profundización para el workshop
-Sobre estrategia
-¿Qué objetivos empresariales debe apoyar la IA?
-¿Qué usos deben priorizarse?
-¿Qué usos deberían evitarse?
-Sobre riesgo
-¿Qué puede salir mal?
-¿Qué impacto tendría un error?
-¿Qué riesgos son aceptables?
-¿Cuándo debe escalarse una situación?
-Sobre responsabilidades
-¿Quién aprueba?
-¿Quién utiliza?
-¿Quién supervisa?
-¿Quién responde ante un incidente?
-Sobre usuarios
-¿Qué deben saber?
-¿Qué deben poder hacer?
-¿Qué decisiones pueden tomar?
-¿Cuándo deben pedir ayuda?
-Sobre controles
-¿Qué controles existen?
-¿Se utilizan realmente?
-¿Cómo se verifica su aplicación?
-¿Cómo se mide su efectividad?
-21. Indicadores complementarios
+
+---
+
+
+# 20. Preguntas de profundización para el workshop
+## Sobre estrategia
+- ¿Qué objetivos empresariales debe apoyar la IA?
+- ¿Qué usos deben priorizarse?
+- ¿Qué usos deberían evitarse?
+## Sobre riesgo
+- ¿Qué puede salir mal?
+- ¿Qué impacto tendría un error?
+- ¿Qué riesgos son aceptables?
+- ¿Cuándo debe escalarse una situación?
+## Sobre responsabilidades
+- ¿Quién aprueba?
+- ¿Quién utiliza?
+- ¿Quién supervisa?
+- ¿Quién responde ante un incidente?
+## Sobre usuarios
+- ¿Qué deben saber?
+- ¿Qué deben poder hacer?
+- ¿Qué decisiones pueden tomar?
+- ¿Cuándo deben pedir ayuda?
+## Sobre controles
+- ¿Qué controles existen?
+- ¿Se utilizan realmente?
+- ¿Cómo se verifica su aplicación?
+- ¿Cómo se mide su efectividad?
+
+---
+
+
+# 21. Indicadores complementarios
 
 Los resultados del assessment pueden complementarse con indicadores como:
 
-porcentaje de usuarios que conocen las políticas;
-porcentaje de herramientas evaluadas y autorizadas;
-número de casos de uso registrados;
-porcentaje de casos de uso evaluados antes de implementación;
-número de incidentes relacionados con IA;
-porcentaje de incidentes correctamente gestionados;
-porcentaje de soluciones con responsable asignado;
-porcentaje de sistemas sometidos a revisión periódica;
-porcentaje de usuarios que completan capacitación obligatoria;
-porcentaje de casos de uso con supervisión definida.
+- porcentaje de usuarios que conocen las políticas;
+- porcentaje de herramientas evaluadas y autorizadas;
+- número de casos de uso registrados;
+- porcentaje de casos de uso evaluados antes de implementación;
+- número de incidentes relacionados con IA;
+- porcentaje de incidentes correctamente gestionados;
+- porcentaje de soluciones con responsable asignado;
+- porcentaje de sistemas sometidos a revisión periódica;
+- porcentaje de usuarios que completan capacitación obligatoria;
+- porcentaje de casos de uso con supervisión definida.
 
 Estos indicadores permiten pasar de una fotografía de madurez a un sistema de seguimiento.
 
-22. Del control al comportamiento
+
+---
+
+
+# 22. Del control al comportamiento
 
 Una gobernanza efectiva requiere que las reglas se conviertan en comportamientos observables.
 
 La secuencia puede representarse así:
 
+```text
 Regla
 ↓
 Comprensión
@@ -557,10 +643,14 @@ Supervisión
 Retroalimentación
 ↓
 Mejora
-
+```
 Por eso, la formación debe incluir situaciones en las que las personas tengan que decidir qué hacer, no solamente recordar una política.
 
-23. Gobernanza como habilitador de AI Enablement
+
+---
+
+
+# 23. Gobernanza como habilitador de AI Enablement
 
 La gobernanza no debe considerarse exclusivamente como una función de control.
 
@@ -568,20 +658,24 @@ Una gobernanza clara también puede acelerar la adopción.
 
 Cuando las personas saben:
 
-qué pueden hacer;
-qué no pueden hacer;
-qué herramientas pueden utilizar;
-qué información pueden utilizar;
-cuándo necesitan aprobación;
-cuándo deben escalar;
+- qué pueden hacer;
+- qué no pueden hacer;
+- qué herramientas pueden utilizar;
+- qué información pueden utilizar;
+- cuándo necesitan aprobación;
+- cuándo deben escalar;
 
 pueden experimentar y trabajar con mayor claridad.
 
 Por eso:
 
-Una buena gobernanza reduce incertidumbre y permite una adopción más segura y consistente.
+> **Una buena gobernanza reduce incertidumbre y permite una adopción más segura y consistente.**
 
-24. Conexión con las otras dimensiones
+
+---
+
+
+# 24. Conexión con las otras dimensiones
 
 La Gobernanza no funciona de manera aislada.
 
@@ -596,33 +690,37 @@ La Gobernanza no funciona de manera aislada.
 | **Medición**   | Permite comprobar si los controles funcionan             |
 
 
-25. Idea clave para el workshop
+
+---
+
+
+# 25. Idea clave para el workshop
 
 💡 La gobernanza no consiste simplemente en crear reglas.
 
 Consiste en crear las condiciones para que la organización pueda responder de manera consistente:
-
-¿Quién puede utilizar IA?
-¿Para qué?
-¿Con qué información?
-Bajo qué condiciones?
-Con qué nivel de supervisión?
-Quién es responsable?
-Cómo se controla?
-Cómo sabemos que sigue funcionando correctamente?
+> 
+> **¿Quién puede utilizar IA?**
+> **¿Para qué?**
+> **¿Con qué información?**
+>** Bajo qué condiciones?**
+> **Con qué nivel de supervisión?**
+> **Quién es responsable?**
+> **Cómo se controla?**
+> **Cómo sabemos que sigue funcionando correctamente?**
 
 El assessment permite identificar dónde esas capacidades ya existen y dónde deben desarrollarse.
 
 La pregunta final no es:
 
-"¿Tenemos una política de IA?"
+> **"¿Tenemos una política de IA?"**
 
 Sino:
 
-"¿Podemos demostrar que nuestra organización tiene las capacidades necesarias para gobernar el uso de IA de acuerdo con el riesgo, las responsabilidades y los objetivos de cada caso de uso?"
+> **"¿Podemos demostrar que nuestra organización tiene las capacidades necesarias para gobernar el uso de IA de acuerdo con el riesgo, las responsabilidades y los objetivos de cada caso de uso?"**
 
 
-Navegación
+## Navegación
 
 ⬅️ 02 — Skills y talento
 
