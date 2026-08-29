@@ -1,11 +1,3 @@
-Yes. With **01–09 and the Glosario now overwritten**, the architecture is internally aligned:
-
-**01–05 = readiness dimensions** → **06 = assessment methodology** → **07 = TNA** → **08 = learning strategy** → **09 = action plan** → **Glosario = common terminology**.
-
-The following is the **extended README description**, written to explain the framework as a strategic starting point for an AI Enablement workshop—not as a finished client methodology.
-
-Ready to paste into `README.md`:
-
 # AI Enablement Readiness Framework
 
 ## Descripción extendida
