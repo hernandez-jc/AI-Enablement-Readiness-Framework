@@ -1,717 +1,611 @@
 # 05 — Estrategia y alineación con el negocio
 
-Dimensión del framework: Estrategia y valor de negocio
-Pregunta central: ¿La adopción de IA está directamente vinculada con las necesidades del negocio, sus prioridades y los resultados que la organización necesita mejorar?
-
-## 1. ¿Por qué importa?
-
-La adopción de IA puede generar entusiasmo y múltiples oportunidades de experimentación. Sin embargo, la experimentación por sí sola no garantiza valor para el negocio.
-
-Una organización puede:
-
-implementar numerosas herramientas;
-desarrollar múltiples pilotos;
-capacitar a cientos de personas;
-aumentar el uso de IA;
-
-y aun así no producir mejoras relevantes en sus resultados.
-
-La alineación con el negocio permite establecer una conexión explícita entre:
-
-**Necesidad del negocio → problema → oportunidad → caso de uso de IA → resultado esperado → impacto medible**
-
-Por esta razón, AI Enablement debe partir del trabajo y de los resultados que la organización necesita alcanzar, y no exclusivamente de las capacidades de una determinada tecnología.
-
-La pregunta no es:
-
-> "¿Dónde podemos utilizar IA?"
-
-Sino:
-
-> **"¿Dónde puede IA resolver un problema relevante, mejorar un resultado o generar una capacidad que contribuya directamente al negocio?"**
+> **Dimensión 05 del AI Enablement Readiness Framework**
+> **Pregunta central:** ¿El uso de IA está vinculado con prioridades, problemas y resultados relevantes para el negocio?
 
 ---
+
+## 1. Propósito de esta dimensión
+
+La adopción de IA no debe comenzar con la pregunta:
+
+> "¿Qué herramienta de IA podemos utilizar?"
+
+Debe comenzar con:
+
+> **"¿Qué problema, necesidad o resultado del negocio queremos mejorar?"**
+
+Una organización puede disponer de:
+
+* datos adecuados;
+* personas preparadas;
+* gobernanza;
+* tecnología;
+
+y aun así obtener poco valor si los esfuerzos de IA no están relacionados con prioridades reales del negocio.
+
+Esta dimensión evalúa si existe una conexión clara entre:
 
 ```text
-## 2. El principio de "problema antes que herramienta"
-
-Un enfoque orientado al negocio comienza con una necesidad concreta.
-
-La secuencia recomendada es:
-   
-
-Prioridad del negocio
-        ↓
-Objetivo
-        ↓
-Problema / oportunidad
-        ↓
-Proceso o actividad afectada
-        ↓
-Caso de uso
-        ↓
-Solución de IA
-        ↓
-Resultado esperado
-        ↓
-Indicador de negocio
+Estrategia
+    ↓
+Prioridades del negocio
+    ↓
+Problemas / oportunidades
+    ↓
+Trabajo y procesos
+    ↓
+Casos de uso de IA
+    ↓
+Resultados esperados
 ```
-
-Esto evita comenzar con una herramienta y posteriormente intentar encontrar una aplicación para ella.
-
-Ejemplo
-
-En lugar de:
-
-> "Tenemos acceso a IA generativa. ¿Qué podemos hacer con ella?"
-
-El enfoque sería:
-
-> "El equipo dedica una cantidad significativa de tiempo a revisar y sintetizar información. ¿Existe una oportunidad de utilizar IA para reducir ese esfuerzo sin comprometer la calidad?"
-
-La herramienta se convierte entonces en un medio para resolver un problema, no en el objetivo de la iniciativa.
 
 ---
 
+# 2. Estrategia como condición de AI Enablement
+
+AI Enablement no consiste simplemente en aumentar el número de personas que utilizan herramientas de IA.
+
+El objetivo es desarrollar la capacidad de la organización para utilizar IA **donde pueda producir resultados relevantes y sostenibles**.
+
+Por eso, la preparación estratégica requiere claridad sobre:
+
+* qué quiere lograr la organización;
+* cuáles son sus prioridades;
+* qué problemas tienen mayor importancia;
+* dónde existen oportunidades de mejora;
+* qué procesos podrían beneficiarse;
+* qué resultados deberían medirse.
+
+### Pregunta orientadora
+
+> **¿Existe una conexión clara entre el uso de IA y las prioridades, problemas y resultados que importan para la organización?**
+
+---
 
 # 3. Qué evalúa esta dimensión
 
-La aplicación de assessment analiza la alineación con el negocio mediante diez criterios.
+El assessment analiza diferentes condiciones relacionadas con la alineación estratégica.
 
-| ID     | Elemento evaluado         | Qué busca determinar                                                         |
-| ------ | ------------------------- | ---------------------------------------------------------------------------- |
-| BUS-01 | Prioridades del negocio   | Si las iniciativas responden a prioridades reales de la organización         |
-| BUS-02 | Problemas y oportunidades | Si existe una identificación clara de los problemas que se busca resolver    |
-| BUS-03 | Alineación con objetivos  | Si cada iniciativa puede vincularse con objetivos concretos                  |
-| BUS-04 | Valor esperado            | Si puede definirse el beneficio potencial para el negocio                    |
-| BUS-05 | Impacto en procesos       | Si se comprende cómo cambiará el trabajo                                     |
-| BUS-06 | Factibilidad              | Si la organización puede ejecutar la iniciativa con sus capacidades actuales |
-| BUS-07 | Priorización              | Si existen criterios para seleccionar las iniciativas más relevantes         |
-| BUS-08 | Patrocinio y ownership    | Si existe un responsable del resultado de negocio                            |
-| BUS-09 | Escalabilidad             | Si una solución exitosa puede extenderse a otros contextos                   |
-| BUS-10 | Medición de resultados    | Si el impacto puede medirse y utilizarse para orientar decisiones            |
-
-
----
-
-
-# 4. BUS-01 — Prioridades del negocio
-Qué significa
-
-Evalúa si las iniciativas de IA están conectadas con prioridades concretas de la organización.
-
-Estas pueden incluir:
-
-- crecimiento;
-- productividad;
-- eficiencia;
-- calidad;
-- experiencia del cliente;
-- innovación;
-- reducción de costos;
-- reducción de riesgos;
-- cumplimiento;
-- capacidad operativa.
-
-## ¿Por qué importa?
-
-Los recursos disponibles son limitados.
-
-La organización necesita concentrar sus esfuerzos en iniciativas que tengan una relación clara con lo que considera prioritario.
-
-Conexión con el assessment
-
-Una puntuación baja puede indicar que la adopción de IA está ocurriendo principalmente de manera:
-
-- experimental;
-- descentralizada;
-- impulsada por herramientas;
-- reactiva.
-
-Esto puede requerir una intervención estratégica antes de ampliar la capacitación.
-
+| ID       | Criterio                    | Qué busca determinar                                                      |
+| -------- | --------------------------- | ------------------------------------------------------------------------- |
+| STRAT-01 | Prioridades estratégicas    | Si existen prioridades claras que orientan la adopción de IA              |
+| STRAT-02 | Identificación de problemas | Si se identifican problemas u oportunidades concretas                     |
+| STRAT-03 | Casos de uso                | Si existen casos de uso relevantes y suficientemente definidos            |
+| STRAT-04 | Alineación con el trabajo   | Si los casos de uso están relacionados con tareas y workflows reales      |
+| STRAT-05 | Valor esperado              | Si existe claridad sobre el valor que se espera generar                   |
+| STRAT-06 | Priorización                | Si los casos de uso pueden compararse y priorizarse                       |
+| STRAT-07 | Indicadores y resultados    | Si existen criterios para evaluar resultados                              |
+| STRAT-08 | Patrocinio y liderazgo      | Si existe apoyo suficiente para impulsar la adopción                      |
+| STRAT-09 | Escalamiento                | Si existe una perspectiva para ampliar usos que demuestren valor          |
+| STRAT-10 | Sostenibilidad              | Si la adopción puede mantenerse vinculada con las necesidades del negocio |
 
 ---
 
+# 4. STRAT-01 — Prioridades estratégicas
 
-# 5. BUS-02 — Problemas y oportunidades
-## Qué significa
+### Qué significa
 
-Evalúa si la organización puede identificar claramente qué problema quiere resolver o qué oportunidad quiere aprovechar.
+Evalúa si la organización tiene claridad sobre las prioridades que deberían orientar sus esfuerzos de IA.
 
-Un problema bien definido debería permitir responder:
+Estas prioridades pueden estar relacionadas con:
 
-- ¿Qué está ocurriendo?
-- ¿Dónde ocurre?
-- ¿A quién afecta?
-- ¿Qué impacto produce?
-- ¿Por qué es importante resolverlo?
-- ¿Cómo se realiza actualmente?
-- ¿Qué resultado debería mejorar?
-## ¿Por qué importa?
+* crecimiento;
+* eficiencia;
+* calidad;
+* experiencia del cliente;
+* reducción de riesgos;
+* innovación;
+* productividad;
+* capacidad operativa;
+* otros resultados relevantes para la organización.
 
-Una solución de IA puede funcionar técnicamente y, sin embargo, resolver un problema poco relevante.
+### ¿Por qué importa?
 
-Por eso:
+Sin una dirección clara, la adopción puede convertirse en una colección de experimentos aislados.
 
-> **Un buen caso de uso comienza con un problema de negocio bien definido.**
-Conexión con aprendizaje
-
-La identificación de oportunidades puede convertirse en una capacidad que se desarrolle mediante:
-
-- análisis de procesos;
-- workshops;
-- mapeo de tareas;
-- análisis de desperdicios;
-- ejercicios de identificación de oportunidades.
-
-# 6. BUS-03 — Alineación con objetivos
-Qué significa
-
-Evalúa si puede establecerse una relación explícita entre una iniciativa de IA y un objetivo organizacional.
-
-Por ejemplo:
-
-| Objetivo                        | Posible aplicación                                 |
-| ------------------------------- | -------------------------------------------------- |
-| Reducir tiempo de procesamiento | Asistencia o automatización de tareas              |
-| Mejorar calidad                 | Revisión y detección de inconsistencias            |
-| Mejorar experiencia             | Asistencia para atención                           |
-| Aumentar productividad          | Automatización de actividades repetitivas          |
-| Reducir riesgo                  | Identificación y análisis de información relevante |
-
-La relación debe ser demostrable, no simplemente declarada.
-
-## Pregunta clave
-
-> **¿Qué objetivo del negocio cambiaría si esta iniciativa funciona?**
-
+La estrategia proporciona el contexto para decidir **dónde concentrar los esfuerzos**.
 
 ---
 
+# 5. STRAT-02 — Identificación de problemas y oportunidades
 
-# 7. BUS-04 — Valor esperado
-## Concepto clave: Business Value
+### Qué significa
 
-Evalúa si la organización puede definir qué valor espera generar.
+Evalúa si la organización puede identificar problemas, necesidades u oportunidades concretas donde IA podría aportar valor.
 
-El valor puede expresarse mediante:
-
-- tiempo ahorrado;
-- costos reducidos;
-- mayor capacidad;
-- mayor productividad;
-- reducción de errores;
-- mejora de calidad;
-- reducción de riesgos;
-- mejora de experiencia;
-- aumento de ingresos;
-- mejor utilización de recursos.
-
-## ¿Por qué importa?
-
-El número de usuarios o la cantidad de contenido generado no constituye necesariamente valor de negocio.
-
-La organización debe poder pasar de:
-
-> **"Utilizamos IA."**
-
-a:
-
-"La utilización de IA produjo este cambio en este resultado."
-
-
----
-
-
-# 8. BUS-05 — Impacto en procesos
-## Qué significa
-
-Evalúa si se comprende cómo la adopción de IA modificará el trabajo real.
-
-La organización debe analizar:
-
-- qué tareas cambiarán;
-- qué tareas desaparecerán;
-- qué nuevas tareas aparecerán;
-- qué actividades continuarán siendo humanas;
-- dónde habrá revisión;
-- quién será responsable;
-- qué habilidades serán necesarias.
-## ¿Por qué importa?
-
-La implementación de IA no ocurre en el vacío.
-
-Modifica la relación entre:
-
-**Personas + procesos + tecnología + información.**
-
-## Conexión con Skills
-
-Esta dimensión permite identificar nuevas necesidades de capacitación.
-
-Por ejemplo:
-
-> Automatizar una tarea puede reducir una actividad manual, pero aumentar la necesidad de supervisión, evaluación y toma de decisiones.
-
-Por lo tanto, la automatización puede **transformar una competencia**, no simplemente eliminar una tarea.
-
-
----
-
-
-# 9. BUS-06 — Factibilidad
-## Qué significa
-
-Evalúa si la organización tiene condiciones suficientes para ejecutar el caso de uso.
-
-La factibilidad debe analizarse desde diferentes perspectivas:
-
-| Factor     | Pregunta                                  |
-| ---------- | ----------------------------------------- |
-| Datos      | ¿Disponemos de información adecuada?      |
-| Tecnología | ¿Tenemos las herramientas necesarias?     |
-| Skills     | ¿Tenemos las capacidades necesarias?      |
-| Gobernanza | ¿Podemos utilizar IA de manera apropiada? |
-| Procesos   | ¿Podemos integrar la solución al trabajo? |
-| Recursos   | ¿Tenemos tiempo y presupuesto?            |
-| Liderazgo  | ¿Existe apoyo suficiente?                 |
-
-## Conexión con el framework
-
-Este criterio es especialmente importante porque conecta la dimensión de negocio con las demás dimensiones del assessment.
-
-Una iniciativa puede tener:
-
-**alto valor + baja factibilidad**
-
-o
-
-**valor moderado + alta factibilidad.**
-
-Ambas situaciones requieren decisiones diferentes.
-
-
----
-
-
-# 10. BUS-07 — Priorización
-## Qué significa
-
-Evalúa si la organización dispone de criterios consistentes para decidir qué iniciativas deben avanzar.
-
-Una matriz puede considerar:
-
-Conexión con el framework
-
-Este criterio es especialmente importante porque conecta la dimensión de negocio con las demás dimensiones del assessment.
-
-Una iniciativa puede tener:
-
-**alto valor + baja factibilidad**
-
-o
-
-**valor moderado + alta factibilidad.**
-
-Ambas situaciones requieren decisiones diferentes.
-
-
----
-
-
-# 10. BUS-07 — Priorización
-## Qué significa
-
-Evalúa si la organización dispone de criterios consistentes para decidir qué iniciativas deben avanzar.
-
-Una matriz puede considerar:
-
-| Criterio      | Pregunta                                           |
-| ------------- | -------------------------------------------------- |
-| Valor         | ¿Cuánto puede aportar?                             |
-| Urgencia      | ¿Qué tan necesario es actuar ahora?                |
-| Factibilidad  | ¿Puede ejecutarse con las capacidades disponibles? |
-| Riesgo        | ¿Qué consecuencias tendría un error?               |
-| Esfuerzo      | ¿Qué recursos requiere?                            |
-| Tiempo        | ¿Cuándo podrían observarse resultados?             |
-| Escalabilidad | ¿Puede reutilizarse o ampliarse?                   |
-| Alineación    | ¿Qué tan directamente responde a una prioridad?    |
-
-El objetivo no es producir una puntuación perfecta.
-
-El objetivo es disponer de una **base consistente para tomar decisiones.**
-
-
----
-
-
-# 11. BUS-08 — Patrocinio y ownership
-Concepto clave: Business Ownership
-
-Evalúa si existe una persona o función responsable del resultado de negocio de la iniciativa.
-
-Es importante distinguir entre:
-
-- responsable técnico;
-- responsable del proyecto;
-- usuario;
-- propietario del proceso;
-- responsable del resultado de negocio.
-## ¿Por qué importa?
-
-Una iniciativa puede ser técnicamente exitosa y no producir el cambio esperado porque nadie es responsable de integrar la solución en el proceso.
-
-La pregunta clave es:
-
-> **¿Quién es responsable de que el problema de negocio realmente mejore?**
-
----
-
-
-# 12. BUS-09 — Escalabilidad
-## Qué significa
-
-Evalúa si una solución que demuestra valor puede ampliarse.
-
-La escalabilidad puede implicar:
-
-- más usuarios;
-- más procesos;
-- más áreas;
-- más datos;
-- más casos de uso;
-- integración con otros sistemas.
-
-## ¿Por qué importa?
-
-Un piloto puede funcionar porque cuenta con:
-
-- un equipo pequeño;
-- soporte especializado;
-- procesos manuales;
-- datos preparados especialmente;
-- atención individual.
-
-Estas condiciones pueden desaparecer al escalar.
-
-Por eso, el assessment debe distinguir entre:
-
-> "Puede funcionar en un piloto."
-
-y
-
-> "Puede funcionar de manera sostenible a escala."
-
-
----
-
-
-# 13. BUS-10 — Medición de resultados
-## Concepto clave: Outcome Measurement
-
-Evalúa si la organización puede determinar si una iniciativa produjo el resultado esperado.
-
-La medición debe comenzar con una línea base cuando sea posible.
+La identificación debe comenzar con el trabajo y no con la herramienta.
 
 ```text
-Situación actual
-      ↓
-Línea base
-      ↓
-Intervención
-      ↓
-Uso de IA
-      ↓
-Cambio observado
-      ↓
-Resultado
-      ↓
-Impacto
+Problema
+    ↓
+Tarea
+    ↓
+Proceso
+    ↓
+Oportunidad
+    ↓
+Posible uso de IA
 ```
 
-## Ejemplo
+### ¿Por qué importa?
 
-Si el objetivo es reducir el tiempo de procesamiento:
+Una herramienta puede tener muchas capacidades.
 
-No basta con medir:
-
-> "Número de empleados que utilizan IA."
-
-Es necesario observar:
-
-> **Tiempo promedio antes → tiempo promedio después**
-
-y, cuando corresponda, verificar que la calidad no haya disminuido.
+Eso no significa que todas sean relevantes para la organización.
 
 ---
 
+# 6. STRAT-03 — Casos de uso
 
-# 14. Actividad, output, outcome e impacto
+### Qué significa
 
-Para el diseño del assessment y del plan de aprendizaje es importante distinguir estos conceptos.
+Evalúa si existen casos de uso suficientemente definidos para analizar su viabilidad y potencial.
 
-| Nivel     | Pregunta                        | Ejemplo                             |
-| --------- | ------------------------------- | ----------------------------------- |
-| Actividad | ¿Qué hicimos?                   | Capacitamos a 100 personas          |
-| Adopción  | ¿Quién utiliza la solución?     | 70 personas utilizan la herramienta |
-| Output    | ¿Qué produjo la solución?       | Se generaron 500 documentos         |
-| Outcome   | ¿Qué cambió?                    | Se redujo el tiempo de preparación  |
-| Impacto   | ¿Qué efecto tuvo en el negocio? | Aumentó la capacidad operativa      |
+Un caso de uso debería permitir describir, como mínimo:
 
-Esta distinción evita confundir actividad de capacitación con resultado empresarial.
+* quién lo utilizaría;
+* qué tarea o problema aborda;
+* qué herramienta o capacidad de IA podría intervenir;
+* qué resultado se espera;
+* qué condiciones deben cumplirse.
 
+### Principio
 
----
-
-
-# 15. Cómo interpretar el score de alineación con el negocio
-
-La aplicación utiliza una escala de 1 a 5.
-
-| Score | Nivel         | Interpretación                                                                            |
-| ----: | ------------- | ----------------------------------------------------------------------------------------- |
-|     1 | Inicial       | El uso de IA ocurre sin una conexión clara con prioridades de negocio                     |
-|     2 | En desarrollo | Existen iniciativas relevantes, pero la alineación es parcial                             |
-|     3 | Alineado      | Las principales iniciativas tienen objetivos y resultados definidos                       |
-|     4 | Gestionado    | Las iniciativas se priorizan, gestionan y miden sistemáticamente                          |
-|     5 | Integrado     | IA está incorporada a la gestión estratégica y la toma de decisiones basada en resultados |
-
-El score debe interpretarse junto con las demás dimensiones.
-
-Un score alto de negocio no compensa automáticamente una baja preparación en:
-
-- datos;
-- Skills;
-- gobernanza;
-- tecnología;
-- procesos.
-  
+> **Un caso de uso es más útil cuando puede relacionarse con una actividad real y un resultado observable.**
 
 ---
 
+# 7. STRAT-04 — Alineación con el trabajo
 
-# 16. Del assessment al Training Needs Analysis
+### Qué significa
 
-Una de las funciones principales de esta dimensión es ayudar a determinar **qué capacidades necesita la organización para ejecutar su estrategia de IA**.
+Evalúa si los casos de uso de IA están relacionados con tareas, procesos y workflows reales.
 
-Una puntuación baja no significa automáticamente:
+La relación puede representarse como:
 
-"Necesitamos capacitación."
+```text
+Trabajo
+   ↓
+Tarea
+   ↓
+Problema / oportunidad
+   ↓
+IA
+   ↓
+Cambio en el workflow
+   ↓
+Resultado
+```
 
-Primero debe determinarse la causa.
+### ¿Por qué importa?
 
-| Situación                                | Posible causa           | Respuesta                |
-| ---------------------------------------- | ----------------------- | ------------------------ |
-| Los equipos no identifican oportunidades | Brecha de capacidad     | Formación + práctica     |
-| Los casos de uso están mal definidos     | Brecha metodológica     | Workshop                 |
-| No existen prioridades                   | Brecha estratégica      | Alineación directiva     |
-| No hay responsable del resultado         | Brecha organizacional   | Definición de ownership  |
-| No se puede demostrar valor              | Brecha de medición      | Diseño de indicadores    |
-| Los casos no pueden ejecutarse           | Restricción tecnológica | Intervención tecnológica |
-| No existen datos adecuados               | Restricción de datos    | Intervención de datos    |
+La adopción ocurre dentro del trabajo.
 
-Esta distinción es fundamental para evitar diseñar capacitación como respuesta automática a cualquier problema.
-
-
----
-
-
-# 17. Capacidades de negocio que pueden desarrollarse
-
-El assessment puede identificar necesidades relacionadas con:
-
-- identificar problemas susceptibles de mejora;
-- analizar procesos;
-- identificar oportunidades de IA;
-- formular casos de uso;
-- evaluar valor;
-- analizar factibilidad;
-- priorizar iniciativas;
-- construir un business case;
-- definir indicadores;
-- evaluar resultados;
-- gestionar cambios en procesos;
-- escalar soluciones.
-
-Estas capacidades pueden convertirse posteriormente en objetivos de aprendizaje.
-
+Una solución que no encaja en el workflow puede tener poco impacto aunque sea técnicamente buena.
 
 ---
 
+# 8. STRAT-05 — Valor esperado
 
-# 18. Del diagnóstico al diseño de actividades
+### Qué significa
 
-Una brecha debe transformarse en una capacidad observable.
+Evalúa si existe claridad sobre qué valor debería generar el uso de IA.
 
-En lugar de:
+El valor puede expresarse en términos como:
 
-> "El equipo necesita capacitación en casos de uso de IA."
+* tiempo;
+* calidad;
+* productividad;
+* capacidad;
+* experiencia;
+* costo;
+* reducción de errores;
+* reducción de riesgos;
+* velocidad;
+* acceso a conocimiento.
 
-Es preferible:
+### Importante
 
-> **"El equipo puede identificar, formular y justificar casos de uso de IA vinculados con problemas concretos del proceso y criterios de valor."**
+El valor esperado debe poder relacionarse con el problema que originó el caso de uso.
 
-Esto permite diseñar una actividad y una evidencia.
-
-| Capacidad                 | Actividad         | Evidencia              |
-| ------------------------- | ----------------- | ---------------------- |
-| Analizar procesos         | Mapeo de procesos | Proceso documentado    |
-| Identificar oportunidades | Workshop          | Lista priorizada       |
-| Formular casos de uso     | Laboratorio       | Caso de uso            |
-| Evaluar valor             | Business case     | Estimación de impacto  |
-| Priorizar                 | Simulación        | Portafolio priorizado  |
-| Definir indicadores       | Taller            | KPI definido           |
-| Evaluar resultados        | Caso práctico     | Análisis de resultados |
-
-
----
-
-
-# 19. Mapa de alineación
-
-Una herramienta útil para el workshop es construir un mapa como el siguiente:
-
-| Prioridad de negocio | Problema                     | Caso de uso           | Resultado esperado        | KPI                    | Capacidades requeridas  |
-| -------------------- | ---------------------------- | --------------------- | ------------------------- | ---------------------- | ----------------------- |
-| Eficiencia           | Alto tiempo de procesamiento | Asistencia IA         | Menor tiempo              | Tiempo por proceso     | Evaluación + uso de IA  |
-| Calidad              | Alto nivel de errores        | Revisión asistida     | Menos errores             | Tasa de error          | Evaluación crítica      |
-| Servicio             | Respuesta lenta              | Asistencia al usuario | Menor tiempo de respuesta | Tiempo de respuesta    | Uso + supervisión       |
-| Riesgo               | Identificación manual        | Análisis asistido     | Mayor detección           | Incidentes / hallazgos | Evaluación + gobernanza |
-
-Esta matriz conecta directamente:
-
-**negocio → caso de uso → capacidades → aprendizaje → medición.**
-
+```text
+Problema
+    ↓
+Intervención con IA
+    ↓
+Cambio esperado
+    ↓
+Resultado
+```
 
 ---
 
+# 9. STRAT-06 — Priorización
 
-# 20. Del caso de uso al plan de acción
+### Qué significa
 
-Una vez identificado un caso de uso prioritario, el assessment puede alimentar un plan de acción.
+Evalúa si la organización tiene criterios para decidir qué casos de uso deben abordarse primero.
 
-| Elemento    | Pregunta                                |
-| ----------- | --------------------------------------- |
-| Problema    | ¿Qué necesitamos resolver?              |
-| Objetivo    | ¿Qué queremos mejorar?                  |
-| Caso de uso | ¿Cómo podría utilizarse IA?             |
-| Valor       | ¿Qué beneficio esperamos?               |
-| Riesgo      | ¿Qué podría salir mal?                  |
-| Datos       | ¿Tenemos información suficiente?        |
-| Skills      | ¿Tenemos las capacidades necesarias?    |
-| Tecnología  | ¿Tenemos las herramientas necesarias?   |
-| Gobernanza  | ¿Podemos hacerlo de manera responsable? |
-| Responsable | ¿Quién es dueño del resultado?          |
-| KPI         | ¿Cómo mediremos el éxito?               |
-| Acción      | ¿Cuál es el siguiente paso?             |
+La priorización puede considerar:
 
-Este modelo convierte el assessment en un instrumento de planificación, no solamente de diagnóstico.
+* valor potencial;
+* factibilidad;
+* esfuerzo;
+* riesgo;
+* disponibilidad de datos;
+* preparación tecnológica;
+* capacidad humana;
+* alineación estratégica.
 
+### ¿Por qué importa?
 
----
+No todos los casos de uso deben implementarse simultáneamente.
 
-
-# 21. Preguntas de profundización para el workshop
-## Sobre el negocio
-- ¿Cuáles son las prioridades más importantes?
-- ¿Qué resultados necesitan mejorar?
-- ¿Qué procesos tienen mayor impacto?
-## Sobre problemas
-- ¿Dónde existen cuellos de botella?
-- ¿Qué tareas consumen más tiempo?
-- ¿Dónde ocurren errores?
-- ¿Qué actividades dependen excesivamente de trabajo manual?
-## Sobre oportunidades
-- ¿Qué podría mejorar mediante IA?
-- ¿Qué debería automatizarse?
-- ¿Qué debería permanecer bajo supervisión humana?
-- ¿Qué nuevas capacidades podrían habilitarse?
-## Sobre valor
-- ¿Qué resultado cambiaría?
-- ¿Cómo medimos actualmente ese resultado?
-- ¿Cuál es la línea base?
-- ¿Qué mejora justificaría la inversión?
-## Sobre ejecución
-- ¿Tenemos los datos?
-- ¿Tenemos las herramientas?
-- ¿Tenemos las capacidades?
-- ¿Tenemos responsables?
-- ¿Tenemos controles?
+La priorización permite concentrar recursos donde exista una combinación favorable entre **valor y viabilidad**.
 
 ---
 
+# 10. STRAT-07 — Indicadores y resultados
 
-# 22. Indicadores complementarios
+### Qué significa
 
-Los resultados del assessment pueden complementarse con indicadores como:
+Evalúa si existen criterios para determinar si un caso de uso está produciendo el resultado esperado.
 
-- porcentaje de iniciativas vinculadas con prioridades estratégicas;
-- número de casos de uso identificados;
-- porcentaje de casos de uso con business case;
-- porcentaje de iniciativas con responsable asignado;
-- porcentaje de iniciativas con KPI definido;
-- porcentaje de pilotos que pasan a producción;
-- porcentaje de iniciativas que alcanzan los resultados esperados;
-- tiempo desde identificación hasta implementación;
-- valor generado por iniciativa;
-- porcentaje de iniciativas escaladas.
+Los indicadores deben relacionarse con el objetivo del caso de uso.
 
-Estos indicadores permiten observar la evolución desde la experimentación hacia la generación de valor.
+Por ejemplo:
 
+```text
+Objetivo
+   ↓
+Resultado esperado
+   ↓
+Indicador
+   ↓
+Evidencia
+```
 
----
+### ¿Por qué importa?
 
+La utilización de una herramienta no constituye por sí misma evidencia de valor.
 
-# 23. Conexión con las demás dimensiones
+El assessment debe ayudar a distinguir:
 
-La alineación con el negocio funciona como una dimensión integradora.
+> **adopción de tecnología**
 
-| Dimensión      | Pregunta relacionada con el negocio                            |
-| -------------- | -------------------------------------------------------------- |
-| **Datos**      | ¿Tenemos la información necesaria para resolver el problema?   |
-| **Skills**     | ¿Tenemos las capacidades necesarias para ejecutar la solución? |
-| **Gobernanza** | ¿Podemos utilizar IA de manera apropiada y controlada?         |
-| **Tecnología** | ¿Tenemos las herramientas e infraestructura necesarias?        |
-| **Procesos**   | ¿Podemos incorporar la solución al trabajo real?               |
-| **Cultura**    | ¿Las personas están preparadas para adoptar el cambio?         |
-| **Medición**   | ¿Podemos demostrar que se generó valor?                        |
+de
 
-
-Por eso, un caso de uso no debería considerarse listo para implementación únicamente porque existe una oportunidad atractiva.
-
-Debe existir suficiente alineación entre estas condiciones.
-
+> **impacto en el trabajo y el negocio.**
 
 ---
 
+# 11. STRAT-08 — Patrocinio y liderazgo
 
-# 24. Idea clave para el workshop
+### Qué significa
 
-💡 AI Enablement debe estar orientado al valor del negocio, no al uso de tecnología por sí mismo.
+Evalúa si existe suficiente apoyo de liderazgo para facilitar la adopción de IA.
 
-El objetivo no es maximizar:
+El patrocinio puede contribuir a:
 
-> herramientas + usuarios + prompts + pilotos.
+* establecer prioridades;
+* asignar recursos;
+* eliminar obstáculos;
+* coordinar áreas;
+* respaldar cambios;
+* mantener continuidad.
 
-El objetivo es maximizar la capacidad de la organización para:
+### ¿Por qué importa?
 
-> **identificar problemas → seleccionar oportunidades → aplicar IA → transformar el trabajo → medir resultados → escalar lo que funciona.**
+Los cambios relacionados con IA pueden afectar tareas, procesos, roles y responsabilidades.
 
-Por eso, esta dimensión del assessment debe servir como puente entre:
+El liderazgo ayuda a proporcionar dirección y condiciones para gestionar esos cambios.
 
-> **Estrategia de negocio → Casos de uso → Capacidades → Aprendizaje → Implementación → Resultados**
+---
 
-La pregunta final no es:
+# 12. STRAT-09 — Escalamiento
 
-> **"¿Cuánto estamos utilizando IA?"**
+### Qué significa
 
-Sino:
+Evalúa si la organización tiene una perspectiva para ampliar los casos de uso que demuestren valor.
 
-> **"¿En qué medida nuestra capacidad para utilizar IA está contribuyendo a resolver problemas relevantes y producir resultados de negocio medibles?"**
+La transición puede ser:
 
-Navegación
+```text
+Exploración
+    ↓
+Piloto
+    ↓
+Validación
+    ↓
+Implementación
+    ↓
+Escalamiento
+```
 
-⬅️ 04 — Estrategia y alineación
+### Importante
 
-➡️ 06 — Tecnología e infraestructura
+Un piloto exitoso no garantiza automáticamente que una solución esté preparada para escalar.
+
+Deben considerarse también:
+
+* tecnología;
+* datos;
+* gobernanza;
+* capacidades;
+* procesos;
+* recursos.
+
+---
+
+# 13. STRAT-10 — Sostenibilidad
+
+### Qué significa
+
+Evalúa si el uso de IA puede mantenerse vinculado con las necesidades del negocio a lo largo del tiempo.
+
+La sostenibilidad puede depender de:
+
+* recursos;
+* liderazgo;
+* capacidades;
+* tecnología;
+* gobernanza;
+* procesos;
+* medición de resultados;
+* evolución de las necesidades.
+
+### Principio
+
+> **AI Enablement debe convertirse en una capacidad organizacional, no depender únicamente de iniciativas aisladas.**
+
+---
+
+# 14. Interpretación de los resultados
+
+Una puntuación baja en Estrategia y alineación con el negocio identifica una posible condición que requiere investigación.
+
+No debe interpretarse automáticamente como:
+
+> "Necesitamos capacitación."
+
+La lógica correcta es:
+
+```text
+Score bajo
+    ↓
+Identificar área afectada
+    ↓
+Investigar causa
+    ↓
+Determinar impacto
+    ↓
+Definir intervención
+```
+
+La causa puede estar relacionada con:
+
+* falta de claridad estratégica;
+* ausencia de casos de uso;
+* falta de priorización;
+* falta de indicadores;
+* falta de patrocinio;
+* capacidades;
+* procesos;
+* tecnología;
+* gobernanza.
+
+Por lo tanto:
+
+> **STRATEGY score bajo ≠ automáticamente capacitación.**
+
+---
+
+# 15. Conexión con el assessment app
+
+La aplicación utiliza preguntas estructuradas para obtener una primera lectura sobre la alineación estratégica.
+
+Los resultados pueden ayudar a identificar:
+
+* fortalezas;
+* posibles brechas;
+* áreas prioritarias;
+* diferencias entre grupos;
+* casos de uso que requieren mayor investigación.
+
+Los resultados deben interpretarse junto con las otras cuatro dimensiones de preparación.
+
+La estrategia no debe evaluarse de forma aislada.
+
+---
+
+# 16. Relación con las cuatro dimensiones anteriores
+
+La alineación estratégica proporciona dirección para las demás condiciones.
+
+| Dimensión                             | Pregunta relacionada                                                                            |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **01 — Datos**                        | ¿Tenemos la información necesaria?                                                              |
+| **02 — Skills y talento**             | ¿Tenemos las capacidades necesarias?                                                            |
+| **03 — Gobernanza**                   | ¿Podemos utilizar IA de manera responsable y controlada?                                        |
+| **04 — Tecnología e infraestructura** | ¿Tenemos las condiciones técnicas necesarias?                                                   |
+| **05 — Estrategia y alineación**      | ¿Estamos utilizando estas capacidades para resolver problemas y producir resultados relevantes? |
+
+Esto completa las **cinco dimensiones de preparación** del framework.
+
+---
+
+# 17. La lógica integral del readiness assessment
+
+Las cinco dimensiones pueden visualizarse como un sistema:
+
+```text
+              ESTRATEGIA
+                  ↓
+       ┌──────────┴──────────┐
+       ↓                     ↓
+     DATOS                SKILLS
+       ↓                     ↓
+       └──────────┬──────────┘
+                  ↓
+             TECNOLOGÍA
+                  +
+             GOBERNANZA
+                  ↓
+          AI ENABLEMENT
+                  ↓
+          RESULTADOS
+```
+
+La representación no implica que exista una secuencia rígida de implementación.
+
+Las dimensiones son **interdependientes**.
+
+---
+
+# 18. De las cinco dimensiones al diagnóstico
+
+Con esta dimensión se completa la primera parte del framework.
+
+Las cinco dimensiones permiten obtener una primera lectura de:
+
+* dónde existe preparación;
+* dónde existen posibles brechas;
+* qué condiciones pueden limitar la adopción;
+* dónde se requiere investigación adicional.
+
+El siguiente paso no es simplemente producir más contenido formativo.
+
+Es interpretar los resultados de manera sistemática.
+
+```text
+05 dimensiones
+       ↓
+Resultados del assessment
+       ↓
+Patrones y posibles brechas
+       ↓
+Investigación
+       ↓
+Diagnóstico
+```
+
+Esto conduce a:
+
+**06 — Metodología del assessment.**
+
+---
+
+# 19. Conexión con Training Needs Analysis
+
+La estrategia también proporciona contexto para determinar qué capacidades son relevantes.
+
+Una necesidad de aprendizaje debe estar relacionada con una necesidad de desempeño.
+
+```text
+Prioridad del negocio
+        ↓
+Resultado esperado
+        ↓
+Desempeño requerido
+        ↓
+Capacidad necesaria
+        ↓
+Brecha
+        ↓
+TNA
+```
+
+Por ello, el TNA no debe comenzar con una lista genérica de cursos de IA.
+
+Debe comenzar con una comprensión del trabajo y de los resultados que la organización necesita alcanzar.
+
+→ [07 — Training Needs Analysis](07-training-needs-analysis.md)
+
+---
+
+# 20. Implicaciones para la estrategia de aprendizaje
+
+Los resultados estratégicos ayudan a determinar **qué debe priorizarse** en una estrategia de aprendizaje.
+
+Por ejemplo, pueden ayudar a responder:
+
+* ¿Qué grupos necesitan desarrollar capacidades primero?
+* ¿Qué capacidades están relacionadas con las prioridades estratégicas?
+* ¿Qué casos de uso pueden utilizarse como contexto de aprendizaje?
+* ¿Qué comportamientos deberían cambiar?
+* ¿Qué evidencia demostraría aplicación?
+* ¿Qué resultados deberían observarse después de la intervención?
+
+Esto conecta el assessment con:
+
+**08 — Estrategia de aprendizaje.**
+
+---
+
+# 21. Preguntas para profundizar durante el workshop
+
+Los resultados pueden utilizarse como punto de partida para preguntas como:
+
+1. ¿Cuáles son las prioridades estratégicas actuales?
+2. ¿Qué problemas tienen mayor impacto sobre esas prioridades?
+3. ¿Qué tareas o procesos están relacionados con esos problemas?
+4. ¿Dónde podría IA aportar valor?
+5. ¿Qué casos de uso deberían priorizarse?
+6. ¿Qué resultado esperamos obtener?
+7. ¿Cómo sabremos si se produjo ese resultado?
+8. ¿Qué capacidades necesitan las personas para lograrlo?
+9. ¿Qué condiciones tecnológicas y de gobernanza son necesarias?
+10. ¿Qué debería ocurrir después de un piloto exitoso?
+
+Estas preguntas ayudan a conectar la conversación estratégica con el trabajo concreto.
+
+---
+
+# 22. Principio clave
+
+La pregunta no debe ser:
+
+> **"¿Cómo podemos implementar IA?"**
+
+Debe ser:
+
+> **"¿Dónde puede IA ayudar a la organización a producir un resultado relevante y qué condiciones necesitamos para hacerlo de manera efectiva y responsable?"**
+
+Esta perspectiva mantiene el framework orientado a resultados y evita convertir el AI Enablement en una iniciativa exclusivamente tecnológica o formativa.
+
+---
+
+# 23. Cierre de la fase de preparación
+
+Con las cinco dimensiones completadas, el framework pasa de evaluar condiciones aisladas a construir una visión integral de preparación.
+
+```text
+01 Datos
+02 Skills y talento
+03 Gobernanza
+04 Tecnología e infraestructura
+05 Estrategia y alineación
+             ↓
+     Readiness Assessment
+             ↓
+   Metodología de diagnóstico
+             ↓
+          TNA
+             ↓
+  Estrategia de aprendizaje
+             ↓
+       Plan de acción
+```
+
+Las siguientes páginas explican cómo convertir los resultados del assessment en decisiones de diagnóstico, aprendizaje y acción.
+
+---
+
+## Navegación
+
+⬅️ [04 — Tecnología e infraestructura](04-technology-and-infrastructure.md)
+
+➡️ [06 — Metodología del assessment](06-assessment-methodology.md)
+
+🏠 [Volver al README](README.md)
