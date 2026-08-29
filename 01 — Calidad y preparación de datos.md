@@ -3,6 +3,8 @@
 > **Dimensión 01 del AI Enablement Readiness Framework**
 > **Pregunta central:** ¿La organización dispone de datos suficientemente disponibles, confiables, pertinentes y utilizables para el caso de uso de IA?
 
+![AI Enablement Readiness Framework](assets/ai-enablement-readiness-framework-2.png)
+
 ---
 
 ## 1. Propósito de esta dimensión
