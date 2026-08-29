@@ -1,896 +1,558 @@
+Yes. With **01–09 and the Glosario now overwritten**, the architecture is internally aligned:
+
+**01–05 = readiness dimensions** → **06 = assessment methodology** → **07 = TNA** → **08 = learning strategy** → **09 = action plan** → **Glosario = common terminology**.
+
+The following is the **extended README description**, written to explain the framework as a strategic starting point for an AI Enablement workshop—not as a finished client methodology.
+
+Ready to paste into `README.md`:
+
 # AI Enablement Readiness Framework
 
-> **Marco de diagnóstico y planificación para evaluar la preparación organizacional para AI Enablement y convertir los resultados en una estrategia de capacidades, aprendizaje y acción.**
+## Descripción extendida
+
+El **AI Enablement Readiness Framework** es un marco de referencia diseñado como punto de partida para evaluar las condiciones que pueden facilitar o limitar la adopción efectiva de inteligencia artificial en una organización.
+
+Su propósito es proporcionar una estructura inicial para una conversación estratégica entre equipos de **AI Enablement, desarrollo, aprendizaje, negocio y liderazgo**, que posteriormente pueda adaptarse al contexto, necesidades y casos de uso específicos de cada cliente.
+
+El framework no pretende establecer una única receta para implementar IA.
+
+Su función es ayudar a responder, de manera estructurada:
+
+> **¿Dónde estamos, qué necesitamos desarrollar y qué acciones deberían priorizarse para avanzar?**
 
 ---
 
-## 1. Propósito del framework
+## Propósito
 
-El **AI Enablement Readiness Framework** proporciona una estructura inicial para evaluar qué tan preparada está una organización para utilizar inteligencia artificial de manera efectiva, responsable y sostenible.
+La incorporación de IA en una organización no depende exclusivamente de disponer de una herramienta.
 
-El framework está diseñado como punto de partida para un proceso de:
-
-* diagnóstico;
-* identificación de brechas;
-* análisis de necesidades;
-* desarrollo de capacidades;
-* diseño de aprendizaje;
-* planificación de acciones;
-* medición y mejora continua.
-
-No busca producir únicamente una puntuación de madurez.
-
-Su propósito es ayudar a responder una pregunta más importante:
-
-> **¿Qué condiciones, capacidades y acciones necesita esta organización para convertir oportunidades de IA en resultados reales y sostenibles?**
-
----
-
-# 2. AI Enablement no es solamente capacitación
-
-Una organización puede tener acceso a herramientas de IA y, sin embargo, no estar preparada para utilizarlas eficazmente.
-
-AI Enablement puede requerir intervenciones relacionadas con:
+Una implementación sostenible requiere considerar simultáneamente diferentes condiciones relacionadas con:
 
 * datos;
-* skills y talento;
+* personas y capacidades;
 * gobernanza;
 * tecnología e infraestructura;
-* procesos;
-* estrategia;
+* estrategia y alineación con el negocio.
+
+Por esta razón, el framework adopta una perspectiva **integral**, evitando analizar la preparación para IA exclusivamente desde la tecnología o desde la capacitación.
+
+El objetivo es generar una visión suficientemente amplia para identificar:
+
+* fortalezas existentes;
+* posibles brechas;
+* condiciones habilitadoras;
+* restricciones;
+* necesidades de capacidades;
+* oportunidades de aprendizaje;
+* posibles intervenciones;
+* prioridades de acción.
+
+---
+
+# Arquitectura del framework
+
+El framework está organizado en **nueve fases**, precedidas por cinco dimensiones de readiness.
+
+## Dimensiones de preparación
+
+### 01 — Calidad y preparación de datos
+
+Analiza las condiciones relacionadas con la disponibilidad, calidad, relevancia, actualidad, accesibilidad, integración, documentación, trazabilidad, propiedad y permisos de los datos necesarios para los casos de uso considerados.
+
+**Pregunta central:**
+
+> ¿La organización dispone de datos suficientemente disponibles, confiables, pertinentes y utilizables para el caso de uso de IA?
+
+→ [01 — Calidad y preparación de datos](01-data-quality-and-readiness.md)
+
+---
+
+### 02 — Skills y talento
+
+Analiza las capacidades humanas necesarias para utilizar, evaluar, integrar y gestionar IA en el contexto de trabajo.
+
+Considera que diferentes ocupaciones y niveles de responsabilidad pueden requerir diferentes capacidades.
+
+**Pregunta central:**
+
+> ¿Las personas cuentan con las capacidades necesarias para utilizar IA de manera efectiva y apropiada en su trabajo?
+
+→ [02 — Skills y talento](02-skills-and-talent.md)
+
+---
+
+### 03 — Gobernanza
+
+Analiza las estructuras, reglas, responsabilidades y controles relacionados con el uso de IA.
+
+Considera aspectos como:
+
 * responsabilidades;
-* supervisión;
-* aprendizaje;
-* adopción;
-* medición.
-
-Por esta razón:
-
-> **Un resultado bajo en el assessment no significa automáticamente que la solución sea capacitación.**
-
-El assessment identifica **dónde investigar**.
-
-El análisis posterior determina **por qué existe la brecha** y **qué tipo de intervención corresponde**.
-
----
-
-# 3. Arquitectura del framework
-
-El framework se organiza en dos grandes partes.
-
-## Parte I — Preparación organizacional
-
-Las primeras cinco dimensiones permiten evaluar las condiciones necesarias para AI Enablement:
-
-1. [01 — Calidad y preparación de datos](01-data-quality.md)
-2. [02 — Skills y talento](02-skills-and-talent.md)
-3. [03 — Gobernanza](03-governance.md)
-4. [04 — Tecnología e infraestructura](04-technology-and-infrastructure.md)
-5. [05 — Estrategia y alineación con el negocio](05-strategy-and-business-alignment.md)
-
-## Parte II — Del diagnóstico a la acción
-
-Las siguientes cuatro etapas convierten los resultados del diagnóstico en decisiones y acciones:
-
-6. [06 — Metodología del assessment](06-assessment-methodology.md)
-7. [07 — Training Needs Analysis](07-training-needs-analysis.md)
-8. [08 — Estrategia de aprendizaje](08-learning-strategy.md)
-9. [09 — Plan de acción](09-action-plan.md)
-
-Finalmente:
-
-* [Glosario](glossary.md)
-
----
-
-# 4. Las cinco dimensiones de preparación
-
-Las cinco dimensiones deben analizarse como un **sistema interdependiente**, no como cinco elementos aislados.
-
-| Dimensión                                  | Pregunta central                                                                                       |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| **Datos**                                  | ¿Tenemos datos suficientemente disponibles, confiables, pertinentes y utilizables para el caso de uso? |
-| **Skills y talento**                       | ¿Las personas tienen las capacidades necesarias para utilizar, supervisar, integrar y gestionar IA?    |
-| **Gobernanza**                             | ¿Existen controles, responsabilidades y criterios para utilizar IA de manera responsable?              |
-| **Tecnología e infraestructura**           | ¿La tecnología puede soportar el caso de uso de manera segura, integrada y sostenible?                 |
-| **Estrategia y alineación con el negocio** | ¿El uso de IA está conectado con prioridades, resultados y valor para el negocio?                      |
-
-Una organización puede presentar fortalezas en una dimensión y limitaciones importantes en otra.
-
-Por ejemplo:
-
-* puede tener buenas herramientas pero pocas capacidades;
-* puede tener personas capacitadas pero datos insuficientes;
-* puede disponer de datos adecuados pero carecer de gobernanza;
-* puede tener gobernanza pero no contar con una estrategia clara;
-* puede identificar oportunidades pero no disponer de infraestructura para implementarlas.
-
-Por eso, la preparación debe interpretarse de manera integral.
-
----
-
-# 5. Modelo conceptual
-
-La preparación para AI Enablement puede representarse como:
-
-```text
-ESTRATEGIA
-    ↓
-Caso de uso / Valor
-    ↓
-DATOS + PERSONAS + TECNOLOGÍA
-    ↓
-GOBERNANZA
-    ↓
-Uso responsable de IA
-    ↓
-Resultados
-```
-
-La lógica fundamental es que ninguna dimensión debe evaluarse completamente aislada del propósito para el cual se quiere utilizar IA.
-
----
-
-# 6. Dimensión 01 — Calidad y preparación de datos
-
-La primera dimensión analiza si la organización dispone de datos adecuados para el caso de uso.
-
-Incluye aspectos como:
-
-* disponibilidad;
-* calidad;
-* relevancia;
-* actualidad;
-* accesibilidad;
-* integración;
-* documentación;
-* trazabilidad;
-* propiedad;
-* permisos y uso.
-
-### Pregunta central
-
-> **¿La organización dispone de datos suficientemente disponibles, confiables, pertinentes y utilizables para el caso de uso de IA?**
-
-La existencia de grandes cantidades de datos no garantiza preparación.
-
-El análisis debe determinar si los datos son adecuados **para el propósito específico**.
-
-→ [Ver 01 — Calidad y preparación de datos](01-data-quality.md)
-
----
-
-# 7. Dimensión 02 — Skills y talento
-
-Esta dimensión analiza las capacidades necesarias para que las personas puedan trabajar eficazmente con IA.
-
-No se limita al conocimiento de herramientas.
-
-Puede incluir capacidades relacionadas con:
-
-* comprensión de IA;
-* identificación de oportunidades;
-* prompting;
-* evaluación de outputs;
-* pensamiento crítico;
-* aplicación al trabajo;
-* supervisión;
-* toma de decisiones;
-* gestión del cambio;
-* uso responsable.
-
-### Pregunta central
-
-> **¿Las personas tienen las capacidades necesarias para utilizar, supervisar, integrar y gestionar IA en función de sus responsabilidades?**
-
-Las necesidades pueden variar significativamente según:
-
-* ocupación;
-* función;
-* nivel;
-* responsabilidades;
-* tareas;
-* exposición a IA.
-
-→ [Ver 02 — Skills y talento](02-skills-and-talent.md)
-
----
-
-# 8. Dimensión 03 — Gobernanza
-
-La gobernanza establece las condiciones bajo las cuales la IA puede utilizarse de manera responsable.
-
-Puede incluir:
-
 * políticas;
-* responsabilidades;
-* supervisión;
 * controles;
 * gestión de riesgos;
-* privacidad;
-* seguridad;
-* cumplimiento;
-* criterios de aprobación;
-* monitoreo.
+* supervisión;
+* criterios de uso.
 
-### Pregunta central
+**Pregunta central:**
 
-> **¿Existen controles, responsabilidades y criterios adecuados para utilizar IA de manera responsable?**
+> ¿Existen las reglas, responsabilidades y controles necesarios para utilizar IA de manera responsable?
 
-Las preguntas principales incluyen:
-
-* ¿Qué riesgos existen?
-* ¿Quién es responsable?
-* ¿Qué supervisión humana se necesita?
-* ¿Qué condiciones deben cumplirse antes de producción?
-
-→ [Ver 03 — Gobernanza](03-governance.md)
+→ [03 — Gobernanza](03-governance.md)
 
 ---
 
-# 9. Dimensión 04 — Tecnología e infraestructura
+### 04 — Tecnología e infraestructura
 
-Esta dimensión analiza si la organización dispone de las condiciones tecnológicas necesarias para utilizar IA.
+Analiza las condiciones tecnológicas que permiten utilizar e integrar soluciones de IA.
 
-Puede incluir:
+Puede considerar:
 
-* herramientas;
+* disponibilidad de herramientas;
+* acceso;
 * infraestructura;
 * integración;
-* acceso;
 * seguridad;
-* arquitectura;
-* escalabilidad;
 * soporte;
-* interoperabilidad.
+* condiciones técnicas.
 
-### Pregunta central
+**Pregunta central:**
 
-> **¿La tecnología puede soportar el caso de uso de manera segura, integrada y sostenible?**
+> ¿La infraestructura tecnológica permite utilizar IA de manera efectiva dentro del contexto de trabajo?
 
-Disponer de una herramienta no significa necesariamente disponer de la capacidad organizacional para utilizarla.
-
-La evaluación debe considerar tanto la disponibilidad tecnológica como su adecuación al caso de uso.
-
-→ [Ver 04 — Tecnología e infraestructura](04-technology-and-infrastructure.md)
+→ [04 — Tecnología e infraestructura](04-technology-and-infrastructure.md)
 
 ---
 
-# 10. Dimensión 05 — Estrategia y alineación con el negocio
+### 05 — Estrategia y alineación con el negocio
 
-La estrategia determina para qué se utilizará IA y qué resultados se espera obtener.
+Analiza la relación entre las iniciativas de IA y las prioridades, objetivos y resultados esperados del negocio.
 
-Esta dimensión analiza la relación entre:
+Busca evitar iniciativas de IA desconectadas de problemas o resultados relevantes.
 
-* prioridades del negocio;
-* oportunidades;
-* casos de uso;
-* valor esperado;
-* resultados;
-* inversión;
-* capacidad organizacional.
+**Pregunta central:**
 
-### Pregunta central
+> ¿El uso de IA está conectado con prioridades y resultados concretos del negocio?
 
-> **¿El uso de IA está conectado con prioridades, resultados y valor para el negocio?**
-
-Una organización puede tener alta capacidad técnica y, aun así, generar poco valor si las iniciativas no están relacionadas con necesidades reales.
-
-→ [Ver 05 — Estrategia y alineación con el negocio](05-strategy-and-business-alignment.md)
+→ [05 — Estrategia y alineación con el negocio](05-strategy-and-business-alignment.md)
 
 ---
 
-# 11. Del diagnóstico a la acción
+# Del diagnóstico a la acción
 
-Las cinco dimensiones permiten identificar condiciones de preparación.
+Las cinco dimensiones anteriores permiten analizar la preparación.
 
-El proceso continúa con cuatro etapas:
-
-```text
-Preparación organizacional
-        ↓
-Assessment
-        ↓
-Diagnóstico
-        ↓
-Training Needs Analysis
-        ↓
-Estrategia de aprendizaje
-        ↓
-Plan de acción
-        ↓
-Implementación
-        ↓
-Medición
-```
-
-Esta separación es fundamental.
-
-El assessment no constituye por sí solo el TNA ni determina automáticamente una solución de aprendizaje.
+Las siguientes cuatro fases convierten esa información en un proceso progresivo de diagnóstico, diseño y acción.
 
 ---
 
-# 12. 06 — Metodología del assessment
+## 06 — Metodología del assessment
 
-La metodología define cómo se recopila, puntúa, interpreta y presenta la información.
+Define cómo se recopila, estructura, puntúa e interpreta la información obtenida mediante el assessment.
 
-La aplicación puede producir:
+El assessment proporciona una **línea base y señales diagnósticas**.
 
-* puntuación general;
-* puntuaciones por dimensión;
+No pretende sustituir el análisis posterior.
+
+Su función es ayudar a identificar:
+
 * fortalezas;
-* brechas;
-* principales restricciones;
-* señales de riesgo;
-* recomendaciones iniciales;
-* información para orientar el análisis posterior.
+* posibles brechas;
+* patrones;
+* áreas prioritarias;
+* preguntas que requieren investigación adicional.
 
-El resultado debe interpretarse como **evidencia diagnóstica**, no como una calificación definitiva.
+**Principio:**
 
-### Principio
+> El assessment identifica dónde mirar; el diagnóstico determina qué significa el resultado.
 
-> **El assessment indica dónde investigar; el análisis determina qué hacer.**
-
-→ [Ver 06 — Metodología del assessment](06-assessment-methodology.md)
+→ [06 — Metodología del assessment](06-assessment-methodology.md)
 
 ---
 
-# 13. 07 — Training Needs Analysis
+## 07 — Training Needs Analysis
 
-El **Training Needs Analysis (TNA)** profundiza en las brechas identificadas.
+Transforma las señales obtenidas mediante el assessment en un análisis más profundo de necesidades de desempeño y capacidades.
 
-Su propósito es determinar:
+El TNA busca determinar:
 
-* qué capacidades se necesitan;
-* quién las necesita;
-* cuál es el nivel actual;
-* cuál es el nivel requerido;
-* qué brechas existen;
-* cuáles son las causas;
-* qué necesidades pueden resolverse mediante aprendizaje;
-* qué necesidades requieren otras intervenciones.
+* qué desempeño se requiere;
+* cuál es la situación actual;
+* qué brecha existe;
+* qué capacidades están involucradas;
+* qué factores explican la brecha;
+* quién presenta la necesidad;
+* si una intervención de aprendizaje es apropiada.
 
-La lógica es:
-
-```text
-Desempeño requerido
-        ↓
-Desempeño actual
-        ↓
-Brecha
-        ↓
-Causa
-        ↓
-Capacidad requerida
-        ↓
-Necesidad de aprendizaje
-        ↓
-Intervención apropiada
-```
-
-Una brecha puede deberse a:
-
-* conocimiento;
-* habilidades;
-* procesos;
-* tecnología;
-* datos;
-* recursos;
-* gobernanza;
-* responsabilidades;
-* acceso;
-* otros factores organizacionales.
-
-Por ello:
+Una distinción fundamental del framework es:
 
 > **No toda brecha es una necesidad de capacitación.**
 
-→ [Ver 07 — Training Needs Analysis](07-training-needs-analysis.md)
+Una brecha puede requerir una intervención de aprendizaje, pero también puede estar relacionada con tecnología, procesos, datos, gobernanza, recursos u otras condiciones organizacionales.
+
+→ [07 — Training Needs Analysis](07-training-needs-analysis.md)
 
 ---
 
-# 14. 08 — Estrategia de aprendizaje
+## 08 — Estrategia de aprendizaje
 
-Una vez identificadas las capacidades que realmente requieren desarrollo mediante aprendizaje, se diseña la estrategia correspondiente.
+Transforma las necesidades identificadas mediante el TNA en una estrategia para desarrollar capacidades y facilitar su aplicación en el trabajo.
 
-La estrategia debe responder:
+La estrategia considera:
 
-* qué debe aprenderse;
-* quién debe aprenderlo;
-* para qué tarea o resultado;
-* en qué contexto;
-* mediante qué experiencia;
-* cómo se practicará;
-* cómo se evaluará;
-* cómo se facilitará la transferencia al trabajo.
+* capacidades prioritarias;
+* objetivos de aprendizaje;
+* casos de uso;
+* tareas;
+* workflows;
+* actividades;
+* práctica;
+* modalidades;
+* evaluación;
+* transferencia.
 
-Puede utilizar diferentes modalidades:
+El principio central es:
 
-* workshops;
-* laboratorios;
-* simulaciones;
-* práctica guiada;
-* aprendizaje autónomo;
-* coaching;
-* job aids;
-* microlearning;
-* aprendizaje en el trabajo.
+> **El aprendizaje debe diseñarse para fortalecer el desempeño, no solamente para transmitir información.**
 
-El diseño debe estar relacionado con las capacidades y tareas reales.
-
-No debe comenzar con un catálogo de cursos.
-
-### Principio
-
-> **Diseñar para la capacidad y el desempeño, no solamente para la transferencia de información.**
-
-→ [Ver 08 — Estrategia de aprendizaje](08-learning-strategy.md)
+→ [08 — Estrategia de aprendizaje](08-learning-strategy.md)
 
 ---
 
-# 15. 09 — Plan de acción
+## 09 — Plan de acción
 
-El plan de acción convierte las conclusiones anteriores en acciones ejecutables.
+Convierte las prioridades y decisiones anteriores en acciones concretas.
 
-Cada acción debería especificar, según corresponda:
+El plan puede especificar:
 
-* prioridad;
-* brecha;
-* causa;
-* objetivo;
 * acción;
+* necesidad que aborda;
 * tipo de intervención;
-* audiencia;
+* prioridad;
 * responsable;
-* dependencias;
-* recursos;
 * plazo;
 * indicador;
-* resultado esperado;
-* estado.
+* evidencia;
+* seguimiento.
 
-Las acciones pueden estar relacionadas con:
+El plan reconoce que las intervenciones pueden ser de diferentes tipos y que no todas las necesidades deben resolverse mediante capacitación.
 
-* aprendizaje;
-* datos;
-* tecnología;
-* gobernanza;
-* procesos;
-* estrategia;
-* cambio;
-* medición.
-
-### Principio
-
-> **El plan de acción convierte evidencia y decisiones en ejecución.**
-
-→ [Ver 09 — Plan de acción](09-action-plan.md)
+→ [09 — Plan de acción](09-action-plan.md)
 
 ---
 
-# 16. El assessment como primera capa de TNA
+# La lógica integral
 
-El assessment proporciona una primera capa de información sobre las condiciones organizacionales.
-
-Sin embargo, sus resultados no deberían interpretarse como un TNA completo.
-
-La relación puede representarse así:
+La arquitectura completa puede resumirse como:
 
 ```text
-Assessment
+READINESS
     ↓
-¿Dónde existe una posible brecha?
-    ↓
-Investigación
-    ↓
-¿Qué está causando la brecha?
-    ↓
-TNA
-    ↓
-¿Qué capacidad se necesita?
-    ↓
-Estrategia de aprendizaje
-    ↓
-¿Qué experiencia permitirá desarrollarla?
-    ↓
-Plan de acción
-    ↓
-¿Cómo se implementará?
-```
-
-Esto permite mantener una separación clara entre:
-
-**medición → interpretación → análisis → diseño → acción.**
-
----
-
-# 17. Del score a la decisión
-
-Una puntuación baja debe generar una pregunta, no una conclusión automática.
-
-```text
-Score bajo
-    ↓
-Investigar
-    ↓
-Identificar brecha
-    ↓
-Identificar causa
-    ↓
-Determinar intervención
-```
-
-Por ejemplo:
-
-```text
-Score bajo en Skills
-        ↓
-¿Falta conocimiento?
-        ↓
-¿Falta práctica?
-        ↓
-¿Falta acceso?
-        ↓
-¿El proceso no permite aplicar la capacidad?
-        ↓
-¿La herramienta no está disponible?
-```
-
-Cada respuesta puede conducir a una intervención diferente.
-
----
-
-# 18. Del diagnóstico al mapa de capacidades
-
-El resultado final del framework no debería ser solamente un catálogo de cursos.
-
-Debe permitir construir un **mapa de capacidades** que conecte:
-
-```text
-CAPACIDAD
-    ↓
-ROLES
-    ↓
-NIVEL ACTUAL
-    ↓
-NIVEL OBJETIVO
-    ↓
-BRECHA
-    ↓
-INTERVENCIÓN
+ASSESSMENT
     ↓
 EVIDENCIA
     ↓
-RESULTADO
+TRAINING NEEDS ANALYSIS
+    ↓
+NECESIDADES
+    ↓
+CAPACIDADES
+    ↓
+ESTRATEGIA DE APRENDIZAJE
+    ↓
+PLAN DE ACCIÓN
+    ↓
+APLICACIÓN
+    ↓
+RESULTADOS
 ```
 
-Esto permite diseñar estrategias diferenciadas según las necesidades reales de la organización.
+Esta secuencia permite pasar de una pregunta general sobre preparación a decisiones concretas sobre capacidades, aprendizaje y acción organizacional.
 
 ---
 
-# 19. Segmentación de resultados
+# Del trabajo a la adopción de IA
 
-La información recopilada por el assessment puede analizarse según diferentes variables.
+El framework también mantiene una perspectiva orientada al trabajo.
 
-Por ejemplo:
+La identificación de oportunidades de IA puede seguir una lógica como:
+
+```text
+WORK TASK
+    ↓
+OPORTUNIDAD
+    ↓
+AI TOOL
+    ↓
+PROMPT
+    ↓
+EVALUACIÓN
+    ↓
+WORKFLOW
+    ↓
+ADOPCIÓN
+```
+
+Esta secuencia evita reducir AI Enablement al aprendizaje aislado de herramientas.
+
+El punto de partida es el **trabajo real**:
+
+* qué hace la persona;
+* qué problema intenta resolver;
+* qué información necesita;
+* dónde puede aportar IA;
+* cómo debe evaluarse el resultado;
+* cómo se incorpora al workflow;
+* cómo se sostiene su utilización.
+
+---
+
+# El assessment como punto de partida
+
+El assessment está diseñado para funcionar como una actividad inicial de un workshop de AI Enablement.
+
+Puede utilizarse para:
+
+* establecer una línea base;
+* estimular la reflexión;
+* identificar áreas prioritarias;
+* contextualizar la conversación;
+* orientar el análisis posterior;
+* proporcionar información para el TNA;
+* apoyar la formulación de una estrategia de aprendizaje.
+
+Los resultados no deben utilizarse como una etiqueta definitiva sobre una persona o una organización.
+
+Una puntuación constituye una **señal que debe interpretarse dentro del contexto**.
+
+---
+
+# Orientación hacia el aprendizaje
+
+Una característica fundamental del framework es la separación entre:
+
+**medir → diagnosticar → diseñar → actuar.**
+
+Esto permite evitar una secuencia frecuente en proyectos de capacitación:
+
+```text
+Tema de moda
+    ↓
+Curso
+    ↓
+Participación
+    ↓
+Fin
+```
+
+El framework propone una lógica diferente:
+
+```text
+Necesidad
+    ↓
+Capacidad requerida
+    ↓
+Desempeño esperado
+    ↓
+Experiencia de aprendizaje
+    ↓
+Práctica
+    ↓
+Aplicación
+    ↓
+Resultado
+```
+
+El aprendizaje se convierte así en una respuesta a una necesidad identificada, en lugar de ser el punto de partida.
+
+---
+
+# Uso como punto de partida para clientes
+
+Este framework debe considerarse una **arquitectura inicial adaptable**.
+
+Durante su utilización con un cliente pueden ajustarse:
+
+* preguntas;
+* lenguaje;
+* criterios;
+* escalas;
+* pesos;
+* dimensiones específicas;
+* casos de uso;
+* segmentos de participantes;
+* indicadores;
+* actividades;
+* prioridades.
+
+La adaptación debe conservar la lógica fundamental del framework:
+
+> **evidencia → diagnóstico → capacidades → aprendizaje → acción.**
+
+---
+
+# Posibles aplicaciones
+
+El framework puede servir como base para:
+
+* workshops de AI Enablement;
+* diagnósticos iniciales;
+* conversaciones con stakeholders;
+* identificación de necesidades de capacitación;
+* análisis de capacidades;
+* diseño de experiencias de aprendizaje;
+* priorización de casos de uso;
+* planificación de intervenciones;
+* seguimiento de evolución.
+
+Su utilización concreta debe adaptarse al propósito y contexto de cada organización.
+
+---
+
+# Datos producidos por el assessment
+
+La aplicación de assessment asociada al framework está diseñada para producir resultados estructurados que puedan analizarse posteriormente.
+
+Entre los datos de identificación y contexto se incluyen:
 
 * nombre;
 * organización;
 * ocupación;
 * nivel;
-* dimensión;
-* puntuación;
-* identificador;
+* identificador único;
 * fecha;
 * timestamp.
 
-La segmentación puede ayudar a identificar patrones entre diferentes grupos.
+Los resultados pueden incluir puntuaciones por dimensión y un resultado global, de acuerdo con la configuración definida para el assessment.
 
-Por ejemplo:
-
-* diferencias por ocupación;
-* diferencias por nivel;
-* dimensiones con mayores brechas;
-* capacidades prioritarias;
-* patrones que requieren investigación adicional.
-
-La segmentación debe utilizarse para apoyar decisiones, no para etiquetar personas de manera simplista.
+La exportación en **CSV** facilita el análisis posterior, la segmentación y la comparación de resultados.
 
 ---
 
-# 20. Datos generados por la aplicación
+# Principios de interpretación
 
-La aplicación de assessment puede generar resultados estructurados para facilitar análisis posteriores.
+Los resultados deben interpretarse considerando:
 
-Como mínimo, el registro individual puede contemplar:
+### Contexto
 
-| Campo            | Propósito                                 |
-| ---------------- | ----------------------------------------- |
-| **Nombre**       | Identificación del participante           |
-| **Organización** | Contexto organizacional                   |
-| **Ocupación**    | Segmentación por función profesional      |
-| **Nivel**        | Segmentación por nivel de responsabilidad |
-| **ID único**     | Identificación del registro               |
-| **Fecha**        | Fecha del assessment                      |
-| **Timestamp**    | Fecha y hora exactas de registro          |
-| **Resultados**   | Puntuaciones obtenidas                    |
-| **Dimensiones**  | Resultados por dimensión                  |
+Una misma puntuación puede tener significados diferentes según el rol, nivel, caso de uso o entorno.
 
-Estos datos pueden exportarse a CSV para análisis posterior.
+### Causa
 
----
+Una puntuación baja no explica por sí misma la causa de una brecha.
 
-# 21. De los datos a la estrategia
+### Desempeño
 
-La información recopilada puede alimentar un proceso de análisis:
+La capacidad debe relacionarse con lo que la persona necesita hacer en el trabajo.
 
-```text
-Assessment
-    ↓
-Datos estructurados
-    ↓
-Análisis de resultados
-    ↓
-Identificación de patrones
-    ↓
-TNA
-    ↓
-Mapa de capacidades
-    ↓
-Estrategia de aprendizaje
-    ↓
-Plan de acción
-```
+### Evidencia
 
-Esto crea trazabilidad entre el diagnóstico y las decisiones posteriores.
+Las conclusiones importantes deben respaldarse con evidencia adicional cuando sea necesario.
+
+### Acción
+
+Una recomendación debe poder relacionarse con una necesidad identificada.
 
 ---
 
-# 22. Principios metodológicos
-
-El framework se basa en los siguientes principios:
-
-### 1. Evaluar antes de capacitar
-
-Primero se identifica la necesidad.
-
-### 2. Entender antes de intervenir
-
-Primero se analiza la causa de la brecha.
-
-### 3. Diseñar para el trabajo
-
-Las capacidades deben relacionarse con tareas y resultados reales.
-
-### 4. Practicar antes de escalar
-
-Las nuevas capacidades deben probarse en contextos controlados antes de extenderlas.
-
-### 5. Medir antes de declarar éxito
-
-La finalización de una actividad no demuestra por sí sola que se produjo aprendizaje, aplicación o impacto.
-
----
-
-# 23. Finalización, aprendizaje, competencia e impacto
-
-Estos conceptos no deben tratarse como equivalentes.
-
-```text
-Finalización
-    ≠
-Aprendizaje
-    ≠
-Competencia
-    ≠
-Aplicación
-    ≠
-Adopción
-    ≠
-Impacto
-```
-
-Cada nivel requiere evidencia diferente.
-
-Por ejemplo:
-
-| Nivel            | Ejemplo de evidencia                            |
-| ---------------- | ----------------------------------------------- |
-| **Finalización** | La persona completó una actividad               |
-| **Aprendizaje**  | La persona demuestra comprensión                |
-| **Competencia**  | La persona ejecuta correctamente una tarea      |
-| **Aplicación**   | Utiliza la capacidad en el trabajo              |
-| **Adopción**     | La nueva práctica se incorpora al workflow      |
-| **Impacto**      | Se observa una mejora relevante en el resultado |
-
----
-
-# 24. AI Enablement como sistema
-
-El framework considera AI Enablement como una combinación de condiciones organizacionales y capacidades humanas.
-
-Una forma de visualizarlo es:
-
-```text
-DATOS
-   +
-SKILLS
-   +
-GOBERNANZA
-   +
-TECNOLOGÍA
-   +
-ESTRATEGIA
-   ↓
-PREPARACIÓN ORGANIZACIONAL
-   ↓
-CASOS DE USO
-   ↓
-CAPACIDADES
-   ↓
-APLICACIÓN
-   ↓
-RESULTADOS
-```
-
-Una intervención efectiva debe considerar las dependencias entre estos elementos.
-
----
-
-# 25. Resultado esperado del framework
-
-El proceso debe permitir pasar de:
-
-> **"Tenemos una puntuación."**
-
-a:
-
-> **"Identificamos una brecha, entendemos su causa, determinamos la capacidad requerida, seleccionamos la intervención adecuada y definimos cómo medir el resultado."**
-
-El valor del framework está precisamente en esa transición.
-
----
-
-# 26. Uso del framework con clientes
-
-Este framework constituye un **punto de partida adaptable**.
-
-No pretende imponer una única solución a todas las organizaciones.
-
-Durante un workshop puede utilizarse para:
-
-* contextualizar el diagnóstico;
-* validar las dimensiones;
-* identificar prioridades;
-* discutir casos de uso;
-* interpretar resultados;
-* profundizar en necesidades;
-* diseñar capacidades;
-* definir intervenciones;
-* construir un plan de acción.
-
-Las preguntas, pesos, criterios, niveles y recomendaciones pueden adaptarse al contexto específico del cliente.
-
----
-
-# 27. Qué no pretende hacer el framework
+# Lo que este framework no pretende ser
 
 El framework no pretende:
 
-* sustituir el juicio de expertos;
-* determinar automáticamente todas las necesidades de capacitación;
-* convertir una puntuación en una decisión automática;
-* reemplazar la estrategia del cliente;
-* asumir que todos los roles necesitan las mismas capacidades;
-* tratar la disponibilidad de una herramienta como evidencia de preparación;
-* considerar la finalización de capacitación como evidencia de impacto.
+* proporcionar una única metodología universal de implementación de IA;
+* sustituir el juicio profesional;
+* diagnosticar automáticamente las causas de las brechas;
+* convertir todas las brechas en necesidades de capacitación;
+* determinar automáticamente qué cursos deben realizarse;
+* sustituir el análisis de tareas o workflows;
+* garantizar por sí mismo la adopción de IA.
 
-Su función es proporcionar una **estructura sistemática para investigar, interpretar y tomar decisiones basadas en evidencia**.
+Su propósito es proporcionar una **estructura común para pensar, evaluar, diagnosticar y actuar**.
 
 ---
 
-# 28. Flujo completo
+# Glosario
 
-La arquitectura completa puede resumirse así:
+El repositorio incluye un glosario para mantener consistencia terminológica entre las diferentes fases del framework.
+
+→ [Glosario — AI Enablement Readiness Framework](glossary.md)
+
+---
+
+# Estructura del repositorio
 
 ```text
-01 — Calidad y preparación de datos
-                    ↓
-02 — Skills y talento
-                    ↓
-03 — Gobernanza
-                    ↓
-04 — Tecnología e infraestructura
-                    ↓
-05 — Estrategia y alineación con el negocio
-                    ↓
-          PREPARACIÓN ORGANIZACIONAL
-                    ↓
-06 — Metodología del assessment
-                    ↓
-             DIAGNÓSTICO
-                    ↓
-07 — Training Needs Analysis
-                    ↓
-          MAPA DE CAPACIDADES
-                    ↓
-08 — Estrategia de aprendizaje
-                    ↓
-             DESARROLLO
-                    ↓
-09 — Plan de acción
-                    ↓
-          IMPLEMENTACIÓN
-                    ↓
-             MEDICIÓN
-                    ↓
-          MEJORA CONTINUA
+AI-Enablement-Readiness-Framework/
+│
+├── README.md
+│
+├── 01-data-quality-and-readiness.md
+├── 02-skills-and-talent.md
+├── 03-governance.md
+├── 04-technology-and-infrastructure.md
+├── 05-strategy-and-business-alignment.md
+│
+├── 06-assessment-methodology.md
+├── 07-training-needs-analysis.md
+├── 08-learning-strategy.md
+├── 09-action-plan.md
+│
+└── glossary.md
 ```
 
 ---
 
-# 29. La lógica de fondo
+# Secuencia recomendada de utilización
 
-El framework puede resumirse en una cadena de decisión:
+Para una implementación inicial, se recomienda utilizar el framework siguiendo esta secuencia:
 
-```text
-MEDIR
-  ↓
-INTERPRETAR
-  ↓
-INVESTIGAR
-  ↓
-DIAGNOSTICAR
-  ↓
-PRIORIZAR
-  ↓
-DESARROLLAR
-  ↓
-APLICAR
-  ↓
-MEDIR NUEVAMENTE
-```
+**1. Contextualizar**
 
-Esto convierte el assessment en algo más que una herramienta de puntuación.
+Definir organización, participantes, objetivos y casos de uso relevantes.
 
-Lo convierte en el punto de partida de una estrategia basada en evidencia para desarrollar capacidades y habilitar el uso efectivo de IA.
+**2. Evaluar**
 
----
+Aplicar el assessment utilizando las cinco dimensiones de readiness.
 
-# 30. Navegación del framework
+**3. Analizar**
 
-## Preparación organizacional
+Interpretar los resultados e identificar señales y patrones.
 
-➡️ [01 — Calidad y preparación de datos](01-data-quality.md)
+**4. Diagnosticar**
 
-➡️ [02 — Skills y talento](02-skills-and-talent.md)
+Realizar el TNA para investigar brechas, capacidades y causas.
 
-➡️ [03 — Gobernanza](03-governance.md)
+**5. Diseñar**
 
-➡️ [04 — Tecnología e infraestructura](04-technology-and-infrastructure.md)
+Construir la estrategia de aprendizaje correspondiente.
 
-➡️ [05 — Estrategia y alineación con el negocio](05-strategy-and-business-alignment.md)
+**6. Actuar**
 
-## Del diagnóstico a la acción
+Convertir las prioridades en un plan de acción.
 
-➡️ [06 — Metodología del assessment](06-assessment-methodology.md)
+**7. Medir y ajustar**
 
-➡️ [07 — Training Needs Analysis](07-training-needs-analysis.md)
-
-➡️ [08 — Estrategia de aprendizaje](08-learning-strategy.md)
-
-➡️ [09 — Plan de acción](09-action-plan.md)
-
-➡️ [Glosario](glossary.md)
+Revisar resultados, evidencia de aplicación y nuevas necesidades.
 
 ---
 
-# 31. Idea clave
+# Principio rector
 
-> **Evaluar antes de capacitar. Entender antes de intervenir. Practicar antes de escalar. Medir antes de declarar éxito.**
+> **AI Enablement no consiste simplemente en proporcionar acceso a herramientas de IA ni en capacitar personas sobre su funcionamiento. Consiste en crear las condiciones para que las personas y la organización puedan utilizar IA de manera efectiva, responsable y alineada con el trabajo y los resultados que se buscan alcanzar.**
 
-El objetivo final no es simplemente saber qué tan preparada está una organización.
+Este framework proporciona una estructura inicial para explorar esas condiciones y convertir la evidencia obtenida en decisiones de desarrollo de capacidades y acción.
 
-El objetivo es utilizar esa información para determinar:
+---
 
-**qué capacidades desarrollar, qué condiciones habilitar, qué intervenciones priorizar y cómo demostrar que produjeron resultados.**
+## Navegación
+
+**01** → [Calidad y preparación de datos](01-data-quality-and-readiness.md)
+**02** → [Skills y talento](02-skills-and-talent.md)
+**03** → [Gobernanza](03-governance.md)
+**04** → [Tecnología e infraestructura](04-technology-and-infrastructure.md)
+**05** → [Estrategia y alineación con el negocio](05-strategy-and-business-alignment.md)
+**06** → [Metodología del assessment](06-assessment-methodology.md)
+**07** → [Training Needs Analysis](07-training-needs-analysis.md)
+**08** → [Estrategia de aprendizaje](08-learning-strategy.md)
+**09** → [Plan de acción](09-action-plan.md)
+**Glosario** → [AI Enablement Readiness Framework](glossary.md)
