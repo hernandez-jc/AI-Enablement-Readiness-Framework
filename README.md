@@ -1,5 +1,7 @@
 # AI Enablement Readiness Framework
 
+![AI Enablement Readiness Framework](assets/ai-enablement-readiness-framework-1.png)
+
 ## Descripción extendida
 
 El **AI Enablement Readiness Framework** es un marco de referencia diseñado como punto de partida para evaluar las condiciones que pueden facilitar o limitar la adopción efectiva de inteligencia artificial en una organización.
