@@ -1,173 +1,172 @@
 # 01 — Calidad y preparación de datos
 
-> **Dimensión del framework:** Datos  
+> **Dimensión 01 del AI Enablement Readiness Framework**
 > **Pregunta central:** ¿La organización dispone de datos suficientemente disponibles, confiables, pertinentes y utilizables para el caso de uso de IA?
 
 ---
 
-## 1. ¿Por qué importa?
+## 1. Propósito de esta dimensión
 
-Los sistemas de IA dependen de los datos con los que trabajan.
+La preparación de datos es una condición fundamental para utilizar IA de manera efectiva.
 
-Sin embargo, "tener datos" no significa necesariamente estar preparado para utilizarlos en un caso de uso de IA.
+Sin embargo, **tener datos no significa necesariamente estar preparado para utilizarlos**.
 
-Una organización puede almacenar grandes cantidades de información y, al mismo tiempo, enfrentar problemas de:
+Una organización puede disponer de grandes volúmenes de información y, al mismo tiempo, enfrentar problemas relacionados con:
 
-- calidad;
-- disponibilidad;
-- consistencia;
-- actualización;
-- integración;
-- documentación;
-- acceso;
-- permisos;
-- trazabilidad;
-- propiedad de los datos.
+* disponibilidad;
+* calidad;
+* relevancia;
+* actualidad;
+* accesibilidad;
+* integración;
+* documentación;
+* trazabilidad;
+* propiedad;
+* permisos y uso.
 
-Por eso, la preparación de datos debe analizarse **en relación con el caso de uso específico**.
+Por esta razón, esta dimensión no evalúa solamente si existen datos.
 
-La pregunta no es simplemente:
+Evalúa si los datos disponibles son **adecuados para el caso de uso específico**.
 
-> "¿Tenemos suficientes datos?"
+### Pregunta orientadora
 
-Sino:
-
-> "¿Tenemos los datos correctos, con la calidad, disponibilidad, permisos y trazabilidad necesarias para producir un resultado confiable para este caso de uso?"
+> **¿Tenemos los datos correctos, con la calidad, disponibilidad, acceso y condiciones de uso necesarias para producir un resultado confiable para este caso de uso?**
 
 ---
 
-## 2. El principio de "datos suficientes para el propósito"
+# 2. Datos suficientes para el propósito
 
-No todos los casos de uso de IA requieren el mismo nivel de preparación de datos.
+No todos los casos de uso de IA requieren el mismo tipo o nivel de preparación de datos.
 
-Por ejemplo:
+| Caso de uso                         | Necesidades principales de datos                                 |
+| ----------------------------------- | ---------------------------------------------------------------- |
+| Generación de contenido interno     | Documentos confiables, actualizados y accesibles                 |
+| Asistente para políticas internas   | Información completa, vigente y correctamente documentada        |
+| Análisis predictivo                 | Datos históricos suficientes, consistentes y pertinentes         |
+| Atención al cliente                 | Información actualizada y disponible en el momento necesario     |
+| Automatización de procesos          | Datos estructurados, integrados y disponibles de manera oportuna |
+| Apoyo a decisiones de mayor impacto | Datos confiables, trazables y sujetos a controles apropiados     |
 
-| Caso de uso | Necesidades principales de datos |
-|---|---|
-| Generación de contenido interno | Documentos confiables, actualizados y accesibles |
-| Asistente para políticas internas | Base documental completa, vigente y bien estructurada |
-| Análisis predictivo | Datos históricos suficientes y consistentes |
-| Atención al cliente | Información actualizada del cliente, productos y transacciones |
-| Automatización de procesos | Datos estructurados, integrados y disponibles en tiempo adecuado |
-| Sistema que apoya decisiones de alto impacto | Datos de alta calidad, trazables, gobernados y sujetos a controles adicionales |
+Por lo tanto, la preparación de datos debe evaluarse **en función del propósito y contexto del caso de uso**.
 
-Por lo tanto, una puntuación de preparación de datos no debe interpretarse de manera aislada.
+Una puntuación determinada no debe interpretarse de manera aislada.
 
-Debe preguntarse:
+La pregunta es:
 
-**¿Es suficiente esta capacidad para el riesgo y las exigencias del caso de uso?**
+> **¿El nivel actual de preparación de datos es suficiente para las exigencias de este caso de uso?**
 
 ---
 
 # 3. Qué evalúa esta dimensión
 
-La aplicación de assessment analiza la preparación de datos mediante diez criterios.
+El assessment utiliza criterios que permiten observar diferentes aspectos de la preparación de datos.
 
-| ID | Elemento evaluado | Qué busca determinar |
-|---|---|---|
-| DATA-01 | Disponibilidad de datos | Si los datos necesarios existen y pueden obtenerse |
-| DATA-02 | Calidad de datos | Si los datos son suficientemente precisos, completos y consistentes |
-| DATA-03 | Relevancia | Si los datos realmente representan el problema que se quiere resolver |
-| DATA-04 | Actualidad | Si los datos están suficientemente actualizados para el caso de uso |
-| DATA-05 | Accesibilidad | Si las personas y sistemas autorizados pueden acceder a ellos |
-| DATA-06 | Integración | Si las fuentes pueden conectarse y utilizarse conjuntamente |
-| DATA-07 | Documentación | Si existe información suficiente para comprender los datos |
-| DATA-08 | Trazabilidad | Si puede identificarse el origen y recorrido de los datos |
-| DATA-09 | Propiedad y responsabilidad | Si existen responsables claros sobre los datos |
-| DATA-10 | Permisos y uso | Si los datos pueden utilizarse legítimamente para el caso de uso |
+| ID      | Criterio                    | Qué busca determinar                                                                     |
+| ------- | --------------------------- | ---------------------------------------------------------------------------------------- |
+| DATA-01 | Disponibilidad              | Si los datos necesarios existen y pueden obtenerse                                       |
+| DATA-02 | Calidad                     | Si los datos son suficientemente precisos, completos y consistentes                      |
+| DATA-03 | Relevancia                  | Si los datos representan adecuadamente el problema o tarea                               |
+| DATA-04 | Actualidad                  | Si los datos están suficientemente actualizados                                          |
+| DATA-05 | Accesibilidad               | Si las personas y sistemas autorizados pueden acceder a ellos                            |
+| DATA-06 | Integración                 | Si las fuentes pueden conectarse y utilizarse conjuntamente                              |
+| DATA-07 | Documentación               | Si existe información suficiente para comprender los datos                               |
+| DATA-08 | Trazabilidad                | Si puede identificarse el origen y recorrido de los datos                                |
+| DATA-09 | Propiedad y responsabilidad | Si existen responsables claros sobre los datos                                           |
+| DATA-10 | Permisos y uso              | Si los datos pueden utilizarse para el caso de uso bajo las condiciones correspondientes |
 
-Estos criterios permiten observar la preparación desde varias perspectivas.
-
-Una organización puede, por ejemplo, tener datos abundantes pero una puntuación baja en trazabilidad o permisos.
+Estos criterios permiten evitar una interpretación simplista basada únicamente en el volumen de datos disponible.
 
 ---
 
-# 4. DATA-01 — Disponibilidad de datos
+# 4. DATA-01 — Disponibilidad
 
 ### Qué significa
 
-Evalúa si los datos necesarios para el caso de uso existen y pueden obtenerse de manera consistente.
+Evalúa si los datos necesarios para el caso de uso existen y pueden obtenerse cuando son necesarios.
 
-La disponibilidad incluye más que la existencia física de información.
+La disponibilidad puede depender de:
 
-También considera:
-
-- dónde están los datos;
-- quién puede acceder a ellos;
-- con qué frecuencia están disponibles;
-- en qué formato;
-- bajo qué condiciones;
-- si su acceso depende de procesos manuales.
+* ubicación de los datos;
+* formato;
+* frecuencia de actualización;
+* acceso;
+* procesos manuales;
+* sistemas utilizados;
+* responsables.
 
 ### ¿Por qué importa?
 
-Un caso de uso puede parecer viable conceptualmente y, sin embargo, resultar difícil de implementar porque los datos requeridos no están disponibles cuando se necesitan.
+Un caso de uso puede parecer viable conceptualmente y, sin embargo, resultar difícil de implementar porque los datos requeridos no están disponibles de manera consistente.
 
-### Conexión con el assessment
+### Relación con el assessment
 
-Una puntuación baja en este criterio puede indicar una limitación estructural, no necesariamente una necesidad de capacitación.
+Una puntuación baja identifica una condición que requiere investigación.
 
-La investigación posterior debe determinar si la brecha se debe a:
+No determina por sí sola que exista una necesidad de capacitación.
 
-- ausencia de datos;
-- acceso restringido;
-- procesos manuales;
-- falta de integración;
-- falta de conocimiento sobre dónde encontrar los datos.
+La causa puede estar relacionada con:
 
-### Implicación para AI Enablement
+* ausencia de datos;
+* acceso restringido;
+* procesos manuales;
+* falta de integración;
+* falta de conocimiento sobre dónde localizar información.
 
-Si el problema es que los usuarios **no saben localizar o utilizar las fuentes disponibles**, puede existir una necesidad de aprendizaje.
+### Posible implicación para AI Enablement
 
-Si los datos simplemente **no existen**, la solución probablemente requiere una intervención tecnológica, operativa o de gestión de información.
+Si las personas no saben **dónde localizar o cómo utilizar datos que ya están disponibles**, puede existir una necesidad de desarrollo de capacidades.
+
+Si los datos simplemente **no existen o no pueden utilizarse**, la respuesta probablemente requerirá otro tipo de intervención.
 
 ---
 
-# 5. DATA-02 — Calidad de datos
+# 5. DATA-02 — Calidad
 
 ### Qué significa
 
 Evalúa si los datos presentan condiciones suficientes de:
 
-- exactitud;
-- completitud;
-- consistencia;
-- validez;
-- unicidad;
-- confiabilidad.
+* exactitud;
+* completitud;
+* consistencia;
+* validez;
+* unicidad;
+* confiabilidad.
 
 ### ¿Por qué importa?
 
-La IA puede producir resultados convincentes a partir de información incorrecta.
+Un sistema de IA puede generar resultados aparentemente convincentes a partir de información incorrecta o incompleta.
 
-La sofisticación del modelo no corrige automáticamente datos deficientes.
+La sofisticación de la herramienta no corrige automáticamente una deficiencia en los datos.
 
-### Conexión con el assessment
+### Relación con el assessment
 
-Una puntuación baja debe llevar a investigar:
+Una puntuación baja debe conducir a una investigación más específica.
 
-> ¿Qué dimensiones de calidad están afectando el caso de uso?
+La pregunta no debe ser solamente:
 
-No basta con afirmar que "los datos tienen problemas".
+> "¿La calidad de los datos es baja?"
 
-Es necesario identificar cuáles.
+Debe ser:
 
-### Implicación para aprendizaje
+> **"¿Qué dimensión de calidad está afectando el caso de uso y por qué?"**
 
-Puede existir una necesidad de capacitación cuando las personas responsables:
+### Posible implicación para aprendizaje
 
-- no conocen los estándares de calidad;
-- no saben interpretar indicadores;
-- no aplican correctamente reglas de validación;
-- desconocen sus responsabilidades sobre la calidad.
+Puede existir una necesidad de aprendizaje cuando las personas responsables:
 
-Pero si la causa es estructural, la respuesta puede requerir cambios en:
+* desconocen estándares de calidad;
+* no saben interpretar indicadores;
+* no aplican correctamente reglas de validación;
+* desconocen sus responsabilidades.
 
-- procesos;
-- sistemas;
-- controles;
-- arquitectura de datos;
-- responsabilidades.
+Pero si la causa es estructural, puede ser necesario intervenir en:
+
+* procesos;
+* sistemas;
+* controles;
+* arquitectura;
+* responsabilidades.
 
 ---
 
@@ -175,488 +174,346 @@ Pero si la causa es estructural, la respuesta puede requerir cambios en:
 
 ### Qué significa
 
-Evalúa si los datos disponibles son pertinentes para el problema que la IA debe resolver.
+Evalúa si los datos disponibles son pertinentes para el problema, tarea, proceso o decisión que la IA debe apoyar.
 
-No toda información disponible es información útil.
+No toda información disponible es información útil para un caso de uso determinado.
 
 ### ¿Por qué importa?
 
-Un sistema puede tener acceso a grandes volúmenes de información y aun así carecer de los datos que explican adecuadamente el fenómeno, proceso o decisión que se quiere apoyar.
+Una organización puede disponer de grandes cantidades de información y, aun así, no contar con los datos necesarios para representar adecuadamente el problema que desea resolver.
 
-### Conexión con el assessment
+### Relación con el assessment
 
-Una puntuación baja debe provocar una revisión del vínculo entre:
+La relevancia debe analizarse siguiendo una cadena lógica:
 
 ```text
 Problema
-   ↓
-Decisión / tarea
-   ↓
+    ↓
+Tarea o decisión
+    ↓
 Información necesaria
-   ↓
+    ↓
 Datos disponibles
-   ↓
+    ↓
 Resultado esperado
 ```
 
-### Implicación para AI Enablement
-
-Si el problema es que los usuarios **no saben localizar o utilizar las fuentes disponibles**, puede existir una necesidad de aprendizaje.
-
-Si los datos simplemente **no existen**, la solución probablemente requiere una intervención tecnológica, operativa o de gestión de información.
+Si existe una desconexión entre estos elementos, la disponibilidad de grandes cantidades de datos no garantiza que el caso de uso sea viable.
 
 ---
 
-# 5. DATA-02 — Calidad de datos
+# 7. DATA-04 — Actualidad
 
 ### Qué significa
 
-Evalúa si los datos presentan condiciones suficientes de:
+Evalúa si los datos están suficientemente actualizados para el propósito del caso de uso.
 
-- exactitud;
-- completitud;
-- consistencia;
-- validez;
-- unicidad;
-- confiabilidad.
+La frecuencia de actualización requerida dependerá del contexto.
 
-### ¿Por qué importa?
+Por ejemplo, un caso de uso puede requerir:
 
-La IA puede producir resultados convincentes a partir de información incorrecta.
+* información histórica;
+* actualización diaria;
+* actualización en tiempo casi real;
+* información vigente al momento de la decisión.
 
-La sofisticación del modelo no corrige automáticamente datos deficientes.
+### Relación con el assessment
 
-### Conexión con el assessment
+Una puntuación baja debe interpretarse en función de la necesidad real del caso de uso.
 
-Una puntuación baja debe llevar a investigar:
+**Datos antiguos no son necesariamente datos deficientes.**
 
-> ¿Qué dimensiones de calidad están afectando el caso de uso?
-
-No basta con afirmar que "los datos tienen problemas".
-
-Es necesario identificar cuáles.
-
-### Implicación para aprendizaje
-
-Puede existir una necesidad de capacitación cuando las personas responsables:
-
-- no conocen los estándares de calidad;
-- no saben interpretar indicadores;
-- no aplican correctamente reglas de validación;
-- desconocen sus responsabilidades sobre la calidad.
-
-Pero si la causa es estructural, la respuesta puede requerir cambios en:
-
-- procesos;
-- sistemas;
-- controles;
-- arquitectura de datos;
-- responsabilidades.
+Su utilidad depende del propósito para el cual se utilizan.
 
 ---
 
-# 6. DATA-03 — Relevancia
+# 8. DATA-05 — Accesibilidad
 
 ### Qué significa
 
-Evalúa si los datos disponibles son pertinentes para el problema que la IA debe resolver.
+Evalúa si las personas y sistemas autorizados pueden acceder a los datos que necesitan.
 
-No toda información disponible es información útil.
+La accesibilidad puede verse afectada por:
 
-### ¿Por qué importa?
+* permisos;
+* sistemas aislados;
+* procesos manuales;
+* formatos;
+* restricciones organizacionales;
+* falta de conocimiento sobre dónde encontrar la información.
 
-Un sistema puede tener acceso a grandes volúmenes de información y aun así carecer de los datos que explican adecuadamente el fenómeno, proceso o decisión que se quiere apoyar.
+### Relación con AI Enablement
 
-### Conexión con el assessment
+La accesibilidad conecta la preparación de datos con la capacidad de las personas y con la infraestructura tecnológica.
 
-Una puntuación baja debe provocar una revisión del vínculo entre:
+Por ello, una limitación identificada aquí puede requerir una intervención de:
 
-```text
-Problema
-   ↓
-Decisión / tarea
-   ↓
-Información necesaria
-   ↓
-Datos disponibles
-   ↓
-Resultado esperado
-```
+* datos;
+* tecnología;
+* procesos;
+* gobernanza;
+* aprendizaje.
 
-Implicación para AI Enablement
+---
 
-Esta dimensión puede revelar una necesidad de aprendizaje relacionada con:
+# 9. DATA-06 — Integración
 
-identificación de datos relevantes; formulación del problema; comprensión del proceso; interpretación de indicadores.
+### Qué significa
 
-También puede revelar que el caso de uso necesita ser redefinido.
-
-## DATA-04 — Actualidad
-
-Qué significa
-
-Evalúa si los datos están suficientemente actualizados para el propósito del sistema.
-
-La frecuencia necesaria depende del caso de uso.
-
-Caso de uso	Posible necesidad de actualización
-Análisis histórico	Baja
-Reportes mensuales	Periódica
-Planeación operativa	Frecuente
-Atención al cliente	Alta
-Detección de eventos	Casi inmediata
-
-No existe una frecuencia de actualización universalmente correcta.
-
-La pregunta es:
-
-¿La información sigue siendo válida cuando la IA la necesita?
-
-## DATA-05 — Accesibilidad
-
-Qué significa
-
-Evalúa si los usuarios y sistemas autorizados pueden acceder a los datos necesarios.
-
-La accesibilidad debe analizarse junto con:
-
-seguridad; privacidad; permisos; roles; controles de acceso.
-
-*Más accesible* no significa necesariamente *mejor*.
-
-La meta es:
-
-acceso adecuado para las personas y sistemas autorizados.
-
-Conexión con aprendizaje
-
-Una brecha puede deberse a que las personas:
-
-desconocen los canales correctos; no saben solicitar acceso; no comprenden las reglas; no conocen las fuentes disponibles.
-
-En ese caso, una intervención de aprendizaje puede complementar una solución tecnológica.
-
-## DATA-06 — Integración
-
-Qué significa
-
-Evalúa la capacidad de combinar las fuentes necesarias para el caso de uso.
+Evalúa si diferentes fuentes de datos pueden conectarse y utilizarse conjuntamente cuando el caso de uso lo requiere.
 
 Puede involucrar:
 
-sistemas empresariales; bases de datos; documentos; APIs; archivos; aplicaciones; repositorios. ¿Por qué importa?
+* sistemas;
+* bases de datos;
+* aplicaciones;
+* formatos;
+* interfaces;
+* procesos de intercambio.
 
-Los datos necesarios para un caso de uso suelen estar distribuidos entre diferentes sistemas.
+### ¿Por qué importa?
 
-La falta de integración puede impedir que una solución funcione de forma consistente.
+Un caso de uso puede depender de información distribuida entre diferentes sistemas.
 
-Implicación
+La existencia de cada fuente por separado no garantiza que puedan utilizarse conjuntamente.
 
-Una puntuación baja suele señalar una necesidad tecnológica o arquitectónica.
+---
 
-No debe convertirse automáticamente en una recomendación de capacitación.
+# 10. DATA-07 — Documentación
 
-## DATA-07 — Documentación
-
-Qué significa
+### Qué significa
 
 Evalúa si existe información suficiente para comprender:
 
-qué representa un dato; de dónde proviene; quién lo mantiene; qué significa cada campo; cuáles son sus limitaciones; cómo debe utilizarse. ¿Por qué importa?
+* qué representan los datos;
+* de dónde provienen;
+* cómo están estructurados;
+* qué significan sus campos;
+* cómo deben utilizarse;
+* quién es responsable de ellos.
 
-La documentación permite que las personas y los sistemas utilicen los datos de manera consistente.
+### ¿Por qué importa?
 
-También facilita:
+La falta de documentación dificulta que las personas y los sistemas interpreten correctamente la información.
 
-incorporación de nuevos usuarios; resolución de problemas; auditoría; mantenimiento; desarrollo de soluciones de IA. Conexión con aprendizaje
+También dificulta la trazabilidad y el uso consistente.
 
-Aquí puede existir una necesidad directa de desarrollo de capacidades:
+---
 
-alfabetización de datos; interpretación de datasets; lectura de metadatos; comprensión de definiciones; uso correcto de fuentes. 
+# 11. DATA-08 — Trazabilidad
 
-## DATA-08 — Trazabilidad Concepto clave: Data Lineage
+### Qué significa
 
-La trazabilidad permite conocer el recorrido de un dato:
+Evalúa si puede identificarse el origen, recorrido y transformación de los datos.
 
-Fuente original
-      ↓
+La trazabilidad permite comprender:
+
+```text
+Fuente
+   ↓
+Captura
+   ↓
 Transformación
-      ↓
+   ↓
 Almacenamiento
-      ↓
-Integración
-      ↓
-Uso por la IA
-      ↓
+   ↓
+Uso
+   ↓
 Resultado
-¿Por qué importa?
+```
 
-Cuando un resultado generado por IA es cuestionado, la organización necesita poder investigar:
+### ¿Por qué importa?
 
-¿De dónde provino la información utilizada?
+La trazabilidad facilita la investigación de errores, la supervisión y la comprensión de cómo la información llegó a formar parte de un resultado.
 
-La trazabilidad es especialmente importante cuando:
+---
 
-las decisiones tienen impacto significativo; existen obligaciones regulatorias; los datos se transforman varias veces; intervienen múltiples sistemas. Conexión con el assessment
+# 12. DATA-09 — Propiedad y responsabilidad
 
-Una puntuación baja debe elevar el nivel de análisis antes de considerar determinados casos de uso como candidatos para producción.
+### Qué significa
 
-## DATA-09 — Propiedad y responsabilidad
+Evalúa si existen responsabilidades claras respecto de los datos.
 
-Concepto clave: Data Ownership
+Debe ser posible identificar, según corresponda:
 
-Debe existir claridad sobre quién es responsable de:
+* quién administra los datos;
+* quién es responsable de su calidad;
+* quién autoriza determinados usos;
+* quién debe resolver problemas;
+* quién mantiene la documentación.
 
-definir; mantener; validar; proteger; actualizar; corregir
+### Relación con AI Enablement
 
-los datos utilizados.
+La ausencia de responsabilidades claras puede convertirse en una barrera para la utilización sostenible de IA.
 
-¿Por qué importa?
+Una solución tecnológica no elimina la necesidad de responsabilidades organizacionales.
 
-Cuando nadie tiene responsabilidad clara, los problemas de datos pueden permanecer sin resolver.
+---
 
-Conexión con AI Enablement
+# 13. DATA-10 — Permisos y uso
 
-Esta dimensión también tiene una dimensión organizacional.
+### Qué significa
 
-Las personas necesitan comprender:
+Evalúa si los datos pueden utilizarse para el caso de uso bajo las condiciones correspondientes.
 
-qué responsabilidades tienen; qué decisiones pueden tomar; cuándo deben escalar un problema; quién debe aprobar cambios.
+Esto incluye considerar las restricciones y condiciones organizacionales aplicables al acceso y utilización de la información.
 
-Por eso, una brecha puede requerir tanto:
+### ¿Por qué importa?
 
-definición organizacional + capacitación.
+Que una persona pueda técnicamente acceder a determinados datos no significa necesariamente que pueda utilizarlos para cualquier propósito.
 
-## DATA-10 — Permisos y uso
+Este criterio conecta la preparación de datos con la dimensión de **Gobernanza**.
 
-Concepto clave: Data Governance
+---
 
-Evalúa si los datos pueden utilizarse legítimamente para el caso de uso propuesto.
+# 14. Interpretación de los resultados
 
-Debe considerarse:
+Los resultados de esta dimensión deben utilizarse como **evidencia para orientar la investigación**, no como una conclusión automática.
 
-autorización; privacidad; confidencialidad; propiedad intelectual; restricciones contractuales; políticas internas; requisitos regulatorios. Punto crítico
+La lógica es:
 
-La disponibilidad técnica de un dato no implica automáticamente autorización para utilizarlo con IA.
+```text
+Resultado del assessment
+        ↓
+Identificación de posible brecha
+        ↓
+Investigación
+        ↓
+Identificación de causa
+        ↓
+Determinación de intervención
+```
 
-Esta distinción debe formar parte de la cultura de AI Enablement.
+Una puntuación baja puede indicar una necesidad relacionada con:
 
-14. Cómo interpretar el score de Datos
+* datos;
+* procesos;
+* tecnología;
+* gobernanza;
+* responsabilidades;
+* capacidades humanas.
 
-La aplicación utiliza una escala de 1 a 5:
+Por lo tanto:
 
-| Score | Nivel         | Interpretación                                                            |
-| ----: | ------------- | ------------------------------------------------------------------------- |
-| **1** | Inicial       | La capacidad prácticamente no existe o no puede demostrarse con evidencia |
-| **2** | En desarrollo | Existen capacidades parciales, pero son inconsistentes                    |
-| **3** | Definida      | La capacidad existe y está documentada, aunque presenta brechas           |
-| **4** | Gestionada    | La capacidad está implementada y se aplica consistentemente               |
-| **5** | Optimizada    | La capacidad está integrada y mejora continuamente                        |
+> **DATA score bajo ≠ automáticamente capacitación.**
 
+---
 
-El score de la dimensión corresponde al promedio de los criterios de datos.
+# 15. Relación con las demás dimensiones
 
-Importante
+La preparación de datos no funciona de manera independiente.
 
-Un 3 no significa automáticamente "datos listos para IA".
+Puede existir una relación directa con:
 
-Significa que, en promedio, existe una capacidad definida.
+| Dimensión                                  | Relación                                                                                    |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| **Skills y talento**                       | Las personas necesitan capacidades para localizar, interpretar, utilizar y evaluar datos    |
+| **Gobernanza**                             | Los datos requieren reglas, responsabilidades, controles y condiciones de uso               |
+| **Tecnología e infraestructura**           | Los sistemas determinan cómo se almacenan, integran, protegen y hacen disponibles los datos |
+| **Estrategia y alineación con el negocio** | Los datos deben responder a necesidades y casos de uso relevantes para la organización      |
 
-El siguiente análisis debe determinar si esa capacidad es suficiente para:
+Esto refuerza el principio general del framework:
 
-el caso de uso;
-el nivel de riesgo;
-el nivel de automatización;
-los resultados esperados.
+> **La preparación para IA es un sistema de condiciones interdependientes.**
 
-# 15. Cómo convertir el resultado en una necesidad de aprendizaje
+---
 
-El assessment debe ser el inicio de una investigación, no el final.
+# 16. Relación con el assessment app
 
-Utilizar la siguiente secuencia:
-Score bajo
-   ↓
-Identificar criterio
-   ↓
-Identificar evidencia
-   ↓
-Determinar causa
-   ↓
-¿Es una brecha de capacidad?
-   ↓
-Sí ──────────────── No
- ↓                    ↓
-Necesidad de       Intervención
-aprendizaje         organizacional /
-                    tecnológica
+La aplicación de assessment utiliza preguntas estructuradas para generar información sobre esta dimensión.
+
+Los resultados pueden contribuir a identificar:
+
+* fortalezas;
+* posibles brechas;
+* áreas que requieren investigación;
+* prioridades relativas;
+* señales que deben considerarse junto con las demás dimensiones.
+
+La aplicación **no sustituye la validación posterior con la organización**.
+
+Su función es proporcionar una primera capa de evidencia que facilite la conversación y el análisis.
+
+---
+
+# 17. Del resultado a la necesidad de aprendizaje
+
+Cuando el assessment identifica una posible brecha relacionada con datos, debe realizarse una investigación adicional.
 
 Por ejemplo:
 
-Situación
+```text
+DATA score bajo
+      ↓
+¿Los datos existen?
+      ↓
+Sí ─────────────── No
+ ↓                   ↓
+¿Son accesibles?     Intervención
+ ↓                   de datos/
+Sí / No              estrategia
+ ↓
+¿Las personas
+saben utilizarlos?
+ ↓
+Sí / No
+ ↓
+Posible necesidad
+de capacidades
+```
 
-DATA-07 — Documentación = 2
+Esta lógica evita convertir automáticamente todos los problemas de datos en cursos.
 
-Esto no significa automáticamente:
+---
 
-"Capacitar en documentación de datos."
+# 18. Preguntas para profundizar durante el workshop
 
-Primero debemos preguntar:
+Los resultados pueden utilizarse como punto de partida para preguntas como:
 
-¿La documentación existe pero no se conoce?
-¿Las personas no saben interpretarla?
-¿No existe documentación?
-¿No hay responsables?
-¿Los sistemas no generan metadatos?
-¿El proceso de documentación no está definido?
+1. ¿Qué datos requiere realmente el caso de uso?
+2. ¿Dónde se encuentran?
+3. ¿Quién puede acceder a ellos?
+4. ¿Qué tan confiables son?
+5. ¿Qué tan actualizados deben estar?
+6. ¿Existen diferentes fuentes que deben integrarse?
+7. ¿La información está suficientemente documentada?
+8. ¿Puede rastrearse su origen?
+9. ¿Quién es responsable de su calidad y uso?
+10. ¿Existen restricciones sobre cómo pueden utilizarse?
 
-Cada causa requiere una intervención diferente.
+Estas preguntas ayudan a transformar una puntuación en una conversación diagnóstica.
 
-16. Del diagnóstico a las capacidades
+---
 
-Una vez identificada una brecha atribuible a personas, convertirla en una capacidad observable.
+# 19. Conexión con el TNA
 
-En lugar de:
+La información de esta dimensión puede contribuir al **Training Needs Analysis**, pero solamente después de investigar la causa de la brecha.
 
-"Los usuarios necesitan capacitación en datos."
+La cadena es:
 
-formular:
+```text
+Assessment
+    ↓
+Posible brecha en datos
+    ↓
+Investigación de la causa
+    ↓
+¿La causa está relacionada con una capacidad?
+    ↓
+Sí → TNA
+No → Otra intervención
+```
 
-"Los usuarios deben ser capaces de identificar las fuentes de datos autorizadas, evaluar su calidad básica y seleccionar la fuente adecuada para un caso de uso de IA."
+Por ejemplo, si las personas no saben interpretar o utilizar correctamente una fuente de datos disponible, puede existir una necesidad de aprendizaje.
 
-Esto permite diseñar actividades de aprendizaje más precisas.
+Si el problema es que la fuente no existe o no está integrada, la solución no es necesariamente formativa.
 
-| Elemento           | Definición                                           |
-| ------------------ | ---------------------------------------------------- |
-| Brecha             | Uso inconsistente de fuentes de datos                |
-| Capacidad objetivo | Seleccionar fuentes autorizadas y adecuadas          |
-| Conocimiento       | Fuentes disponibles, criterios de calidad y permisos |
-| Habilidad          | Evaluar y seleccionar una fuente                     |
-| Práctica           | Resolver casos con diferentes fuentes                |
-| Evidencia          | Justificación de la selección                        |
-| Aplicación         | Uso de la fuente correcta en el trabajo              |
+→ [Continuar con 02 — Skills y talento](02-skills-and-talent.md)
 
+---
 
-17. Preguntas de profundización para el taller
+## Navegación
 
-Los resultados del assessment pueden utilizarse para facilitar una conversación con participantes y responsables del negocio.
+⬅️ [Volver al README](README.md)
 
-Sobre el caso de uso
-¿Qué información necesita realmente la IA?
-¿Qué información es indispensable?
-¿Qué información sería deseable pero no crítica?
-Sobre calidad
-¿Cómo sabemos que los datos son correctos?
-¿Qué errores son frecuentes?
-¿Cómo se detectan?
-¿Quién los corrige?
-Sobre acceso
-¿Quién puede utilizar los datos?
-¿Quién debería poder utilizarlos?
-¿Qué barreras existen?
-Sobre conocimiento
-¿Las personas saben dónde encontrar los datos?
-¿Saben evaluar si una fuente es adecuada?
-¿Entienden las limitaciones de los datos?
-Sobre responsabilidad
-¿Quién es responsable de cada fuente?
-¿Quién puede aprobar su uso?
-¿Quién responde cuando existe un problema?
-Sobre IA
-¿Qué información puede introducirse en una herramienta de IA?
-¿Qué información no debe utilizarse?
-¿Cómo se verifica la información generada?
-
-8. Implicaciones para el diseño de aprendizaje
-
-Una evaluación baja en datos puede generar diferentes tipos de intervenciones.
-
-| Necesidad identificada                  | Posible intervención                 |
-| --------------------------------------- | ------------------------------------ |
-| Falta de alfabetización de datos        | Curso o taller de data literacy      |
-| Dificultad para interpretar fuentes     | Laboratorio práctico                 |
-| Desconocimiento de permisos             | Taller de uso responsable de datos   |
-| Errores frecuentes en preparación       | Práctica guiada con datasets         |
-| Falta de criterios para evaluar calidad | Ejercicios de evaluación de calidad  |
-| Falta de conocimiento sobre fuentes     | Guía de trabajo + práctica           |
-| Responsabilidades ambiguas              | Definición organizacional            |
-| Datos inexistentes                      | Proyecto de datos                    |
-| Sistemas desconectados                  | Intervención tecnológica             |
-| Falta de documentación                  | Proyecto de documentación / metadata |
-
-Esto refuerza un principio central del framework:
-
-No toda brecha identificada por el assessment es una brecha de aprendizaje.
-
-19. Indicadores que pueden complementar el assessment
-
-El score puede enriquecerse con evidencia operacional.
-
-Ejemplos:
-
-porcentaje de fuentes documentadas;
-porcentaje de datos con propietario asignado;
-tasa de errores;
-porcentaje de registros completos;
-frecuencia de actualización;
-número de fuentes integradas;
-tiempo necesario para obtener datos;
-número de incidentes relacionados con datos;
-porcentaje de datasets con clasificación de sensibilidad;
-porcentaje de usuarios que conocen las fuentes autorizadas.
-
-Estos indicadores pueden convertirse posteriormente en métricas de seguimiento.
-
-20. Del score al plan de acción
-
-Cuando la dimensión de Datos presenta una brecha significativa, el plan de acción debe identificar:
-
-| Elemento       | Pregunta                      |
-| -------------- | ----------------------------- |
-| Brecha         | ¿Qué capacidad falta?         |
-| Causa          | ¿Por qué existe la brecha?    |
-| Impacto        | ¿Qué limita o pone en riesgo? |
-| Acción         | ¿Qué debe cambiar?            |
-| Responsable    | ¿Quién debe actuar?           |
-| Prioridad      | ¿Qué tan urgente es?          |
-| Fecha objetivo | ¿Cuándo debe resolverse?      |
-| Evidencia      | ¿Cómo sabremos que mejoró?    |
-
-La aplicación puede utilizar estos elementos para convertir el resultado del assessment en un plan de acción concreto.
-
-21. Términos clave
- | Término                    | Definición                                                                                             |
-| -------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Calidad de datos**       | Grado en que los datos cumplen las características necesarias para su uso previsto                     |
-| **Data Literacy**          | Capacidad de comprender, interpretar y utilizar datos de manera adecuada                               |
-| **Data Lineage**           | Trazabilidad del origen, transformación y recorrido de los datos                                       |
-| **Data Ownership**         | Responsabilidad formal sobre la gestión y calidad de un conjunto de datos                              |
-| **Metadatos**              | Información que describe otros datos, su significado, origen, estructura o uso                         |
-| **Fuente de datos**        | Sistema, repositorio o recurso del que se obtiene información                                          |
-| **Data Governance**        | Conjunto de responsabilidades, reglas y controles para gestionar los datos                             |
-| **Data Quality**           | Evaluación sistemática de características como precisión, completitud y consistencia                   |
-| **Accesibilidad**          | Capacidad de obtener y utilizar datos bajo las condiciones autorizadas                                 |
-| **Trazabilidad**           | Capacidad de seguir el recorrido de los datos desde su origen hasta su uso                             |
-| **Datos sensibles**        | Información que requiere controles especiales debido a su naturaleza o impacto                         |
-| **Datos estructurados**    | Información organizada en estructuras definidas, como tablas y registros                               |
-| **Datos no estructurados** | Información como documentos, texto, imágenes, audio o video que no sigue una estructura tabular rígida |
-| **Fuente autorizada**      | Fuente cuyo uso está permitido para el propósito determinado                                           |
-| **Caso de uso**            | Aplicación concreta de IA destinada a resolver un problema o generar un resultado                      |
-| **Data Readiness**         | Nivel de preparación de los datos para soportar un caso de uso específico                              |
-                   
-22. Idea clave para el workshop
-
-💡 La pregunta no es si la organización tiene datos.
-
-La pregunta es:
-
-¿Puede demostrar que los datos necesarios para este caso de uso son adecuados, accesibles, confiables, trazables y utilizables bajo las condiciones correspondientes?
-
-Y cuando exista una brecha:
-
-¿El problema se resuelve desarrollando capacidades de las personas, cambiando procesos, mejorando tecnología, fortaleciendo gobernanza o mediante una combinación de estas intervenciones?
-
-Esta distinción es fundamental para que el assessment se convierta en una herramienta de Training Needs Analysis y estrategia de capacidades, en lugar de convertirse simplemente en un cuestionario de madurez.
-
-Siguiente sección
-
-➡️ 02 — Skills y talento
+➡️ [02 — Skills y talento](02-skills-and-talent.md)
