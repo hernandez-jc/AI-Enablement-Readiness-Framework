@@ -1,950 +1,682 @@
 # 09 — Plan de acción
 
-> **Función dentro del framework:** Convertir los resultados del assessment, el Training Needs Analysis y la estrategia de aprendizaje en un conjunto de acciones priorizadas, ejecutables y medibles.
-> **Pregunta central:** ¿Qué debe hacerse, quién debe hacerlo, cuándo, con qué recursos y cómo se determinará si la intervención produjo el resultado esperado?
+> **Fase 09 del AI Enablement Readiness Framework**
+> **Propósito:** convertir los resultados del assessment, el diagnóstico de necesidades y la estrategia de aprendizaje en un conjunto priorizado de acciones concretas, responsables, plazos e indicadores de seguimiento.
 
 ---
 
-## 1. ¿Por qué importa?
+## 1. Propósito de esta fase
 
-El diagnóstico por sí solo no transforma una organización.
+El Plan de acción representa la transición desde el diagnóstico y el diseño hacia la implementación.
 
-El assessment permite identificar el nivel de preparación.
+Las fases anteriores responden progresivamente:
 
-El TNA permite determinar qué capacidades necesitan desarrollarse y cuáles son las causas de las brechas.
+* **01–05:** ¿Qué condiciones de preparación existen?
+* **06:** ¿Cómo evaluamos e interpretamos esas condiciones?
+* **07:** ¿Qué necesidades de desempeño y capacidades identificamos?
+* **08:** ¿Cómo desarrollaremos esas capacidades?
+* **09:** ¿Qué acciones deben ejecutarse para convertir la estrategia en resultados?
 
-La estrategia de aprendizaje define cómo desarrollar las capacidades relacionadas con aprendizaje.
+Por lo tanto:
 
-El **Plan de acción** convierte esas decisiones en ejecución.
+> **El Plan de acción convierte las decisiones del diagnóstico y la estrategia en acciones ejecutables y medibles.**
 
-La lógica completa es:
+---
+
+# 2. El Plan de acción dentro del framework
+
+La arquitectura completa puede representarse así:
 
 ```text
-Assessment
-    ↓
-Diagnóstico
-    ↓
-TNA
-    ↓
-Estrategia de aprendizaje
-    ↓
-Plan de acción
-    ↓
+01 — Datos
+02 — Skills y talento
+03 — Gobernanza
+04 — Tecnología e infraestructura
+05 — Estrategia y alineación
+          ↓
+06 — Metodología del assessment
+          ↓
+Resultados y señales
+          ↓
+07 — Training Needs Analysis
+          ↓
+Necesidades de desempeño y capacidades
+          ↓
+08 — Estrategia de aprendizaje
+          ↓
+Experiencias y soluciones de aprendizaje
+          ↓
+09 — Plan de acción
+          ↓
 Implementación
-    ↓
-Medición
-    ↓
-Mejora
+          ↓
+Seguimiento
+          ↓
+Resultados
 ```
 
-El plan de acción es, por tanto, el puente entre:
+El Plan de acción no reemplaza las fases anteriores.
 
-**lo que sabemos → lo que decidimos → lo que hacemos.**
-
----
-
-# 2. El principio de acción basada en evidencia
-
-Las acciones no deben definirse únicamente porque una dimensión obtuvo una puntuación baja.
-
-Una puntuación baja constituye una señal para investigar.
-
-La acción debe considerar:
-
-* el resultado del assessment;
-* la importancia de la brecha;
-* la causa identificada;
-* el impacto potencial;
-* el nivel de riesgo;
-* la prioridad estratégica;
-* las dependencias;
-* los recursos disponibles;
-* la capacidad de implementación.
-
-Por eso:
-
-> **Score bajo ≠ automáticamente capacitación.**
-
-La acción debe responder al diagnóstico completo.
+Las utiliza como fundamento para decidir **qué hacer a continuación**.
 
 ---
 
-# 3. Del diagnóstico a la acción
+# 3. Principio fundamental: acción basada en evidencia
 
-La secuencia recomendada es:
+Las acciones deben derivarse de necesidades identificadas y priorizadas.
+
+La lógica es:
 
 ```text
-Resultado
+Evidencia
    ↓
-Brecha
+Diagnóstico
    ↓
-Causa
-   ↓
-Necesidad
-   ↓
-Intervención
+Prioridad
    ↓
 Acción
    ↓
 Responsable
    ↓
 Indicador
+   ↓
+Seguimiento
 ```
 
-Cada acción debe poder vincularse con una necesidad previamente identificada.
-
-Esto mantiene la trazabilidad del proceso.
+Esto evita convertir el plan en una lista genérica de actividades.
 
 ---
 
-# 4. Qué debe contener un plan de acción
+# 4. Qué debe responder el Plan de acción
 
-Un plan de acción integral debería especificar, como mínimo:
+Un plan útil debe permitir responder:
 
-| Elemento               | Pregunta                         |
-| ---------------------- | -------------------------------- |
-| **Prioridad**          | ¿Qué debe abordarse primero?     |
-| **Brecha**             | ¿Qué problema se está abordando? |
-| **Causa**              | ¿Por qué existe la brecha?       |
-| **Objetivo**           | ¿Qué cambio se espera lograr?    |
-| **Acción**             | ¿Qué debe hacerse?               |
-| **Responsable**        | ¿Quién lidera la acción?         |
-| **Participantes**      | ¿Quiénes estarán involucrados?   |
-| **Dependencias**       | ¿Qué debe ocurrir antes?         |
-| **Recursos**           | ¿Qué se necesita?                |
-| **Plazo**              | ¿Cuándo debe completarse?        |
-| **Indicador**          | ¿Cómo se medirá el avance?       |
-| **Resultado esperado** | ¿Qué debería cambiar?            |
+1. ¿Qué debe hacerse?
+2. ¿Por qué debe hacerse?
+3. ¿Qué problema o necesidad aborda?
+4. ¿Cuál es la prioridad?
+5. ¿Quién es responsable?
+6. ¿Quién debe participar?
+7. ¿Qué recursos se necesitan?
+8. ¿Cuándo debe realizarse?
+9. ¿Qué resultado se espera?
+10. ¿Cómo se medirá el avance?
+11. ¿Qué evidencia demostrará que la acción produjo el resultado esperado?
+12. ¿Cuándo debe revisarse nuevamente?
 
 ---
 
-# 5. No confundir acción con actividad
+# 5. De la recomendación a la acción
 
-Una actividad describe algo que se hace.
+Una recomendación general no constituye todavía un plan de acción.
 
-Una acción estratégica debe explicar **para qué se hace y qué resultado debe producir**.
+Por ejemplo:
 
-### Actividad
+> "Mejorar las capacidades de IA."
 
-> Realizar un taller de prompting.
+es demasiado amplio para ejecutar.
 
-### Acción mejor definida
+Una acción debe ser más específica:
 
-> Desarrollar y ejecutar un taller práctico para que los profesionales puedan incorporar prompting estructurado en tareas prioritarias identificadas mediante el assessment.
+```text
+Necesidad
+    ↓
+Capacidad prioritaria
+    ↓
+Intervención
+    ↓
+Responsable
+    ↓
+Plazo
+    ↓
+Indicador
+```
 
-La segunda formulación permite establecer:
-
-* audiencia;
-* propósito;
-* relación con el diagnóstico;
-* resultado esperado;
-* indicador.
+El nivel de especificidad debe ser suficiente para que otra persona pueda comprender qué debe ocurrir.
 
 ---
 
 # 6. Tipos de intervención
 
-El plan debe distinguir diferentes tipos de acciones.
+El plan debe conservar la distinción entre diferentes tipos de intervención.
 
-| Tipo            | Ejemplo                                          |
-| --------------- | ------------------------------------------------ |
-| **Learning**    | Desarrollar una capacidad                        |
-| **Technology**  | Habilitar una herramienta o integración          |
-| **Data**        | Mejorar disponibilidad o calidad                 |
-| **Governance**  | Definir políticas, controles o responsabilidades |
-| **Process**     | Rediseñar un workflow                            |
-| **Strategy**    | Priorizar casos de uso                           |
-| **Change**      | Facilitar adopción                               |
-| **Leadership**  | Desarrollar capacidad de liderazgo               |
-| **Measurement** | Establecer indicadores                           |
+Una acción puede estar relacionada con:
 
-Esta clasificación evita que todo problema termine convertido en una iniciativa de capacitación.
+| Tipo         | Ejemplos                                                         |
+| ------------ | ---------------------------------------------------------------- |
+| Aprendizaje  | Taller, práctica, coaching, recursos de apoyo                    |
+| Proceso      | Rediseño de workflow, actualización de procedimiento             |
+| Tecnología   | Configuración, integración, acceso, soporte                      |
+| Datos        | Limpieza, documentación, acceso, integración                     |
+| Gobernanza   | Política, control, responsabilidad, revisión                     |
+| Estrategia   | Priorización, selección de casos de uso, definición de objetivos |
+| Organización | Roles, responsabilidades, recursos, coordinación                 |
 
----
+### Principio clave
 
-# 7. Priorización
-
-No todas las acciones tienen la misma importancia.
-
-La priorización debe considerar al menos:
-
-| Factor           | Pregunta                                                |
-| ---------------- | ------------------------------------------------------- |
-| **Impacto**      | ¿Cuánto valor puede generar la acción?                  |
-| **Urgencia**     | ¿Qué tan pronto debe abordarse?                         |
-| **Riesgo**       | ¿Qué ocurre si no se actúa?                             |
-| **Alcance**      | ¿Cuántas personas o procesos afecta?                    |
-| **Alineación**   | ¿Qué tan relacionada está con prioridades estratégicas? |
-| **Dependencias** | ¿Bloquea otras iniciativas?                             |
-| **Factibilidad** | ¿Puede ejecutarse con los recursos disponibles?         |
+> **El Plan de acción no debe convertir automáticamente todas las brechas en acciones de capacitación.**
 
 ---
 
-# 8. Matriz de priorización
+# 7. Priorización de acciones
 
-Puede utilizarse una clasificación sencilla:
+Cuando existen múltiples acciones posibles, deben priorizarse.
 
-| Prioridad        | Criterio                                                                                                        |
-| ---------------- | --------------------------------------------------------------------------------------------------------------- |
-| **P1 — Crítica** | Acción necesaria para habilitar capacidades estratégicas, reducir riesgos importantes o desbloquear iniciativas |
-| **P2 — Alta**    | Acción con impacto significativo en desempeño o adopción                                                        |
-| **P3 — Media**   | Acción importante pero no inmediata                                                                             |
-| **P4 — Baja**    | Acción conveniente que puede programarse posteriormente                                                         |
+Puede utilizarse una combinación de criterios como:
 
-La prioridad debe estar justificada por la evidencia disponible.
+| Criterio     | Pregunta                                                  |
+| ------------ | --------------------------------------------------------- |
+| Impacto      | ¿Cuánto puede contribuir la acción al resultado esperado? |
+| Urgencia     | ¿Qué tan pronto debe ejecutarse?                          |
+| Riesgo       | ¿Qué ocurre si no se aborda?                              |
+| Alcance      | ¿Cuántas personas, tareas o áreas afecta?                 |
+| Factibilidad | ¿Puede ejecutarse con los recursos disponibles?           |
+| Dependencias | ¿Depende de otra acción previa?                           |
+| Alineación   | ¿Está relacionada con una prioridad estratégica?          |
 
----
-
-# 9. Quick Wins y acciones estructurales
-
-El plan puede combinar acciones de corto y largo plazo.
-
-### Quick Wins
-
-Son acciones que pueden producir mejoras relativamente rápidas con una dependencia limitada.
-
-Ejemplos:
-
-* crear un job aid;
-* establecer una guía de uso;
-* capacitar un grupo piloto;
-* definir criterios de evaluación de outputs;
-* documentar un workflow.
-
-### Acciones estructurales
-
-Requieren cambios más amplios.
-
-Ejemplos:
-
-* integración tecnológica;
-* rediseño de procesos;
-* gobierno de datos;
-* nuevas políticas;
-* desarrollo de capacidades organizacionales.
-
-La estrategia debe evitar concentrarse únicamente en quick wins si existen dependencias estructurales.
+La priorización permite concentrar los recursos donde puedan producir mayor valor.
 
 ---
 
-# 10. Dependencias
+# 8. Matriz de acción
 
-Algunas acciones no pueden ejecutarse eficazmente hasta que otras condiciones estén disponibles.
+Una estructura recomendada para el plan es:
+
+| Prioridad | Acción             | Necesidad que aborda     | Tipo de intervención                      | Responsable          | Plazo           | Indicador          | Evidencia          |
+| --------- | ------------------ | ------------------------ | ----------------------------------------- | -------------------- | --------------- | ------------------ | ------------------ |
+| Alta      | Acción prioritaria | Brecha identificada      | Aprendizaje / proceso / tecnología / etc. | Responsable definido | Fecha o periodo | Indicador definido | Evidencia esperada |
+| Media     | Acción secundaria  | Necesidad identificada   | Tipo de intervención                      | Responsable definido | Fecha o periodo | Indicador definido | Evidencia esperada |
+| Baja      | Acción posterior   | Oportunidad identificada | Tipo de intervención                      | Responsable definido | Fecha o periodo | Indicador definido | Evidencia esperada |
+
+Esta estructura puede adaptarse al contexto del cliente.
+
+---
+
+# 9. Dependencias
+
+Algunas acciones no pueden ejecutarse eficazmente hasta que se cumplan determinadas condiciones.
 
 Por ejemplo:
 
 ```text
-Política de uso
-      ↓
-Herramienta autorizada
-      ↓
-Acceso de usuarios
-      ↓
-Capacitación
-      ↓
+Acceso a herramienta
+       ↓
 Práctica
-      ↓
+       ↓
+Aplicación
+       ↓
+Evaluación
+```
+
+O:
+
+```text
+Gobernanza
+       ↓
+Definición de uso permitido
+       ↓
+Configuración tecnológica
+       ↓
+Capacitación
+       ↓
 Aplicación
 ```
 
-Si el acceso a la herramienta todavía no existe, una capacitación práctica sobre esa herramienta puede no ser la acción prioritaria.
-
-El plan debe hacer visibles estas dependencias.
+Identificar dependencias evita diseñar intervenciones que no pueden implementarse todavía.
 
 ---
 
-# 11. Roadmap de implementación
+# 10. Secuenciación
 
-Una forma sencilla de estructurar el roadmap es:
+Las acciones pueden organizarse en horizontes temporales.
+
+Un modelo posible es:
 
 ```text
-FASE 1 — Preparar
-       ↓
-FASE 2 — Habilitar
-       ↓
-FASE 3 — Desarrollar
-       ↓
-FASE 4 — Aplicar
-       ↓
-FASE 5 — Medir
-       ↓
-FASE 6 — Escalar
+Corto plazo
+    ↓
+Acciones habilitadoras
+    ↓
+Mediano plazo
+    ↓
+Desarrollo y aplicación
+    ↓
+Largo plazo
+    ↓
+Escalamiento y mejora
 ```
 
-### Fase 1 — Preparar
+La secuencia debe depender de las prioridades y condiciones reales de la organización.
 
-* validar resultados;
-* confirmar prioridades;
-* definir responsables;
-* identificar dependencias.
-
-### Fase 2 — Habilitar
-
-* resolver restricciones;
-* preparar herramientas;
-* establecer condiciones;
-* definir políticas y recursos.
-
-### Fase 3 — Desarrollar
-
-* ejecutar la estrategia de aprendizaje;
-* desarrollar capacidades;
-* practicar.
-
-### Fase 4 — Aplicar
-
-* utilizar las nuevas capacidades en el trabajo;
-* implementar workflows;
-* recopilar evidencia.
-
-### Fase 5 — Medir
-
-* revisar resultados;
-* comparar indicadores;
-* identificar nuevas brechas.
-
-### Fase 6 — Escalar
-
-* ampliar iniciativas efectivas;
-* ajustar intervenciones;
-* incorporar nuevos grupos o casos de uso.
+No existe una única secuencia universal.
 
 ---
 
-# 12. Plan de acción integrado
+# 11. Acciones habilitadoras
 
-La siguiente matriz puede utilizarse como estructura principal.
-
-| Prioridad | Dimensión  | Brecha                         | Acción                                | Tipo                  | Responsable                | Plazo         | Indicador                           | Resultado esperado            |
-| --------- | ---------- | ------------------------------ | ------------------------------------- | --------------------- | -------------------------- | ------------- | ----------------------------------- | ----------------------------- |
-| P1        | Skills     | Evaluación limitada de outputs | Implementar práctica de evaluación    | Learning              | Responsable de aprendizaje | Corto plazo   | % de participantes competentes      | Mayor capacidad de evaluación |
-| P1        | Gobernanza | Uso inconsistente              | Implementar formación y guía de uso   | Governance + Learning | Responsable de gobernanza  | Corto plazo   | % de usuarios que aplican criterios | Uso más consistente           |
-| P1        | Tecnología | Acceso limitado                | Habilitar herramientas autorizadas    | Technology            | Tecnología                 | Corto plazo   | % de usuarios con acceso            | Herramientas disponibles      |
-| P2        | Datos      | Calidad insuficiente           | Definir controles de calidad          | Data                  | Responsable de datos       | Mediano plazo | Indicador de calidad                | Datos más confiables          |
-| P2        | Procesos   | Workflow no optimizado         | Rediseñar tareas prioritarias         | Process               | Líder del proceso          | Mediano plazo | Tiempo / calidad                    | Workflow mejorado             |
-| P2        | Estrategia | Casos de uso no priorizados    | Construir portafolio de oportunidades | Strategy              | Liderazgo                  | Mediano plazo | Casos priorizados                   | Iniciativas alineadas         |
-
-Esta matriz debe adaptarse a los resultados reales del assessment y al contexto del cliente.
-
----
-
-# 13. Responsabilidad y accountability
-
-Cada acción debe tener un responsable claramente identificado.
-
-No es suficiente indicar:
-
-> "El equipo debe mejorar sus habilidades de IA."
-
-Es necesario definir:
-
-> **Quién es responsable de coordinar la acción y quién debe participar.**
-
-Puede utilizarse una estructura simple:
-
-| Rol                       | Responsabilidad                             |
-| ------------------------- | ------------------------------------------- |
-| **Sponsor**               | Proporciona dirección y respaldo            |
-| **Owner**                 | Responde por la ejecución                   |
-| **Subject Matter Expert** | Aporta conocimiento especializado           |
-| **Learning Lead**         | Diseña o coordina el aprendizaje            |
-| **Technology Lead**       | Resuelve dependencias tecnológicas          |
-| **Data Lead**             | Gestiona necesidades relacionadas con datos |
-| **Participants**          | Aplican y proporcionan evidencia            |
-
-La estructura exacta dependerá del cliente.
-
----
-
-# 14. Indicadores de avance
-
-Los indicadores deben permitir saber si las acciones están avanzando.
-
-Ejemplos:
-
-* acciones iniciadas;
-* acciones completadas;
-* participantes capacitados;
-* herramientas habilitadas;
-* procesos rediseñados;
-* políticas implementadas;
-* casos de uso desarrollados;
-* workflows implementados.
-
-Estos indicadores miden principalmente **ejecución**.
-
----
-
-# 15. Indicadores de resultado
-
-Los indicadores de resultado responden a una pregunta diferente:
-
-> **¿La acción produjo el cambio esperado?**
+Algunas acciones no producen inmediatamente un resultado visible, pero son necesarias para permitir otras.
 
 Pueden incluir:
 
-* mejora en desempeño;
-* reducción de errores;
-* reducción de tiempo;
-* aumento de adopción;
-* mejora de calidad;
-* aumento de uso de capacidades;
-* reducción de incidencias;
-* mejora en indicadores del proceso.
+* definir responsabilidades;
+* habilitar acceso;
+* resolver restricciones;
+* preparar datos;
+* establecer criterios;
+* seleccionar herramientas;
+* desarrollar capacidades básicas.
 
-La selección depende del caso de uso.
-
----
-
-# 16. Diferenciar actividad, output y outcome
-
-Esta distinción es importante.
-
-| Nivel         | Ejemplo                                 |
-| ------------- | --------------------------------------- |
-| **Actividad** | Realizar un workshop                    |
-| **Output**    | 30 personas completan el workshop       |
-| **Outcome**   | Las personas aplican la nueva capacidad |
-| **Impacto**   | Mejora el desempeño del proceso         |
-
-Por lo tanto:
-
-> **Completar una actividad no demuestra que se produjo el resultado esperado.**
+Estas acciones deben identificarse explícitamente.
 
 ---
 
-# 17. Métricas conectadas al trabajo
+# 12. Acciones de aprendizaje
 
-Siempre que sea posible, las métricas deben relacionarse con el desempeño.
+Cuando el TNA demuestra una necesidad de aprendizaje, el plan puede incluir acciones como:
+
+* ejecutar un workshop;
+* desarrollar módulos;
+* crear prácticas;
+* proporcionar job aids;
+* establecer coaching;
+* crear comunidades de práctica;
+* implementar actividades de seguimiento;
+* evaluar desempeño.
+
+Cada acción debe estar vinculada con una capacidad específica.
+
+---
+
+# 13. Acciones sobre el workflow
+
+AI Enablement requiere considerar qué ocurre en el trabajo después de la intervención.
+
+Por eso, el plan puede incluir acciones para:
+
+* rediseñar tareas;
+* modificar workflows;
+* incorporar puntos de revisión;
+* definir responsabilidades;
+* documentar nuevos procedimientos;
+* establecer mecanismos de evaluación.
+
+La capacitación por sí sola puede no ser suficiente para modificar el desempeño.
+
+---
+
+# 14. Responsables
+
+Cada acción debe tener un responsable claramente identificado.
+
+El responsable no necesariamente es quien ejecuta personalmente todas las actividades.
+
+Su función es asegurar que la acción avance y que exista coordinación cuando intervengan varias personas o áreas.
+
+### Pregunta clave
+
+> **¿Quién tiene la responsabilidad de que esta acción ocurra?**
+
+Evitar responsables genéricos como:
+
+* "la organización";
+* "el equipo";
+* "RR. HH.";
+* "IT";
+
+cuando sea posible identificar una función o responsable concreto.
+
+---
+
+# 15. Indicadores
+
+Cada acción debe asociarse con indicadores apropiados.
+
+Un indicador debe ayudar a determinar si existe progreso o resultado.
+
+Puede medir:
+
+* ejecución;
+* participación;
+* aprendizaje;
+* aplicación;
+* desempeño;
+* utilización;
+* calidad;
+* eficiencia;
+* resultado de negocio.
+
+### Diferencia importante
+
+```text
+Actividad
+    ≠
+Resultado
+```
+
+Por ejemplo:
+
+> "100 personas completaron el workshop"
+
+demuestra participación.
+
+No demuestra necesariamente:
+
+> "100 personas aplican correctamente la capacidad en su trabajo."
+
+---
+
+# 16. Evidencia de éxito
+
+El plan debe especificar qué evidencia permitirá determinar si una acción fue efectiva.
+
+Puede incluir:
+
+* resultados de evaluación;
+* evidencia de desempeño;
+* aplicación en tareas;
+* cambios en workflows;
+* indicadores operativos;
+* feedback;
+* resultados de casos de uso;
+* comparación pre/post.
+
+La evidencia debe corresponder con el resultado esperado.
+
+---
+
+# 17. Seguimiento
+
+El Plan de acción no termina cuando se ejecuta una actividad.
+
+Debe establecerse un mecanismo para revisar:
+
+* qué se completó;
+* qué no se completó;
+* qué resultados se obtuvieron;
+* qué obstáculos aparecieron;
+* qué acciones requieren modificación;
+* qué nuevas necesidades surgieron.
+
+La lógica es:
+
+```text
+Plan
+  ↓
+Implementación
+  ↓
+Medición
+  ↓
+Revisión
+  ↓
+Ajuste
+  ↓
+Nueva acción
+```
+
+Esto convierte el framework en un proceso de mejora continua.
+
+---
+
+# 18. Relación con el assessment
+
+El assessment proporciona la línea base.
+
+El Plan de acción utiliza esa información junto con el diagnóstico posterior.
+
+```text
+Assessment
+    ↓
+Línea base
+    ↓
+TNA
+    ↓
+Intervenciones
+    ↓
+Plan de acción
+    ↓
+Seguimiento
+```
+
+Cuando sea apropiado, puede realizarse una nueva medición para observar cambios.
+
+---
+
+# 19. Relación con el TNA
+
+El TNA identifica:
+
+> **qué capacidades necesitan desarrollarse y por qué.**
+
+El Plan de acción determina:
+
+> **qué acciones se ejecutarán para abordar esas necesidades.**
 
 Por ejemplo:
 
 ```text
-Learning
-  ↓
-Capacidad
-  ↓
-Aplicación
-  ↓
-Workflow
-  ↓
-Desempeño
-  ↓
-Resultado de negocio
+TNA
+↓
+Capacidad: evaluar outputs de IA
+↓
+Estrategia
+↓
+Práctica basada en escenarios
+↓
+Plan de acción
+↓
+Diseñar y ejecutar workshop
+↓
+Evaluar aplicación
 ```
 
-Esto permite evitar una estrategia basada exclusivamente en métricas de participación.
+Esto mantiene la trazabilidad entre diagnóstico y acción.
 
 ---
 
-# 18. Plan piloto
+# 20. Relación con la estrategia de aprendizaje
 
-Cuando existe incertidumbre, puede ser conveniente comenzar con un piloto.
+La estrategia de aprendizaje define la arquitectura de la intervención.
 
-Un piloto puede utilizarse para:
+El Plan de acción convierte esa arquitectura en actividades implementables.
 
-* validar una estrategia;
-* probar una actividad;
-* evaluar una herramienta;
-* identificar obstáculos;
-* recopilar evidencia;
-* ajustar el diseño.
-
-La lógica puede ser:
-
-```text
-Diseñar
-   ↓
-Piloto
-   ↓
-Medir
-   ↓
-Aprender
-   ↓
-Ajustar
-   ↓
-Escalar
-```
-
-El piloto no debe considerarse únicamente una versión pequeña del programa.
-
-Debe funcionar como mecanismo de aprendizaje organizacional.
+| Estrategia de aprendizaje  | Plan de acción        |
+| -------------------------- | --------------------- |
+| Capacidad a desarrollar    | Acción específica     |
+| Experiencia de aprendizaje | Actividad a ejecutar  |
+| Modalidad                  | Implementación        |
+| Práctica                   | Oportunidad concreta  |
+| Evaluación                 | Indicador / evidencia |
+| Transferencia              | Seguimiento           |
 
 ---
 
-# 19. Escalamiento
+# 21. Relación con las cinco dimensiones de readiness
 
-Una vez validada una intervención, puede definirse cómo ampliarla.
+Las acciones pueden abordar cualquiera de las cinco dimensiones.
 
-El escalamiento puede considerar:
+| Dimensión        | Ejemplo de posible acción             |
+| ---------------- | ------------------------------------- |
+| Datos            | Mejorar documentación o acceso        |
+| Skills y talento | Desarrollar una capacidad prioritaria |
+| Gobernanza       | Definir o actualizar lineamientos     |
+| Tecnología       | Habilitar acceso o integración        |
+| Estrategia       | Priorizar casos de uso                |
 
-* nuevas áreas;
-* nuevas ocupaciones;
-* nuevos niveles;
-* nuevos casos de uso;
-* nuevos procesos;
-* nuevas ubicaciones.
+Estas son categorías de ejemplo.
 
-Antes de escalar, conviene evaluar:
+Las acciones reales deben derivarse de los resultados y del diagnóstico.
 
-* resultados;
+---
+
+# 22. Plan de acción como herramienta de decisión
+
+El Plan de acción no debe ser únicamente un documento administrativo.
+
+Debe ayudar a tomar decisiones sobre:
+
+* prioridades;
 * recursos;
+* secuencia;
+* responsables;
 * dependencias;
-* riesgos;
-* capacidad operativa;
-* sostenibilidad.
-
----
-
-# 20. Gestión del cambio
-
-Algunas acciones requieren más que comunicación o capacitación.
-
-La adopción puede depender de:
-
-* liderazgo;
-* incentivos;
-* procesos;
-* soporte;
-* herramientas;
-* expectativas;
+* inversión;
 * seguimiento.
 
-Por eso, cuando una acción implica cambio significativo, el plan debe incluir actividades para facilitar la adopción.
-
-La pregunta es:
-
-> **¿Qué condiciones deben existir para que las personas puedan y quieran aplicar la nueva forma de trabajar?**
+Por eso debe permanecer conectado con la evidencia que originó cada acción.
 
 ---
 
-# 21. Comunicación
+# 23. Trazabilidad
 
-La comunicación debe estar vinculada con la acción.
+Una característica importante del framework es poder seguir la relación entre el resultado inicial y la acción final.
 
-Puede explicar:
-
-* por qué se realiza el cambio;
-* qué problema se quiere resolver;
-* qué cambiará;
-* qué se espera de las personas;
-* qué apoyo estará disponible;
-* cómo se medirá el progreso.
-
-La comunicación no reemplaza la habilitación.
-
-Debe acompañarla.
-
----
-
-# 22. Recursos
-
-Cada acción debe considerar los recursos necesarios.
-
-Estos pueden incluir:
-
-* personas;
-* tiempo;
-* presupuesto;
-* herramientas;
-* datos;
-* contenido;
-* infraestructura;
-* soporte;
-* expertise;
-* capacidad de facilitación.
-
-Una acción sin recursos identificados no constituye todavía un plan ejecutable.
-
----
-
-# 23. Cronograma
-
-El cronograma debe reflejar prioridades y dependencias.
-
-Una estructura posible:
-
-| Horizonte      | Enfoque                                           |
-| -------------- | ------------------------------------------------- |
-| **0–30 días**  | Validación, priorización y quick wins             |
-| **31–90 días** | Pilotos, habilitación y desarrollo de capacidades |
-| **3–6 meses**  | Aplicación, medición y ajustes                    |
-| **6–12 meses** | Escalamiento y consolidación                      |
-
-Los plazos deben adaptarse a la capacidad y contexto de cada organización.
-
----
-
-# 24. Revisión y gobernanza del plan
-
-El plan de acción debe revisarse periódicamente.
-
-Una revisión puede considerar:
-
-1. ¿Qué acciones se completaron?
-2. ¿Qué acciones están retrasadas?
-3. ¿Qué dependencias cambiaron?
-4. ¿Qué resultados se observaron?
-5. ¿Qué obstáculos aparecieron?
-6. ¿Qué debe ajustarse?
-7. ¿Qué debe escalarse?
-8. ¿Qué nuevas necesidades surgieron?
-
-Esto convierte el plan en un instrumento vivo.
-
----
-
-# 25. Ciclo de mejora
-
-El plan de acción cierra un ciclo, pero también inicia el siguiente.
+La trazabilidad puede representarse así:
 
 ```text
-Assessment
-    ↓
-TNA
-    ↓
-Learning Strategy
-    ↓
-Action Plan
-    ↓
-Implementation
-    ↓
-Measurement
-    ↓
-New Evidence
-    ↓
-New Assessment / Reassessment
-```
-
-La organización puede repetir este ciclo a medida que:
-
-* cambian las herramientas;
-* cambian los procesos;
-* aparecen nuevos casos de uso;
-* evolucionan las capacidades;
-* cambian las necesidades del negocio.
-
----
-
-# 26. Conexión con la aplicación de assessment
-
-La aplicación constituye el punto de partida para recopilar datos estructurados.
-
-Los resultados pueden incluir variables como:
-
-* nombre;
-* organización;
-* ocupación;
-* nivel;
-* fecha;
-* timestamp;
-* identificador único;
-* dimensiones evaluadas;
-* puntuaciones;
-* resultados agregados.
-
-Estos datos permiten segmentar los resultados y alimentar el diagnóstico posterior.
-
-La aplicación no determina por sí sola el plan de acción.
-
-Su función es proporcionar **evidencia estructurada para apoyar decisiones posteriores**.
-
----
-
-# 27. Del CSV al plan de acción
-
-La información recopilada puede seguir una cadena analítica:
-
-```text
-Assessment
-    ↓
-CSV
-    ↓
-Análisis de resultados
-    ↓
-Identificación de patrones
-    ↓
-TNA
-    ↓
-Capacidades prioritarias
-    ↓
-Estrategia de aprendizaje
-    ↓
-Plan de acción
-```
-
-Esto permite mantener una relación trazable entre:
-
-**dato → diagnóstico → decisión → acción.**
-
----
-
-# 28. Trazabilidad de la acción
-
-Cada acción debería poder responder:
-
-> **¿De dónde surgió esta acción?**
-
-Una estructura útil es:
-
-```text
-Assessment Item
-      ↓
-Resultado
-      ↓
-Brecha
-      ↓
-Causa
-      ↓
+Respuesta del assessment
+        ↓
+Dimensión
+        ↓
+Posible brecha
+        ↓
+Investigación
+        ↓
 Necesidad
-      ↓
+        ↓
 Capacidad
-      ↓
+        ↓
 Intervención
-      ↓
+        ↓
 Acción
-      ↓
+        ↓
 Indicador
+        ↓
+Resultado
 ```
 
-Esta trazabilidad aumenta la transparencia del proceso y facilita explicar las decisiones al cliente.
+Esta cadena permite explicar **por qué se recomienda una acción determinada**.
 
 ---
 
-# 29. Criterio de éxito
+# 24. Revisión y adaptación
 
-Una acción debe tener una definición de éxito antes de implementarse.
+El Plan de acción debe considerarse un documento vivo.
 
-Ejemplo:
+Los resultados del seguimiento pueden indicar que:
 
-### Acción
+* una acción funcionó;
+* una acción necesita ajustes;
+* una hipótesis inicial era incorrecta;
+* surgió una nueva dependencia;
+* apareció una nueva necesidad;
+* una prioridad cambió.
 
-Implementar un laboratorio de evaluación de outputs de IA.
+Por ello:
 
-### Objetivo
-
-Desarrollar la capacidad de evaluar resultados generados por IA.
-
-### Evidencia
-
-Participantes completan correctamente casos de evaluación.
-
-### Aplicación
-
-Utilizan los criterios en tareas reales.
-
-### Resultado esperado
-
-Mayor consistencia en la validación de outputs.
-
-La definición de éxito debe ser específica para cada acción.
+> **El plan debe poder actualizarse a partir de nueva evidencia.**
 
 ---
 
-# 30. Plan de acción como instrumento de conversación con el cliente
+# 25. Preguntas para profundizar durante el workshop
 
-El plan no debe presentarse necesariamente como una solución definitiva.
+Los resultados del diagnóstico pueden utilizarse para discutir:
 
-Puede utilizarse como:
-
-> **punto de partida para validar prioridades con el cliente.**
-
-El workshop puede utilizarlo para discutir:
-
-* qué debe abordarse primero;
-* qué acciones son factibles;
-* qué recursos existen;
-* qué dependencias deben resolverse;
-* quién debe asumir responsabilidad;
-* qué resultados son prioritarios.
-
-Esto permite adaptar el framework a la realidad de cada organización.
+1. ¿Cuál es la prioridad número uno?
+2. ¿Qué problema estamos intentando resolver?
+3. ¿Qué evidencia respalda esta acción?
+4. ¿Qué tipo de intervención se necesita?
+5. ¿Qué depende de qué?
+6. ¿Quién será responsable?
+7. ¿Qué recursos se necesitan?
+8. ¿Cuál es el plazo?
+9. ¿Qué indicador utilizaremos?
+10. ¿Qué evidencia demostraría éxito?
+11. ¿Cuándo revisaremos el resultado?
+12. ¿Qué haremos si la intervención no produce el resultado esperado?
 
 ---
 
-# 31. El plan no sustituye la decisión del cliente
+# 26. Resultado esperado
 
-El framework proporciona:
+Al finalizar esta fase, la organización debería disponer de un plan que conecte:
 
-* estructura;
 * evidencia;
-* criterios;
-* trazabilidad;
-* opciones de intervención.
+* necesidades;
+* capacidades;
+* intervenciones;
+* acciones;
+* responsables;
+* tiempos;
+* indicadores;
+* seguimiento.
 
-La priorización final corresponde a la organización.
-
-Por eso:
-
-> **El assessment informa la decisión; no reemplaza la decisión.**
-
-El plan debe facilitar una conversación informada entre las personas responsables del negocio, aprendizaje, tecnología, datos y gobernanza.
-
----
-
-# 32. Integración de las cinco dimensiones
-
-Las acciones pueden originarse en cualquiera de las cinco dimensiones iniciales:
-
-| Dimensión                        | Posible acción                           |
-| -------------------------------- | ---------------------------------------- |
-| **Datos**                        | Mejorar calidad, disponibilidad o acceso |
-| **Skills y talento**             | Desarrollar capacidades prioritarias     |
-| **Gobernanza**                   | Establecer políticas y controles         |
-| **Tecnología e infraestructura** | Habilitar herramientas o integraciones   |
-| **Estrategia y alineación**      | Priorizar casos de uso y objetivos       |
-
-La estrategia debe tratar estas dimensiones como elementos interdependientes.
-
----
-
-# 33. Principio de intervención integral
-
-💡 Una organización puede tener:
-
-* herramientas disponibles pero pocas capacidades;
-* personas capacitadas pero procesos inadecuados;
-* buenos procesos pero datos insuficientes;
-* datos adecuados pero falta de gobernanza;
-* gobernanza sólida pero poca alineación estratégica.
-
-Por eso, el plan de acción debe reflejar la combinación específica de condiciones identificadas.
-
-La pregunta no es:
-
-> "¿Qué curso debemos impartir?"
-
-Sino:
-
-> **"¿Qué conjunto de acciones permitirá desarrollar y sostener la capacidad organizacional necesaria?"**
-
----
-
-# 34. Plantilla reutilizable
-
-La siguiente estructura puede utilizarse para desarrollar el plan con un cliente:
-
-| Campo                  | Descripción                                                        |
-| ---------------------- | ------------------------------------------------------------------ |
-| **ID de acción**       | Identificador único                                                |
-| **Prioridad**          | P1, P2, P3 o P4                                                    |
-| **Dimensión**          | Datos, Skills, Gobernanza, Tecnología o Estrategia                 |
-| **Brecha**             | Problema identificado                                              |
-| **Causa**              | Causa principal                                                    |
-| **Objetivo**           | Cambio esperado                                                    |
-| **Acción**             | Intervención concreta                                              |
-| **Tipo**               | Learning, Technology, Data, Governance, Process, Strategy o Change |
-| **Audiencia**          | Personas o grupos afectados                                        |
-| **Responsable**        | Owner de la acción                                                 |
-| **Dependencias**       | Condiciones necesarias                                             |
-| **Recursos**           | Recursos requeridos                                                |
-| **Inicio**             | Fecha prevista                                                     |
-| **Fin**                | Fecha prevista                                                     |
-| **Indicador**          | Métrica de seguimiento                                             |
-| **Resultado esperado** | Outcome                                                            |
-| **Estado**             | No iniciado, En curso, Completado, Bloqueado                       |
-| **Evidencia**          | Evidencia de ejecución o resultado                                 |
-
----
-
-# 35. Preguntas de validación con el cliente
-
-Antes de cerrar el plan, conviene validar:
-
-1. ¿Las prioridades reflejan realmente las necesidades del negocio?
-2. ¿Las brechas están correctamente interpretadas?
-3. ¿Se ha distinguido capacitación de otros tipos de intervención?
-4. ¿Las acciones son realistas?
-5. ¿Existen responsables claros?
-6. ¿Se han identificado las dependencias?
-7. ¿Los indicadores permiten demostrar avance?
-8. ¿Los resultados esperados están claramente definidos?
-9. ¿Qué acciones deben comenzar primero?
-10. ¿Qué debería revisarse después del piloto o primera implementación?
-
-Estas preguntas convierten el plan en una herramienta colaborativa de toma de decisiones.
-
----
-
-# 36. Resultado final del framework
-
-El resultado esperado de todo el proceso es pasar de:
+El resultado puede resumirse como:
 
 ```text
-"Tenemos una puntuación baja."
+Diagnóstico
+    ↓
+Prioridades
+    ↓
+Acciones
+    ↓
+Responsables
+    ↓
+Implementación
+    ↓
+Medición
+    ↓
+Mejora continua
 ```
-
-a:
-
-```text
-"Identificamos una brecha específica,
-determinamos su causa,
-definimos la capacidad requerida,
-seleccionamos la intervención adecuada,
-asignamos responsabilidad,
-establecemos un plazo
-y definimos cómo mediremos el resultado."
-```
-
-Ese es el propósito del Plan de acción.
 
 ---
 
-# 37. Cierre del framework
+# 27. El framework completo
 
-El framework completo puede representarse como:
+Con esta fase se completa el recorrido principal del AI Enablement Readiness Framework:
 
 ```text
 01 — Calidad y preparación de datos
-                ↓
+             ↓
 02 — Skills y talento
-                ↓
+             ↓
 03 — Gobernanza
-                ↓
+             ↓
 04 — Tecnología e infraestructura
-                ↓
+             ↓
 05 — Estrategia y alineación con el negocio
-                ↓
-        DEL DIAGNÓSTICO A LA ACCIÓN
-                ↓
+             ↓
 06 — Metodología del assessment
-                ↓
+             ↓
 07 — Training Needs Analysis
-                ↓
+             ↓
 08 — Estrategia de aprendizaje
-                ↓
+             ↓
 09 — Plan de acción
-                ↓
-       Implementación y medición
 ```
 
-Las primeras cinco dimensiones permiten comprender **las condiciones de preparación para AI Enablement**.
+Las primeras cinco dimensiones proporcionan la perspectiva de **readiness**.
 
-Las cuatro etapas siguientes convierten esa información en:
+Las cuatro fases siguientes proporcionan el camino:
 
-**diagnóstico → necesidades → aprendizaje → acción.**
+> **del diagnóstico a la acción.**
 
 ---
 
-# 38. Idea clave para el workshop
+# 28. Principio final
 
-💡 **El valor del assessment no está solamente en producir una puntuación. Está en convertir evidencia en decisiones accionables.**
+> **El valor del assessment no está únicamente en medir la preparación. Está en utilizar la evidencia para orientar decisiones concretas sobre capacidades, aprendizaje, tecnología, gobernanza, procesos y acción organizacional.**
 
-La cadena completa es:
+El framework debe permitir pasar de:
 
-> **Medir → interpretar → diagnosticar → priorizar → desarrollar → aplicar → medir nuevamente.**
+**"¿Dónde estamos?"**
 
-El Plan de acción representa la transición final desde el diagnóstico hacia la implementación.
+a:
 
-Su propósito es asegurar que las recomendaciones sean:
+**"¿Qué necesitamos desarrollar?"**
 
-* trazables;
-* priorizadas;
-* responsables;
-* medibles;
-* adaptables;
-* orientadas al desempeño;
-* alineadas con las necesidades reales de la organización.
+y finalmente a:
+
+**"¿Qué vamos a hacer al respecto?"**
 
 ---
 
@@ -954,4 +686,4 @@ Su propósito es asegurar que las recomendaciones sean:
 
 ➡️ [Glosario](glossary.md)
 
-[Volver al inicio del framework](README.md)
+🏠 [Volver al README](README.md)
