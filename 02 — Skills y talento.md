@@ -1,393 +1,559 @@
 # 02 — Skills y talento
 
->**Dimensión del framework:** Personas y capacidades
->**Pregunta central:** ¿Las personas tienen las capacidades necesarias para utilizar, evaluar, supervisar, integrar y gestionar IA de manera efectiva y responsable?
+> **Dimensión 02 del AI Enablement Readiness Framework**
+> **Pregunta central:** ¿Las personas tienen las capacidades necesarias para utilizar, supervisar, integrar y gestionar IA en función de sus responsabilidades?
 
 ---
 
-# 1. ¿Por qué importa?
+## 1. Propósito de esta dimensión
 
-La disponibilidad de herramientas de IA no garantiza que las personas sepan utilizarlas de manera efectiva.
+La disponibilidad de tecnología no garantiza que una organización pueda utilizar IA de manera efectiva.
 
-Una organización puede proporcionar acceso a herramientas avanzadas y, aun así, encontrar brechas en:
+Las personas necesitan desarrollar las capacidades necesarias para:
 
-- comprensión de conceptos básicos de IA;
-- identificación de oportunidades de uso;
-- formulación de problemas;
-- interacción con sistemas de IA;
-- evaluación de resultados;
-- pensamiento crítico;
-- manejo de datos;
-- seguridad y privacidad;
-- supervisión humana;
-- integración de IA en procesos;
-- gestión del cambio.
+* comprender las posibilidades y limitaciones de la IA;
+* identificar oportunidades de aplicación;
+* utilizar herramientas apropiadamente;
+* formular instrucciones efectivas;
+* evaluar resultados;
+* integrar IA en sus tareas;
+* reconocer riesgos;
+* aplicar criterios de supervisión;
+* utilizar IA de manera responsable.
 
-Por esta razón, **AI Enablement no debe limitarse a enseñar a utilizar una herramienta.**
+Por esta razón, esta dimensión analiza la **capacidad organizacional disponible en las personas**, no solamente su conocimiento sobre herramientas.
 
-El objetivo es desarrollar las capacidades necesarias para que las personas puedan incorporar IA de manera adecuada dentro de su trabajo.
+### Pregunta orientadora
 
-La pregunta no es simplemente:
-
->"¿Las personas saben usar IA?"
-
-La pregunta es:
-
->¿Las personas pueden utilizar IA de manera competente, crítica, segura y alineada con las responsabilidades de su rol?
+> **¿Las personas tienen las capacidades necesarias para utilizar, supervisar, integrar y gestionar IA de acuerdo con sus roles y responsabilidades?**
 
 ---
 
-# 2. El principio de capacidades diferenciadas
+# 2. Las capacidades dependen del trabajo
 
-No todas las personas necesitan aprender lo mismo.
+No todas las personas necesitan desarrollar las mismas capacidades ni al mismo nivel.
 
-Las capacidades requeridas dependen de:
+Las necesidades pueden variar según:
 
-- el rol;
-- el nivel de responsabilidad;
-- el tipo de trabajo;
-- el nivel de exposición al riesgo;
-- las herramientas utilizadas;
-- el grado de automatización;
-- la responsabilidad sobre decisiones;
-- la participación en diseño o implementación de soluciones.
+* ocupación;
+* función;
+* nivel de responsabilidad;
+* tareas;
+* exposición a IA;
+* decisiones que debe tomar la persona;
+* nivel de supervisión requerido;
+* tipo de herramientas utilizadas.
 
 Por ejemplo:
-| Perfil                               | Necesidad principal                                   |
-| ------------------------------------ | ----------------------------------------------------- |
-| Usuario general                      | Uso efectivo y responsable de IA                      |
-| Especialista funcional               | Aplicación de IA al proceso de trabajo                |
-| Líder / gerente                      | Identificación de oportunidades, riesgos y resultados |
-| Director                             | Priorización, gobernanza y transformación             |
-| Ejecutivo                            | Estrategia, inversión, riesgo y valor                 |
-| Especialista técnico                 | Desarrollo, integración y operación                   |
-| Responsable de datos                 | Calidad, acceso, gobernanza y uso de datos            |
-| Responsable de riesgo / cumplimiento | Controles, evaluación y supervisión                   |
 
-Por lo tanto, una única capacitación para toda la organización puede ser insuficiente.
+| Perfil                    | Capacidades que pueden ser relevantes                                                 |
+| ------------------------- | ------------------------------------------------------------------------------------- |
+| Usuario de IA             | Uso básico, prompting, evaluación de outputs y uso responsable                        |
+| Profesional especializado | Integración de IA en tareas y workflows, evaluación y optimización                    |
+| Líder o director          | Identificación de oportunidades, toma de decisiones, supervisión y gestión del riesgo |
+| Responsable de procesos   | Rediseño de workflows, integración, medición y adopción                               |
+| Responsable de tecnología | Integración, seguridad, arquitectura y soporte                                        |
+| Responsable de gobernanza | Riesgo, controles, políticas, supervisión y cumplimiento                              |
+
+La evaluación debe considerar **qué necesita hacer la persona**, no solamente qué herramientas conoce.
+
+---
 
 # 3. Qué evalúa esta dimensión
-La aplicación de assessment analiza la preparación de las personas mediante diez criterios.
 
-| ID       | Elemento evaluado               | Qué busca determinar                                                               |
-| -------- | ------------------------------- | ---------------------------------------------------------------------------------- |
-| SKILL-01 | Alfabetización en IA            | Comprensión básica de conceptos, capacidades y limitaciones de IA                  |
-| SKILL-02 | Identificación de oportunidades | Capacidad para reconocer tareas y procesos donde IA puede aportar valor            |
-| SKILL-03 | Formulación de problemas        | Capacidad para definir correctamente el problema antes de seleccionar una solución |
-| SKILL-04 | Interacción con IA              | Capacidad para proporcionar instrucciones, contexto y criterios adecuados          |
-| SKILL-05 | Evaluación de resultados        | Capacidad para revisar, verificar y cuestionar resultados generados por IA         |
-| SKILL-06 | Pensamiento crítico             | Capacidad para reconocer errores, sesgos, incertidumbre y limitaciones             |
-| SKILL-07 | Uso responsable                 | Capacidad para aplicar criterios de privacidad, seguridad, ética y políticas       |
-| SKILL-08 | Aplicación al trabajo           | Capacidad para integrar IA en tareas y procesos reales                             |
-| SKILL-09 | Colaboración y cambio           | Capacidad para trabajar con otros y adaptar procesos de trabajo                    |
-| SKILL-10 | Desarrollo continuo             | Capacidad para aprender, experimentar y actualizar competencias                    |
+El assessment busca identificar señales relacionadas con la capacidad de las personas para trabajar con IA.
 
-Estos criterios permiten distinguir entre **conocimiento sobre IA y capacidad para utilizar IA en el trabajo.**
+Los criterios pueden observar aspectos como:
 
+| ID       | Criterio                        | Qué busca determinar                                                          |
+| -------- | ------------------------------- | ----------------------------------------------------------------------------- |
+| SKILL-01 | Comprensión de IA               | Si las personas comprenden conceptos, posibilidades y limitaciones relevantes |
+| SKILL-02 | Identificación de oportunidades | Si pueden reconocer tareas o problemas donde IA puede aportar valor           |
+| SKILL-03 | Uso de herramientas             | Si pueden utilizar herramientas disponibles de manera apropiada               |
+| SKILL-04 | Prompting                       | Si pueden formular instrucciones adecuadas para obtener resultados útiles     |
+| SKILL-05 | Evaluación de outputs           | Si pueden revisar críticamente los resultados generados por IA                |
+| SKILL-06 | Aplicación al trabajo           | Si pueden integrar IA en tareas y workflows reales                            |
+| SKILL-07 | Pensamiento crítico             | Si pueden cuestionar, validar y contextualizar resultados                     |
+| SKILL-08 | Uso responsable                 | Si conocen y aplican criterios de uso responsable                             |
+| SKILL-09 | Supervisión                     | Si pueden determinar cuándo se requiere revisión o intervención humana        |
+| SKILL-10 | Desarrollo continuo             | Si existe capacidad para aprender, experimentar y adaptar el uso de IA        |
 
-#  4. SKILL-01 — Alfabetización en IA
-## Qué significa
+Estos criterios permiten observar la preparación de las personas desde una perspectiva funcional.
 
-Evalúa si la persona comprende conceptos fundamentales relacionados con IA y puede reconocer:
+---
 
-- qué es IA;
-- qué es IA generativa;
-- qué pueden hacer las herramientas;
-- qué no pueden hacer;
-- cuáles son sus limitaciones;
-- qué tipos de tareas son apropiadas;
-- qué riesgos pueden presentarse.
+# 4. SKILL-01 — Comprensión de IA
+
+### Qué significa
+
+Evalúa si las personas comprenden los conceptos fundamentales necesarios para utilizar IA de manera apropiada.
+
+Puede incluir comprensión de:
+
+* capacidades;
+* limitaciones;
+* errores;
+* incertidumbre;
+* tipos de herramientas;
+* diferencias entre generación, análisis y automatización.
 
 ### ¿Por qué importa?
 
-Una comprensión insuficiente puede producir dos problemas opuestos:
+Una persona puede utilizar una herramienta correctamente desde el punto de vista técnico y, aun así, no comprender cuándo debe confiar en el resultado, cuándo debe verificarlo o cuándo no debe utilizarla.
 
-### Sobreestimación
+### Relación con el assessment
 
-> "La IA puede hacer prácticamente cualquier cosa."
+Una puntuación baja puede indicar una posible necesidad de desarrollo de capacidades.
 
-### Subestimación
-
-> "La IA solo sirve para generar texto."
-
-Ambas percepciones pueden limitar una adopción efectiva.
-
-## Conexión con el assessment
-
-Una puntuación baja puede justificar formación fundamental.
-
-Pero la alfabetización debe considerarse el **punto de partida**, no el resultado final del programa.
-
-El objetivo posterior es que el conocimiento se convierta en capacidad aplicada.
+Sin embargo, debe investigarse si la falta de comprensión realmente afecta el desempeño.
 
 ---
 
 # 5. SKILL-02 — Identificación de oportunidades
+
 ### Qué significa
 
-Evalúa la capacidad para reconocer dónde IA puede mejorar una actividad, proceso o resultado.
+Evalúa la capacidad de reconocer tareas, problemas o procesos donde IA podría aportar valor.
 
-Esto implica analizar:
+La identificación debe considerar:
 
-- tareas repetitivas;
-- actividades intensivas en información;
-- procesos con grandes volúmenes de contenido;
-- actividades que requieren clasificación;
-- generación o transformación de información;
-- búsqueda y síntesis;
-- análisis;
-- soporte a decisiones.
+* tarea;
+* objetivo;
+* esfuerzo;
+* frecuencia;
+* complejidad;
+* riesgo;
+* resultado esperado.
 
-## ¿Por qué importa?
+### Modelo de análisis
 
-Una organización puede disponer de herramientas de IA y no utilizarlas porque las personas no reconocen oportunidades concretas.
-
-## Conexión con el assessment
-
-Una puntuación baja puede indicar la necesidad de desarrollar la capacidad de:
-
->**observar el trabajo desde la perspectiva de problemas y oportunidades de mejora, en lugar de comenzar por la herramienta.**
-
-##Posible actividad de aprendizaje
-
-Un taller puede utilizar procesos reales de los participantes para identificar:
-
-1. tarea;
-2. problema;
-3. oportunidad;
-4. posible aplicación de IA;
-5. valor esperado;
-6. riesgo;
-7. criterio de éxito.
-
-# 6. SKILL-03 — Formulación de problemas
-Qué significa
-
-Evalúa si la persona puede definir adecuadamente el problema antes de seleccionar una solución de IA.
-
-Esto requiere distinguir entre:
-
-1. problema;
-2. tarea;
-3. proceso;
-4. resultado esperado;
-5. restricción;
-6. criterio de éxito.
-
-
-##¿Por qué importa?
-
-No todos los problemas necesitan IA.
-
-Una mala definición puede producir una solución técnicamente interesante pero poco útil para el negocio.
-
-## Conexión con el assessment
-
-Una puntuación baja puede indicar una necesidad de aprendizaje en:
-
-- análisis de problemas;
-- diseño de procesos;
-- definición de objetivos;
-- identificación de criterios de éxito;
-- selección de casos de uso.
-
----
-
-# 7. SKILL-04 — Interacción con IA
-## Concepto clave: Prompting
-
-Evalúa la capacidad de interactuar con sistemas de IA proporcionando:
-
-- instrucciones claras;
-- contexto;
-- información relevante;
-- restricciones;
-- formato esperado;
-- criterios de calidad;
-- ejemplos cuando sean necesarios.
-
-## ¿Por qué importa?
-
-La calidad de la interacción puede afectar la utilidad del resultado.
-
-Sin embargo, el objetivo de esta competencia no debe reducirse a memorizar "prompts".
-
-La capacidad más importante es comprender:
-
->**cómo estructurar una tarea para que un sistema de IA pueda producir un resultado útil y evaluable.**
-
-## Implicación para aprendizaje
-
-Puede desarrollarse mediante:
-
-- demostraciones;
-- ejercicios progresivos;
-- comparación de resultados;
-- práctica con casos reales;
-- revisión entre pares.
-
-# 8. SKILL-05 — Evaluación de resultados
-## Concepto clave: AI Output Evaluation
-
-Una persona debe ser capaz de evaluar críticamente un resultado producido por IA antes de utilizarlo.
-
-Esto incluye verificar:
-
-- exactitud;
-- relevancia;
-- completitud;
-- coherencia;
-- fuentes cuando correspondan;
-- cumplimiento de instrucciones;
-- adecuación al contexto.
+```text id="0s0gqh"
+Trabajo
+   ↓
+Tarea
+   ↓
+Problema / oportunidad
+   ↓
+Posible aplicación de IA
+   ↓
+Resultado esperado
+```
 
 ### ¿Por qué importa?
 
-Un resultado generado por IA puede parecer convincente sin ser correcto.
+El conocimiento general sobre IA no garantiza que una persona pueda identificar oportunidades relevantes en su propio trabajo.
 
-Por eso, generar una respuesta no equivale a validar una respuesta.
+---
 
-## Conexión con el assessment
+# 6. SKILL-03 — Uso de herramientas
 
-Esta competencia es especialmente importante cuando los resultados:
+### Qué significa
 
-- se comunican externamente;
-- alimentan decisiones;
-- afectan clientes;
-- contienen información sensible;
-- tienen consecuencias financieras, legales u operativas.
+Evalúa si las personas pueden utilizar las herramientas de IA disponibles de manera apropiada para sus tareas.
 
-# 9. SKILL-06 — Pensamiento crítico
-## Qué significa
+Esto puede incluir:
 
-Evalúa la capacidad de cuestionar los resultados de IA en lugar de aceptarlos automáticamente.
+* selección de herramienta;
+* configuración;
+* utilización;
+* comprensión de funcionalidades;
+* aplicación dentro del workflow.
 
-Incluye la capacidad de identificar:
+### Importante
 
-- errores;
-- contradicciones;
-- información insuficiente;
-- sesgos potenciales;
-- supuestos no demostrados;
-- exceso de confianza;
-- resultados fuera de contexto.
-- Conexión con AI Enablement
+La disponibilidad de una herramienta no demuestra que exista capacidad para utilizarla.
 
-El objetivo no es enseñar a las personas a confiar más en la IA.
+```text id="cxyq7w"
+Herramienta disponible
+        ≠
+Capacidad organizacional
+```
 
-El objetivo es enseñarles a:
+---
 
-utilizar IA con el nivel apropiado de confianza y supervisión.
+# 7. SKILL-04 — Prompting
 
-Esta distinción es fundamental.
+### Qué significa
 
-# 10. SKILL-07 — Uso responsable
-Qué significa
+Evalúa la capacidad de formular instrucciones claras y útiles para orientar una herramienta de IA.
 
-Evalúa si las personas conocen y aplican las reglas correspondientes al uso de IA.
+Un prompt puede incorporar:
 
-Puede incluir:
+* objetivo;
+* contexto;
+* información;
+* restricciones;
+* formato;
+* criterios de calidad.
 
-- privacidad;
-- información confidencial;
-- seguridad;
-- propiedad intelectual;
-- uso autorizado de herramientas;
-- revisión humana;
-- políticas internas;
-- requisitos específicos del rol.
+### Relación con el trabajo
 
-##¿Por qué importa?
+El prompting debe evaluarse como una capacidad aplicada.
 
-Una persona puede ser técnicamente competente y, al mismo tiempo, utilizar IA de una manera que genere riesgos para la organización.
+La pregunta no es solamente:
 
-Conexión con el assessment
-
-Esta dimensión debe conectarse directamente con la dimensión de Gobernanza.
-
-Una brecha puede ser:
-
-- de conocimiento;
-- de comportamiento;
-- de política;
-- de controles;
-- o una combinación.
-
-# 11. SKILL-08 — Aplicación al trabajo
-
-## Qué significa
-
-Evalúa si la persona puede incorporar IA en una actividad laboral real.
-
-Esta dimensión va más allá del conocimiento conceptual.
+> "¿La persona sabe escribir prompts?"
 
 La pregunta es:
 
-¿Puede la persona utilizar IA para realizar mejor una tarea de su trabajo?
+> **"¿Puede utilizar instrucciones efectivas para mejorar una tarea o producir un resultado útil en su contexto de trabajo?"**
 
-Ejemplo
+---
 
-No es suficiente que alguien pueda explicar qué es un modelo generativo.
+# 8. SKILL-05 — Evaluación de outputs
 
-Debe poder, cuando corresponda:
+### Qué significa
 
-- identificar una tarea adecuada;
-- seleccionar una herramienta autorizada;
-- proporcionar contexto;
-- generar un resultado;
-- evaluarlo;
-- corregirlo;
-- integrarlo en el flujo de trabajo;
-- documentar o revisar el resultado cuando sea necesario.
-- Implicación
+Evalúa la capacidad de revisar los resultados generados por IA antes de utilizarlos cuando el contexto lo requiere.
 
-Esta dimensión es especialmente importante para el diseño de laboratorios, simulaciones y actividades prácticas.
+Puede incluir:
 
-# 12. SKILL-09 — Colaboración y cambio
+* verificación de exactitud;
+* revisión de pertinencia;
+* identificación de errores;
+* comprobación de información;
+* revisión de cumplimiento;
+* identificación de posibles riesgos.
 
-Qué significa
+### ¿Por qué importa?
 
-Evalúa la capacidad de trabajar con otras personas durante la adopción de IA.
+Los outputs de IA no deben considerarse automáticamente correctos.
 
-La implementación de IA puede modificar:
+La capacidad de evaluar resultados es una condición fundamental para el uso responsable.
 
-- tareas;
-- responsabilidades;
-- procesos;
-- interfaces entre equipos;
-- criterios de desempeño;
-- formas de colaboración.
+---
 
-## ¿Por qué importa?
+# 9. SKILL-06 — Aplicación al trabajo
 
-Una persona puede dominar una herramienta y aun así tener dificultades para incorporarla al trabajo colectivo.
+### Qué significa
 
-Implicación para aprendizaje
+Evalúa si las personas pueden integrar IA en tareas y workflows reales.
 
-Las intervenciones pueden incluir:
+La capacidad debe observarse en relación con:
 
-- talleres interdisciplinarios;
-- proyectos de aplicación;
-- comunidades de práctica;
-- revisión de procesos;
-- aprendizaje entre pares;
-- coaching.
+* tareas concretas;
+* herramientas disponibles;
+* procesos;
+* resultados esperados;
+* restricciones;
+* responsabilidades.
+
+### Modelo
+
+```text id="b1ydzo"
+Tarea actual
+    ↓
+Uso de IA
+    ↓
+Cambio en el workflow
+    ↓
+Nuevo desempeño
+    ↓
+Resultado
+```
+
+La aplicación al trabajo es diferente del conocimiento teórico.
+
+---
+
+# 10. SKILL-07 — Pensamiento crítico
+
+### Qué significa
+
+Evalúa la capacidad de analizar críticamente resultados producidos o apoyados por IA.
+
+Puede incluir la capacidad de:
+
+* cuestionar resultados;
+* identificar inconsistencias;
+* verificar información;
+* reconocer supuestos;
+* comparar alternativas;
+* utilizar criterio profesional.
+
+### ¿Por qué importa?
+
+El uso efectivo de IA requiere interacción entre la capacidad de la herramienta y el criterio humano.
+
+---
+
+# 11. SKILL-08 — Uso responsable
+
+### Qué significa
+
+Evalúa si las personas conocen y aplican los criterios establecidos para utilizar IA de manera responsable.
+
+Puede incluir:
+
+* protección de información;
+* cumplimiento de políticas;
+* reconocimiento de riesgos;
+* uso apropiado de herramientas;
+* respeto de restricciones;
+* escalamiento de situaciones problemáticas.
+
+### Relación con Gobernanza
+
+Esta capacidad está directamente relacionada con la dimensión de **Gobernanza**.
+
+La gobernanza establece condiciones y controles.
+
+Las personas necesitan comprender y aplicar esas condiciones en su trabajo.
+
+---
+
+# 12. SKILL-09 — Supervisión humana
+
+### Qué significa
+
+Evalúa la capacidad de determinar cuándo un resultado o decisión apoyada por IA requiere revisión humana.
+
+Puede incluir:
+
+* revisión de outputs;
+* validación;
+* escalamiento;
+* toma de decisión final;
+* identificación de situaciones de mayor riesgo.
+
+### ¿Por qué importa?
+
+El nivel de supervisión necesario depende del contexto, del riesgo y del tipo de decisión.
+
+Por eso, la capacidad de supervisar IA debe relacionarse con las responsabilidades reales del rol.
+
+---
 
 # 13. SKILL-10 — Desarrollo continuo
-Concepto clave: Continuous Learning
 
-La preparación para IA no debe tratarse como una competencia que se adquiere una sola vez.
+### Qué significa
 
-Las herramientas, procesos y prácticas evolucionan.
+Evalúa si existe capacidad para continuar desarrollando y adaptando las habilidades necesarias a medida que cambian:
 
-Por eso, las personas necesitan capacidad para:
+* herramientas;
+* procesos;
+* casos de uso;
+* responsabilidades;
+* riesgos;
+* necesidades del negocio.
 
-- experimentar;
-- evaluar nuevas herramientas;
-- aprender de la práctica;
-- actualizar conocimientos;
-- compartir aprendizajes;
-- adaptar sus métodos de trabajo.
-- Conexión con la estrategia de aprendizaje
+AI Enablement no debe entenderse como una intervención única.
 
-Esto favorece un modelo de aprendizaje continuo en lugar de un programa basado exclusivamente en un curso inicial.
+La evolución de las herramientas y de los workflows puede generar nuevas necesidades de capacidad.
+
+---
+
+# 14. Interpretación de los resultados
+
+Una puntuación baja en Skills y talento identifica una posible condición que requiere investigación.
+
+No debe interpretarse automáticamente como:
+
+> "Necesitamos capacitar."
+
+La lógica correcta es:
+
+```text id="8t05v7"
+Score bajo
+    ↓
+Identificar capacidad afectada
+    ↓
+Investigar desempeño actual
+    ↓
+Identificar causa
+    ↓
+Determinar intervención
+```
+
+La causa puede estar relacionada con:
+
+* conocimiento;
+* habilidad;
+* práctica;
+* experiencia;
+* acceso;
+* herramientas;
+* procesos;
+* responsabilidades;
+* incentivos;
+* gobernanza.
+
+Por lo tanto:
+
+> **SKILLS score bajo ≠ automáticamente capacitación.**
+
+---
+
+# 15. Conexión con el assessment app
+
+La aplicación de assessment proporciona una primera lectura sobre la preparación de las personas y las capacidades organizacionales.
+
+Los resultados pueden ayudar a identificar:
+
+* fortalezas;
+* posibles brechas;
+* grupos que requieren mayor investigación;
+* capacidades prioritarias;
+* diferencias entre ocupaciones;
+* diferencias entre niveles.
+
+La información puede segmentarse según variables como:
+
+| Variable  | Utilidad                                            |
+| --------- | --------------------------------------------------- |
+| Ocupación | Identificar necesidades relacionadas con el trabajo |
+| Nivel     | Diferenciar capacidades según responsabilidad       |
+| Área      | Identificar patrones organizacionales               |
+| Dimensión | Comparar preparación entre dimensiones              |
+| Resultado | Identificar prioridades de investigación            |
+
+La aplicación no sustituye la evaluación más profunda del desempeño.
+
+---
+
+# 16. Del assessment al Training Needs Analysis
+
+Esta dimensión tiene una conexión directa con el **Training Needs Analysis (TNA)**, pero no debe confundirse con él.
+
+El assessment identifica posibles brechas.
+
+El TNA determina:
+
+* qué capacidad falta;
+* cuál es el nivel actual;
+* cuál es el nivel requerido;
+* por qué existe la diferencia;
+* quién necesita desarrollar la capacidad;
+* qué intervención es apropiada.
+
+La relación es:
+
+```text id="gnzqdb"
+Assessment
+    ↓
+Posible skill gap
+    ↓
+Investigación
+    ↓
+Causa
+    ↓
+Capacidad requerida
+    ↓
+TNA
+```
+
+→ [07 — Training Needs Analysis](07-training-needs-analysis.md)
+
+---
+
+# 17. Relación con las demás dimensiones
+
+Las capacidades de las personas dependen de otras condiciones organizacionales.
+
+| Dimensión                                  | Relación con Skills y talento                                                         |
+| ------------------------------------------ | ------------------------------------------------------------------------------------- |
+| **Datos**                                  | Las personas necesitan acceso y capacidad para utilizar datos adecuados               |
+| **Gobernanza**                             | Las personas necesitan conocer y aplicar políticas, controles y responsabilidades     |
+| **Tecnología e infraestructura**           | Las capacidades requieren herramientas y sistemas disponibles                         |
+| **Estrategia y alineación con el negocio** | Las capacidades deben desarrollarse en función de prioridades y resultados relevantes |
+
+Por eso:
+
+> **Las capacidades humanas no pueden analizarse completamente separadas del entorno en el que se espera que sean utilizadas.**
+
+---
+
+# 18. Preguntas para profundizar durante el workshop
+
+Los resultados pueden utilizarse como punto de partida para preguntas como:
+
+1. ¿Qué tareas requieren actualmente capacidades relacionadas con IA?
+2. ¿Qué capacidades necesitan los diferentes roles?
+3. ¿Qué pueden hacer actualmente las personas?
+4. ¿Qué deberían poder hacer?
+5. ¿Dónde existe la mayor diferencia?
+6. ¿La brecha es de conocimiento, habilidad o práctica?
+7. ¿Las personas tienen acceso a las herramientas necesarias?
+8. ¿Los procesos permiten aplicar las nuevas capacidades?
+9. ¿Qué nivel de supervisión se requiere?
+10. ¿Qué evidencia demostraría que la capacidad fue desarrollada?
+
+Estas preguntas ayudan a convertir una puntuación en un diagnóstico de capacidades.
+
+---
+
+# 19. Implicaciones para el diseño de aprendizaje
+
+Cuando la causa de una brecha es efectivamente una necesidad de capacidad, la información puede utilizarse para diseñar experiencias de aprendizaje.
+
+La intervención debería relacionarse con:
+
+```text id="vnjm2a"
+Capacidad requerida
+        ↓
+Tarea
+        ↓
+Contexto
+        ↓
+Práctica
+        ↓
+Evidencia de desempeño
+```
+
+Por ejemplo, si el problema es la evaluación de outputs, una intervención puede requerir práctica con resultados reales o simulados, criterios de evaluación y feedback.
+
+No necesariamente requiere una introducción general a IA.
+
+---
+
+# 20. Principio clave
+
+La pregunta no debe ser:
+
+> **"¿Qué curso de IA necesitan las personas?"**
+
+Debe ser:
+
+> **"¿Qué necesitan poder hacer con IA en su trabajo y qué les impide hacerlo actualmente?"**
+
+Esta distinción permite pasar de una lógica basada en contenidos a una lógica basada en **capacidades y desempeño**.
+
+---
+
+# 21. Conexión con la estrategia de aprendizaje
+
+Una vez identificadas las capacidades que requieren desarrollo, la información alimenta la etapa:
+
+**08 — Estrategia de aprendizaje.**
+
+La cadena es:
+
+```text id="m5p4sm"
+Assessment
+    ↓
+Brecha
+    ↓
+Causa
+    ↓
+Capacidad requerida
+    ↓
+Experiencia de aprendizaje
+    ↓
+Práctica
+    ↓
+Aplicación
+    ↓
+Resultado
+```
+
+→ [08 — Estrategia de aprendizaje](08-learning-strategy.md)
+
+---
+
+## Navegación
+
+⬅️ [01 — Calidad y preparación de datos](01-data-quality.md)
+
+➡️ [03 — Gobernanza](03-governance.md)
+
+🏠 [Volver al README](README.md)
