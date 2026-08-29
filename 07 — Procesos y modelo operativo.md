@@ -4,7 +4,7 @@
 > **Pregunta central**: ¿La organización está preparada para integrar IA en el trabajo real, redefinir procesos cuando sea necesario y establecer nuevas formas de trabajo sostenibles?
 
 
-## 1. ## ¿Por qué importa?
+## 1. ¿Por qué importa?
 
 La incorporación de IA no consiste únicamente en añadir una nueva herramienta al trabajo existente.
 
@@ -281,6 +281,7 @@ La supervisión no debe ser simplemente una declaración.
 
 Debe incorporarse al proceso:
 
+```text
 IA produce resultado
         ↓
 Revisión
@@ -290,6 +291,7 @@ Revisión
  Sí           No
  ↓             ↓
 Continuar    Corregir / escalar
+```
 
 ---
 
@@ -404,8 +406,7 @@ Skills + Cultura + Procesos + Tecnología
 
 
 # 13. PROC-10 — Mejora continua
-Concepto clave: Continuous Improvement
-
+**Concepto clave: Continuous Improvement**
 Evalúa si la organización revisa los procesos después de implementar IA.
 
 La implementación no debería considerarse el punto final.
@@ -425,6 +426,8 @@ Identificar problemas
 Ajustar
    ↓
 Volver a medir
+
+
 ## ¿Por qué importa?
 
 La utilización real puede revelar:
@@ -631,15 +634,16 @@ Esto convierte al proceso en un elemento central del AI Enablement.
 
 Las brechas identificadas pueden convertirse en acciones concretas.
 
-| Dimensión      | Relación con procesos                                         |
-| -------------- | ------------------------------------------------------------- |
-| **Estrategia** | Define qué procesos deben transformarse y por qué             |
-| **Datos**      | Proporciona la información necesaria para ejecutar el proceso |
-| **Skills**     | Permite que las personas desempeñen las nuevas tareas         |
-| **Tecnología** | Proporciona las herramientas e integraciones                  |
-| **Gobernanza** | Define controles, límites y responsabilidades                 |
-| **Cultura**    | Influye en la aceptación de nuevas formas de trabajo          |
-| **Medición**   | Permite comprobar si el proceso mejoró                        |
+| Brecha                  | Acción                        | Responsable        | Indicador               |
+| ----------------------- | ----------------------------- | ------------------ | ----------------------- |
+| Proceso no documentado  | Mapear proceso actual         | Dueño del proceso  | Procesos documentados   |
+| Tareas no identificadas | Realizar análisis de tareas   | Equipo funcional   | Tareas clasificadas     |
+| Workflow ineficiente    | Rediseñar proceso             | Operaciones        | Reducción de pasos      |
+| Roles ambiguos          | Definir responsabilidades     | Líder del proceso  | Roles definidos         |
+| Falta de supervisión    | Incorporar puntos de control  | Negocio / Riesgo   | Controles implementados |
+| Baja adopción           | Capacitar y acompañar         | Learning / Líderes | Adopción                |
+| Falta de mejora         | Establecer revisión periódica | Dueño del proceso  | Mejoras implementadas   |
+
 
 
 ---
